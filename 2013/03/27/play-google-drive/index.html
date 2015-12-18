@@ -1,0 +1,636 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>玩转 Google Drive | 仁云亦晕</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="Scott Yang">
+    
+
+    
+    <meta name="description" content="Google Drive 可以做到的事情远远不止于文档处理、档案同步，只要善用 Google Drive 可以“外挂”其他Web App的机制，就可以把 Google Drive 完全当成一个办公室工作系统来使用。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="玩转 Google Drive">
+<meta property="og:url" content="/2013/03/27/play-google-drive/index.html">
+<meta property="og:site_name" content="仁云亦晕">
+<meta property="og:description" content="Google Drive 可以做到的事情远远不止于文档处理、档案同步，只要善用 Google Drive 可以“外挂”其他Web App的机制，就可以把 Google Drive 完全当成一个办公室工作系统来使用。">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/a8baaa1b156dd2f2e05300fd3c98d656.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/bbc75be0814ca97b7316effd76032f03.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/3afd3631360357eb7bbebf640e2919d6.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/dd828239097a2a31e51b99ec8cd12cc6.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/39c6ac9a8ef71cf22f8751094ff059c8.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/4bd673eb24537b118b660acb933093a2.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/bd3037579315bfc7c090ff88084aa105.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/bccc1c1e89b8bb13635905f0ff39cfd0.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/caf92f0bb4df2a232771e6314cd5de5e.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/e3072ae0c292720fde8ee18fcfcf9659.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/4453ee6c323261e48bb2300a7efdebb5.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/b2c9b619fa19dcdf445f155f6f7128fb.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/472a2b634e4d080b937e99de26c00bbe.jpg">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/f48592ea66709f6bfa4e1ca18bdf7b99.jpg">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/ffc698dc327d1e5fb6ff3672187e21ea.jpg">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/fe8726278c615b16729fb673ac44568d.jpg">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/5b7822764d90cded6bcf5ae35e7519a3.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/f1ebeb50513804c421d87571fdf7243d.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/80f7a08aa7623087f9d8a5c7d22e17ab.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/513d5043c91882930da2dd8a1302a3c4.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/dc10b528042e65e4c8a878c438322e78.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/cd8a95c102e7150419a5d6805eda040f.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/6abfdb6ce370ad85c3a7c0dba138932c.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/e1c52fdfc3f2d02b78785a3dac56ed8a.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/e89252362c1ece4292148096def47203.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/808859a40ed92d7c4be44ed552716919.png">
+<meta property="og:image" content="http://www.geekpark.net/uploads/reading/seed/24a968dc9b602dfa5d802fca053f6606.png">
+<meta property="og:updated_time" content="2015-12-15T13:57:27.576Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="玩转 Google Drive">
+<meta name="twitter:description" content="Google Drive 可以做到的事情远远不止于文档处理、档案同步，只要善用 Google Drive 可以“外挂”其他Web App的机制，就可以把 Google Drive 完全当成一个办公室工作系统来使用。">
+
+    
+    <link rel="alternative" href="/atom.xml" title="仁云亦晕" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="仁云亦晕" title="仁云亦晕"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="仁云亦晕">仁云亦晕</a></h1>
+				<h2 class="blog-motto">总会有一个开始，总要去面对一个未来</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/about">About</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2013/03/27/play-google-drive/" title="玩转 Google Drive" itemprop="url">玩转 Google Drive</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Scott Yang" target="_blank" itemprop="author">Scott Yang</a>
+		
+  <p class="article-time">
+    <time datetime="2013-03-26T23:22:33.000Z" itemprop="datePublished"> 发表于 2013-03-27</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#u5982_u4F55_u5E2E_Google__u4E91_u7AEF_u786C_u76D8_u589E_u52A0_u529F_u80FD_uFF1F"><span class="toc-number">1.</span> <span class="toc-text">如何帮 Google 云端硬盘增加功能？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u5E73_u5E38_u8981_u600E_u4E48_u4F7F_u7528_u8FD9_u4E9B_u5DF2_u7ECF_u8FDE_u7ED3_u7684_u5E94_u7528_u7A0B_u5E8F_u5462_uFF1F"><span class="toc-number">2.</span> <span class="toc-text">平常要怎么使用这些已经连结的应用程序呢？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u5728_Google_Drive__u4F20_u771F"><span class="toc-number">3.</span> <span class="toc-text">在 Google Drive 传真</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u5728_Google_Drive__u4E2D_u5408_u5E76_PDF"><span class="toc-number">4.</span> <span class="toc-text">在 Google Drive 中合并 PDF</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u5728_Google_Drive__u8FDB_u884C_u6863_u6848_u8F6C_u6863"><span class="toc-number">5.</span> <span class="toc-text">在 Google Drive 进行档案转档</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u5728_Google_Drive__u4E0A_u64AD_u653E_u97F3_u4E50_u4E13_u8F91"><span class="toc-number">6.</span> <span class="toc-text">在 Google Drive 上播放音乐专辑</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u7528_Google_Drive__u5236_u4F5C_u7EBF_u4E0A_u95EE_u5377_u8C03_u67E5"><span class="toc-number">7.</span> <span class="toc-text">用 Google Drive 制作线上问卷调查</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u5C0F_u7ED3_uFF1A"><span class="toc-number">8.</span> <span class="toc-text">小结：</span></a></li></ol>
+		
+		</div>
+		
+		<p>Google Drive 可以做到的事情远远不止于文档处理、档案同步，只要善用 Google Drive 可以“外挂”其他Web App的机制，就可以把 Google Drive 完全当成一个办公室工作系统来使用。<a id="more"></a></p>
+<p><em>注：本文转载自<a href="http://www.geekpark.net/read/view/173235" target="_blank" rel="external">极客公园</a>，极客公园转载自<a href="http://playpcesor.blogspot.com/" title="電腦玩物" target="_blank" rel="external">電腦玩物</a>。原文链接 <a href="http://playpcesor.blogspot.com/2013/02/google-drive-10.html" title="Google Drive 文書之外幫你解決辦公室的10大問題教學" target="_blank" rel="external">Google Drive 文書之外幫你解決辦公室的10大問題教學</a>。作者详细介绍了 Google Drive 的各种高级用法。</em></p>
+<p><a href="http://www.geekpark.net/read/view/157167" title="Google Drive 的 Web 中心论" target="_blank" rel="external">Google Drive（Google 云端硬盘）</a> 可以做到的事情远远不止于文档处理、档案同步，只要善用 Google Drive 可以”外挂”其他 Web App 的机制，那么你就可以把 Google Drive 完全当成一个办公室工作系统来使用。 举几个我常常用到的例子：我可以从 Google Drive 直接把 PDF 传真到客户的实体传真机印出，我能够在云端硬盘里用类似 Photoshop 的工具修图，我还能直接把云端硬盘中的各种文件进行格式转换。这些动作全部可以<a href="https://drive.google.com/" target="_blank" rel="external">在 Google Drive 中完成</a>，帮助你满足办公室里那些文档处理之外的需求。</p>
+<p>到目前为止，我完全转换到 Google Drive 进行文件同步、文档处理（当然里面有部分是依赖单机的 Office 软件）的时间已经大概有快九个月左右，在更长的使用经验累积后，今天要来分享这段时间的最新心得。 这篇文章的重点，主要集中在文档处理之外，其他可以利用 Google Drive 云端完成的 10 种办公室里常常发生的工作需求！</p>
+<h2 id="u5982_u4F55_u5E2E_Google__u4E91_u7AEF_u786C_u76D8_u589E_u52A0_u529F_u80FD_uFF1F"><a href="#u5982_u4F55_u5E2E_Google__u4E91_u7AEF_u786C_u76D8_u589E_u52A0_u529F_u80FD_uFF1F" class="headerlink" title="如何帮 Google 云端硬盘增加功能？"></a>如何帮 Google 云端硬盘增加功能？</h2><p>想要利用 Google Drive 云端硬盘直接进行传真、修图、合并 PDF 等作业，就必须在线上云端硬盘里“连结”相应的 Web App。 方法很简单，进入 “Google Drive” 点击左上方的“建立”，但不是新增一般文件，而是点选“连接更多应用程序”。</p>
+<p><img src="http://www.geekpark.net/uploads/reading/seed/a8baaa1b156dd2f2e05300fd3c98d656.png" alt=""></p>
+<p>接着会看到专属 Google Drive 的应用程序清单，只要点击连结这些 Web App，就能让 “Google Drive （云端硬盘）”多出各种需要的办公室应用，而且大多数的浏览器都适用，并非只能<a href="http://www.geekpark.net/read/view/165009" target="_blank" rel="external">用 Google Chrome</a>。</p>
+<p><img src="http://www.geekpark.net/uploads/reading/seed/bbc75be0814ca97b7316effd76032f03.png" alt=""></p>
+<h2 id="u5E73_u5E38_u8981_u600E_u4E48_u4F7F_u7528_u8FD9_u4E9B_u5DF2_u7ECF_u8FDE_u7ED3_u7684_u5E94_u7528_u7A0B_u5E8F_u5462_uFF1F"><a href="#u5E73_u5E38_u8981_u600E_u4E48_u4F7F_u7528_u8FD9_u4E9B_u5DF2_u7ECF_u8FDE_u7ED3_u7684_u5E94_u7528_u7A0B_u5E8F_u5462_uFF1F" class="headerlink" title="平常要怎么使用这些已经连结的应用程序呢？"></a>平常要怎么使用这些已经连结的应用程序呢？</h2><p>更简单，在云端硬盘里的某个档案上点击右键，选择“选择开启工具”，就能看到其他应用方式，例如传真发送文件、文件格式转换等等。 虽然本质上是利用第三方的 Web App 来完成，但这样的使用体验就好像所有的动作都在 Google Drive 中进行一样，而事实上所有的文件也真的都是由 Google 的云端硬盘所管理的。</p>
+<p><img src="http://www.geekpark.net/uploads/reading/seed/3afd3631360357eb7bbebf640e2919d6.png" alt=""></p>
+<p>那么，有哪些应用程序值得一试，又可以满足哪些特殊需求呢？这就是下面要开始推荐的 10 种 Google Drive 延伸应用程序。（附注：大家只要在你的 Google Drive 应用程序清单中，找到下面介绍的连结应用名称，加以授权，就能使用下列功能。）</p>
+<h2 id="u5728_Google_Drive__u4F20_u771F"><a href="#u5728_Google_Drive__u4F20_u771F" class="headerlink" title="在 Google Drive 传真"></a>在 Google Drive 传真</h2><div><br><br>### 连结应用：<a href="https://www.hellofax.com/" target="_blank" rel="external">HelloFax</a><br><br>### 方法<br><br><div><br><br>首先，如果你跟我一样喜欢用 Google Docs 原生格式来编辑文件的话，那么记得要先在云端平台上将档案转换成 PDF 后，才能透过 PDF 进行传真。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/dd828239097a2a31e51b99ec8cd12cc6.png" alt=""><br><br>接着，你要帮 Google 云端硬盘安装传真服务。<br><br>放心，这里不管是 Firefox 或 Google Chrome 浏览器，一样都可以“安装”传真服务。只要先登入你的 Google Drive，然后进入 “Chrome 应用商店”选择相应的 Web App 安装即可。<br><br>这里我们要安装的是 “hello fax”。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/39c6ac9a8ef71cf22f8751094ff059c8.png" alt=""><br><br>这里你一定会问，难道我不能直接使用 hello fax 服务，然后自己上传硬盘里的文件来传真吗？<br><br>当然可以，如果你想独立使用 hello fax 的话，欢迎<a href="http://curebit.com/x/jgxEd" target="_blank" rel="external">使用我的推荐连结去注册</a>，这样你和我都能同时免费获得额外5张的传真额度。<br><br>那么，使用 Google Drive 的好处是什么？首先注册流程直接用 Google 帐户认证更加简单，另外可以快速传真你放在云端硬盘的档案，如果你像我一样<a href="http://www.geekpark.net/read/view/157167" target="_blank" rel="external">使用 Google Drive 来编辑文件的话</a>，这就是快速的传真方法。<br><br>接着，在你的云端硬盘上找到要传真的 PDF 文件。<br><br>用 Google Docs 线上打开 PDF，然后到左上方的“档案”选单里点选“选择开启工具”，接着选择 “HelloFax”。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/4bd673eb24537b118b660acb933093a2.png" alt=""><br><br>第一次使用的话，会询问你要不要直接用 Google 帐户认证，确定后，就会接着询问这份档案是要直接传真，还是想要求签名。<br><br>这里会看到档案名称变成乱码，别担心，不影响后续传真的正确性。<br><br>点击 “Fax Document” 继续。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/bd3037579315bfc7c090ff88084aa105.png" alt=""><br><br>附注：如果你需要传真签名文件的话，可以利用 Adobe Reader App 直接在移动设备上完成签名并上传。<br><br>很快的，就会看到 Google Drive 上的 PDF 文件已经准备好要传真。<br><br>在 “Send a fax” 页面的第2步骤栏位，输入对方的传真号码即可。<br><br>如果是要传真到台湾的号码，那么前面要输入国码 “+886”，接着输入区域号码例如 “2”，然后才是传真电话。<br><br>最后按下 “Send it now”。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/bccc1c1e89b8bb13635905f0ff39cfd0.png" alt=""><br><br>好啦！就是这么简单，等待个几秒钟到一两分钟，对方就会接收到纸本传真啰！<br><br>而在 HelloFax 的右上方帐号选单里，你可以看到自己剩下多少传真额度。新注册的用户可以拥有 5 张免费传真。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/caf92f0bb4df2a232771e6314cd5de5e.png" alt=""><br><br>我通常会在 Google Drive 里勾选某份 PDF ，然后透过上述方法，直接选择利用 HelloFax 传真，只要输入对方的传真机号码，就能顺利传送。 依据我的使用经验，中文 PDF 从来没有出错，内容都能顺利的在对方的传真机上列印出纸本，而台湾的传真机号码也都能很快的传送成功。贴心的是不论传送成功还是失败， HelloFax 都会提示你。<br><br></div><br></div><br>&nbsp;<br><br>## 在Google Drive签名文件<br><br><div><br><br>### 连结应用：<a href="https://www.hellosign.com/" target="_blank" rel="external">HelloSign</a><br><br>### 方法<br><br><div><br><br><img src="http://www.geekpark.net/uploads/reading/seed/e3072ae0c292720fde8ee18fcfcf9659.png" alt=""><br><br>只要进入 “HelloSign ” 网站，上传你的 PDF 或 Word 等文件，就能在云端直接完成数字签名，然后直接把数字文件寄给目标对象。完全不需要纸本的打印与扫描流程。<br><br>附注1：经过我实际的使用经验，“HelloSign” 网站端支持中文、英文 PDF 档案（包含档名与内文）的签名，但只支持英文 Word 档案的签名，而还不支持中文 Word 档案的签名。<br><br>附注2：说明一下 “HelloSign” 的签名认证流程，透过 “HelloSign” 签完名的文件会附加一页 “HelloSign” 的签名帐户认证页面（说明来自于哪个邮件帐户使用签署了这个签名）。如果透过 “HelloSign” 发送文件要求对方签名，那么可以设定密码、锁定签名位置等等，同样会加注经由 “HelloSign” 认证的签名流程在文件中。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/4453ee6c323261e48bb2300a7efdebb5.png" alt=""><br><br>今天 “HelloSign” 在网页端与 iOS App 之外，又针对 Google Chrome 与 Gmail 的使用者推出了一个更便利的辅助服务。<br><br>附注：目前这个针对 Gmail 的服务，只支持英文介面的 Gmail，以及英文文件。 只要安装 “HelloSign” 的 Google Chrome 扩展，当你的英文版 Gmail 中接收到 PDF、 Word 文件时，可以看到在原本的开启、下载链接外，多出了一个让你直接签名的链接。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/b2c9b619fa19dcdf445f155f6f7128fb.png" alt=""><br><br>如果有 PDF 文件需要我签名，或者我需要传送某份 PDF 文件给对方签名，而且情况允许数位签名的话，这个动作就能直接在 Google Drive 里完成， 同样的只要在 Google Drive 中找到需要签名的文件，点击开启 HelloSign 这个外挂工具，就能完成签名的动作，并且签名文件就同步保存在我们的 Google Drive 云端硬盘中。<br><br></div><br></div><br>&nbsp;<br><br>## 在 Google Drive 用 Photoshop 修图<br><br><div><br><br>### 连结应用：<a href="http://pixlr.com/editor/" target="_blank" rel="external">Pixlr Editor</a><br><br><div><br><br>这是一个我使用机率最高的应用，当我需要修改某张图片时，不管是润饰、调整大小、裁切，甚至是更进阶的图层操作，我都直接在 Google Drive 网页端找出需要修图的图片，启动这个 “Pixle Editor” 直接完成。<br><br>“Pixlr Editor” 拥有非常类似“传统版” Photoshop 的界面，功能上也都能满足一般工作者的需求，更棒的是直接在 Google Drive 云端启动，速度比起真正单机版的 Photoshop 还要快，修改完的图片一样存在你的云端硬盘里。 就跟你在实体硬盘中修图没有两样，只是更快速更简单！<br><br></div><br></div><br>&nbsp;<br><br>## 在 Google Drive 帮图片加特效<br><br><div><br><br>### 连结应用：<a href="http://www.picmonkey.com/" target="_blank" rel="external">PicMonkey</a><br><br>### 方法<br><br><div><br><br>“Picnik” 曾经是最知名的线上修图软件之一，优秀的界面、流畅的操作和丰富的特效功能，让 Flickr 线上相册网站将其纳为内建的修图工具。然而，Picnik被 Google 收购之后，不知道是好是坏，但 Picnik 的技术变成了 Google+、Picasa 中令人惊艳的修图功能，结果真正的 Picnik 本站却被 Google 宣布即将在 4 月 19 日关门大吉。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/472a2b634e4d080b937e99de26c00bbe.jpg" alt=""><br><br>曾经可以说是 Web App 代表作的 “Picnik”，证明了我们“不需安装软件”，直接打开浏览器，就能完成足以令人惊奇的照片修图效果。或许这样的雄心对 Picnik 的技术团队来说，还不到热情熄灭的那天吧？<br><br>所以，今天介绍的最新线上修图网站：“PicMonkey”，正是由 Picnik 技术团队亲自打造，誓言要做出一款比 Picnik 更友善、更惊奇的线上照片修图服务。目前你已经可以直接上 PicMonkey 体验看看，不需注册，就能享受非常棒的功能。<br><br>不需要注册帐号，你可以立即上传自己的照片。<br><br>接着打开 PicMonkey 线上编辑器，左方就能看到非常清楚明白的修图功能列，PicMonkey 的介面也十分美观，而且操作起来仍然很流畅。<br><br>一开始，我们可以试试看左上方的 “Auto adjust”，让 PicMonkey 自动帮我们调整出最好的照片效果。<br><br>或者我们也可以简单的裁切、旋转、缩放照片，操作方式也都非常的直觉易懂，确实很友善。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/f48592ea66709f6bfa4e1ca18bdf7b99.jpg" alt=""><br><br>当然，最重要的亮度、光线、阴影、对比调整，在 PicMonkey 中也具备，我们只要简单拉动杆子，就能立即看到不同的效果变化。<br><br>或者进入色彩调整功能中，可以针对浓淡、色温等进行微调。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/ffc698dc327d1e5fb6ff3672187e21ea.jpg" alt=""><br><br>PicMonkey 还具备了将照片锐化、清晰化的功能。<br><br>而所有的调整操作也是可以反悔的。<br><br>最后，调整出满意的照片效果后，可以储存、下载自己的修图成果，支援原始高解析图档的下载。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/fe8726278c615b16729fb673ac44568d.jpg" alt=""><br><br>虽然目前 PicMonkey 还没有 Picnik 那么多简单神奇的特效滤镜，但基本的修图功能已经很完美，可以变化出的效果很多，并且介面简洁漂亮，操作流畅，值得期待未来成为更有用的线上修图工具。 PicMonkey 算是一个颇受好评的线上修图工具，它主要的用途是简单的照片特效滤镜套用，和前面走Photoshop 风格的 Pixlr Editor 有所区隔。 当我把照片同步到 Google Drive 后，有时候为求方便，也会直接在云端硬盘里开启 PicMonkey 帮照片套用特效。<br><br></div><br></div><br>&nbsp;<br><br>## 在 Google Drive 剪辑影片<br><br><div><br><br>### 连结应用：<a href="http://www.magisto.com/" target="_blank" rel="external">Magisto</a><br><br>### 方法<br><br><div><br><br>“Magisto” 的影片剪辑过程是云端服务完成的，事后如果你要下载剪辑完成的影片，则需要小额付费（0.99 或 1.99 美金），但你也可以免费线上观看或是分享到 YouTube，也能选择直接升级到付费帐户，那么就可以无限制下载剪辑完成的影片，以及拥有更大的上传空间。<br><br>你可以先从 “Magisto” 的免费帐户开始试试看，而其实免费版就可以满足一般家庭影片的制作需求（免费版可以把完成的影片分享到 YouTube）。 首先在主画面，你可以利用 “Magisto” 拍摄新的影片桥段，也可以导入手机内原本已经用其他软体拍好的影片。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/5b7822764d90cded6bcf5ae35e7519a3.png" alt=""><br><br>“Magisto” 是智慧型的影片剪辑软体，既然是剪辑软体，也就是说它主要功能是帮你把多段不同的影片剪接在一起。 例如你在一些家庭活动、聚会上，可能拍摄了多组不同家人的互动，就可以利用 “Magisto” 一次将他们剪接起来。<br><br>你说你不会剪接？没关系，因为在 “Magisto” 中你根本不需要会任何影片剪辑技术。 只要把你想剪辑的影片片段勾选起来，然后选择一个适合的主题，例如假日、派对、生日、旅行主题，或是自然、可爱、恋爱风格。那么 “Magisto” 就会自动帮你加上适合的剪辑方式与滤镜特效。<br><br>你还可以选择适合自己影片的背景音乐！也不要忘记写上自己影片的大标题，一切都只要非常直觉的选择好，其他剪辑工作就交给 “Magisto” 自动化完成即可。 例如你选择了一个圣诞节的主题，那么 “Magisto” 剪辑完成的影片里就会有各种下雪的特效、圣诞老人的剪影过场等等，这些都自动就帮你安排好了！而如果你的影片里有人物出现，“Magisto” 还会帮你自动聚焦在人物身上！<br><br>我们唯一需要的就是等待 “Magisto” 的云端服务自动帮我们把影片编辑转档完成，然后 “Magisto” 会通知我们可以去看看影片成果啰！就是这么简单。 我觉得 “Magisto” 非常适合用来制作记录身边故事的家庭影片，把平常收集的一些生活影片桥段剪辑在一起，制作出节日的祝福、情感的传达，有了 “Magisto” 自动化的剪接、特效与音乐，让你的影片立刻就变得更加生动！<br><br>Google Drive 上其实还有其他更专业的影片剪辑工具可以使用，但我自己没有这方面的需求，所以只是玩玩“休闲型”的影片剪辑而已。 我只要把储存在Google 云端硬盘里的影片，直接开启到 Magisto 工具里，就能帮忙自动剪接、自动组合、自动配乐，变成一部有模有样的微电影，可以拿来当做家庭影片的应用。<br><br>## 在 Google Drive 中制作流程图<br><br>### 链接应用：<a href="https://cacoo.com/" title="Cacoo 官网" target="_blank" rel="external">Cacoo</a><br><br>### 方法<br><br><div><br><br><img src="http://www.geekpark.net/uploads/reading/seed/f1ebeb50513804c421d87571fdf7243d.png" alt=""><br><br>“Cacoo” 是线上免费中文版 “Drawing Diagrams” 服务，可以让用户绘制各种流程图、关系图、设计图，例如公司作业流程、办公室平面图、心智图、企划简报、网路布局规划、网站与 iPhone ,Android 界面框架图等等，只要透过简单的拖拉组合，就能非常快速的完成一份图解说明。更超值的是，Cacoo 免费帐号提供了可以储存 25 个私密图表、同时 15 个人线上即时协同编辑的功能。<br><br>Cacoo 的绘图编辑界面分成几个大区块，首先最上方为一般编辑列，这里可以还原之前的动作（可以复原到好几十次前），非常好用。另外这里也有复制贴上、插入线条文字、手绘线条、上传图片等等功能，上传图片限制要在 500 KB 以内，只要用 RIOT 软件先缩个图，基本上不是大问题。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/80f7a08aa7623087f9d8a5c7d22e17ab.png" alt=""><br><br>在 Cacoo 中绘制好图表后，可以利用右上方的“储存”功能，存入自己的 Cacoo 线上帐户中，就像我前面提到的，免费帐户可以储存 25 个图表（对非专业用户来说一定足够，不够用时删除旧的即可）。另外也可以把 Cacoo 的图表导出下载，免费帐户“只支持”导出成 PNG 图档，但这也绝对已经足够了。<br><br>接下来要进入绘制图表的重头戏了，Cacoo 和其它流程图软体一样，都提供了非常丰富的图库素材，所以基本上我们不用真的自己画，只需要直接拉出素材，将它们组合在一起，非常快的，一个看起来有模有样的平面设计、流程规划、网页草案、网路布局、程序界面就出来啰！<br><br><img src="http://www.geekpark.net/uploads/reading/seed/513d5043c91882930da2dd8a1302a3c4.png" alt=""><br><br>这样的拖拉操作，除了会让图解更加专业，别人更易理解外，其实也一定比你用 Word、PowerPoint、小画家等错误工具自己画要更快。<br><br>每个图库里单元素材的预设值不一定符合你的需求，所以当拖拉到主画面上后，可以点击该素材，然后在「设定格式工具列」对话框中，针对里面的文字内容、颜色渐层、框线大小、图层位置等等进行微调，直到你满意为止。<br><br>Cacoo 支持的图解素材非常丰富，相信一般流程绘图软件可以做到的它都有支持，甚至还支持了最新的 iPhone、iPad、Android 的 UI 草图设计喔！<br><br>Cacoo 是我本来就常常推荐大家使用的一个中文版线上流程图绘制工具，拿来画版面草图也很合用。而透过 Google Drive 的应用连结，我可以直接在Google 云端硬盘里新增我的流程图文件，例如 Cacoo 编辑，但整合在 Google Drive 管理，更加方便。<br><br></div>
+
+<h2 id="u5728_Google_Drive__u4E2D_u5408_u5E76_PDF"><a href="#u5728_Google_Drive__u4E2D_u5408_u5E76_PDF" class="headerlink" title="在 Google Drive 中合并 PDF"></a>在 Google Drive 中合并 PDF</h2><div><br><br>### 链接应用：<a href="http://pdfmerge.w69b.com/" title="PDF Mergy Beta" target="_blank" rel="external">PDF Mergy</a><br><br>### 方法<br><br><img src="http://www.geekpark.net/uploads/reading/seed/dc10b528042e65e4c8a878c438322e78.png" alt=""><br><br>有些时候你在本机电脑不一定很容易做到的事情，反而在Google 云端硬盘里可以非常简单的完成。<br><br>例如当你想要合并多个 PDF 文件时，只要把同步到 Google Drive 的 PDF 一一勾选后，选择 PDF Mergy 来合并，还能调整合并顺序，快速又方便。<br><br></div>
+
+<h2 id="u5728_Google_Drive__u8FDB_u884C_u6863_u6848_u8F6C_u6863"><a href="#u5728_Google_Drive__u8FDB_u884C_u6863_u6848_u8F6C_u6863" class="headerlink" title="在 Google Drive 进行档案转档"></a>在 Google Drive 进行档案转档</h2><div><br><br>### 链接应用：<a href="https://chrome.google.com/webstore/detail/driveconverter/pnijkabgdodbjffhlmbnhlccpkfappil" title="DriveConverter" target="_blank" rel="external">DriveConverter</a><br><br>### 方法<br><br><img src="http://www.geekpark.net/uploads/reading/seed/cd8a95c102e7150419a5d6805eda040f.png" alt=""><br><br>对于把各种文件转成你需要的格式曾经让你很头痛吗？<br><br>在 Google 云端硬盘上只要链接这款 DriveConverter 应用，遇到需要格式转换时就把文件开启到 DriveConverter 中，便能快速完成格式转换，支援的格式包含音乐文件、影片文件、文本文件的各种格式互转。<br><br></div>
+
+<h2 id="u5728_Google_Drive__u4E0A_u64AD_u653E_u97F3_u4E50_u4E13_u8F91"><a href="#u5728_Google_Drive__u4E0A_u64AD_u653E_u97F3_u4E50_u4E13_u8F91" class="headerlink" title="在 Google Drive 上播放音乐专辑"></a>在 Google Drive 上播放音乐专辑</h2><div><br><br>### 链接应用：<a href="https://chrome.google.com/webstore/detail/drivetunes/labgcacinobdnkfndodfkfeabbjckbnj" title="DriveTunes" target="_blank" rel="external">DriveTunes</a><br><br>### 方法<br><br><img src="http://www.geekpark.net/uploads/reading/seed/6abfdb6ce370ad85c3a7c0dba138932c.png" alt=""><br><br>你把自己的音乐文件同步到了云端硬盘，那么可不可以在其他电脑线上收听，并且像是单机电脑一样的体验呢？利用这个 DriveTunes 就能轻松做到。<br><br></div>
+
+<h2 id="u7528_Google_Drive__u5236_u4F5C_u7EBF_u4E0A_u95EE_u5377_u8C03_u67E5"><a href="#u7528_Google_Drive__u5236_u4F5C_u7EBF_u4E0A_u95EE_u5377_u8C03_u67E5" class="headerlink" title="用 Google Drive 制作线上问卷调查"></a>用 Google Drive 制作线上问卷调查</h2><div><br><br>### 链接应用：Google 表单<br><br>### 方法<br><br>最后这个应用，则是你可以直接利用Google Drive 内建的表单功能，来制作线上问卷调查，还能制作成统计图表，快速又方便。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/e1c52fdfc3f2d02b78785a3dac56ed8a.png" alt=""><br><br>虽然和专业的问卷调查相比， Google Forms 表单功能还有所欠缺，但是以“完全免费”又对一般人来说“可以立刻上手”的需求来看， Google 表单仍然是设计与发布网路问卷调查的好选择之一。<br><br>Google Form 表单不仅方便“线上制作”、“线上公开”、“线上填写”，还可以结合内部的 Google 试算表，帮你追踪、记录与统计所有回复，并且归纳成统计图表提供给你参考，很值得有此需求的朋友试试看。<br><br>第一步当然就是在Google 云端硬盘中建立一个“新表单”。这时候可以选择问卷的各种范本主题。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/e89252362c1ece4292148096def47203.png" alt=""><br><br>如果需要多人一起编辑同一份问卷调查，可以点击左上方的“文件”－“共用”来分享这份文件给你的合作伙伴。这里和 “<a href="http://playpcesor.blogspot.com/2010/04/google-docs.html" title="Google Docs全新協作功能上線，即時多人編修與對話通訊窗口" target="_blank" rel="external">Google Docs全新协作功能上线，即时多人编修与对话通讯窗口</a>”的操作一样。多人共同编辑一份表单时，你可以透过颜色标记，看到对方正在编辑哪一道问题，还能透过右方的即时通讯工具来讨论设计过程。<br><br>透过编辑功能列中的“回复”选单，你可以随时查看这份问卷调查的各种记录与统计分析。并且你可以指定这份问卷要链接到你的哪一个试算表文件。你可以把多份不同问卷调查，链接到同一个试算表的文件中，每个问卷独立以工作表分页来记录，方便你进行管理。你能随时透过统计图表的方式，查看自己问卷的最新结果。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/808859a40ed92d7c4be44ed552716919.png" alt=""><br><br>Google 表单包含了各种不同的问题设计，透过“插入”选单，能添加包含单选、复选、选单、数字勾选、文字输入等等不同问题形式。你可以在表单中直接按住某个问题的左方前端，拖曳改变这个问题的顺序位置。你甚至可以直接复制贴上文字形式的项目清单， Google 表单会帮你自动转换成问答题，详细操作可以参考这里的<a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=EOU2YPflPkQ" title="Copy and paste a list — Google Forms" target="_blank" rel="external">中文影片教学</a>。<br><br>你在 Google 表单的每一个新增、修改，都会“即时储存”，完成问卷设计后，点击“传送表单”。就能获得这份问卷调查的“专属网址”，将其分享到网路社群中，就可已邀请大家来一起做问卷了。<br><br><img src="http://www.geekpark.net/uploads/reading/seed/24a968dc9b602dfa5d802fca053f6606.png" alt=""><br><br>如果转贴到 Google 上，甚至可以不用离开 Google ，让其他朋友直接在你的讯息中进行问卷填写喔！。<br><br></div>
+
+<h2 id="u5C0F_u7ED3_uFF1A"><a href="#u5C0F_u7ED3_uFF1A" class="headerlink" title="小结："></a>小结：</h2><p>你可能会问，上面许多也都有独立的 Web App 应用，不能到各自的线上工具网站去使用同样的功能吗？当然可以，只是关键在于使用流程上的区别。经由Google Drive 做到了一件很重要的事情，把你的电脑文件与这些线上工具无缝的整合在一起：</p>
+<ol>
+<li>你可以在“任何电脑”打开线上 Google Drive 完成上述工作，即使那台电脑没有安装你的惯用软软件（例如 Photoshop ）。</li>
+<li>所有Web App 以Google 云端硬盘为中心组成办公室作业系统。</li>
+<li>所有 Web App 编修的文件都在 Google Drive 里同步保存。<br>不是发散的要你各自去不同线上工具使用，也不需要你在硬盘安装各种软件，经由 Google Drive 的整合，我们只要打开浏览器，进入云端硬盘网页，就可以完成“非常多样化”的办公文件编修与管理需求，不只是文件同步，也不只是文件处理了。</li>
+</ol>
+<p></p></div><br></div><p></p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/互联网/">互联网</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/Google/">Google</a><a href="/tags/攻略/">攻略</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="/2013/03/27/play-google-drive/" data-title="玩转 Google Drive | 仁云亦晕" data-tsina="5647304895" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2013/03/29/about-smartisan-with-hope-without-money/" title="也说老罗的锤子——钱途不够光明，但至少还有希望">
+  <strong>上一篇：</strong><br/>
+  <span>
+  也说老罗的锤子——钱途不够光明，但至少还有希望</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2013/03/26/tips-about-dlna/"  title="玩转DLNA，手机平板电脑电视四屏合一">
+ <strong>下一篇：</strong><br/> 
+ <span>玩转DLNA，手机平板电脑电视四屏合一
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2013/03/27/play-google-drive/" data-title="玩转 Google Drive" data-url="/2013/03/27/play-google-drive/"></div>
+</section>
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#u5982_u4F55_u5E2E_Google__u4E91_u7AEF_u786C_u76D8_u589E_u52A0_u529F_u80FD_uFF1F"><span class="toc-number">1.</span> <span class="toc-text">如何帮 Google 云端硬盘增加功能？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u5E73_u5E38_u8981_u600E_u4E48_u4F7F_u7528_u8FD9_u4E9B_u5DF2_u7ECF_u8FDE_u7ED3_u7684_u5E94_u7528_u7A0B_u5E8F_u5462_uFF1F"><span class="toc-number">2.</span> <span class="toc-text">平常要怎么使用这些已经连结的应用程序呢？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u5728_Google_Drive__u4F20_u771F"><span class="toc-number">3.</span> <span class="toc-text">在 Google Drive 传真</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u5728_Google_Drive__u4E2D_u5408_u5E76_PDF"><span class="toc-number">4.</span> <span class="toc-text">在 Google Drive 中合并 PDF</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u5728_Google_Drive__u8FDB_u884C_u6863_u6848_u8F6C_u6863"><span class="toc-number">5.</span> <span class="toc-text">在 Google Drive 进行档案转档</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u5728_Google_Drive__u4E0A_u64AD_u653E_u97F3_u4E50_u4E13_u8F91"><span class="toc-number">6.</span> <span class="toc-text">在 Google Drive 上播放音乐专辑</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u7528_Google_Drive__u5236_u4F5C_u7EBF_u4E0A_u95EE_u5377_u8C03_u67E5"><span class="toc-number">7.</span> <span class="toc-text">用 Google Drive 制作线上问卷调查</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u5C0F_u7ED3_uFF1A"><span class="toc-number">8.</span> <span class="toc-text">小结：</span></a></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/互联网/" title="互联网">互联网<sup>30</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/公-amp-研/" title="公&amp;amp;研">公&amp;amp;研<sup>3</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/其他/" title="其他">其他<sup>9</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/学业/" title="学业">学业<sup>4</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/数码/" title="数码">数码<sup>20</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/互联网/数码/" title="数码">数码<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/生活/" title="生活">生活<sup>12</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/手机/" title="手机">手机<sup>9</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/教程/" title="教程">教程<sup>7</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/大学生/" title="大学生">大学生<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/应用/" title="应用">应用<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/iPad/" title="iPad">iPad<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/分享/" title="分享">分享<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/wordpress/" title="wordpress">wordpress<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Apple/" title="Apple">Apple<sup>4</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/生活/" title="生活">生活<sup>4</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/一加/" title="一加">一加<sup>4</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/电脑/" title="电脑">电脑<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/技巧/" title="技巧">技巧<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android/" title="Android">Android<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/推荐/" title="推荐">推荐<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/杂谈/" title="杂谈">杂谈<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/考研/" title="考研">考研<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Google/" title="Google">Google<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/SSD/" title="SSD">SSD<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/海淘/" title="海淘">海淘<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/展望/" title="展望">展望<sup>2</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://wuchong.me" target="_blank" title="Jark&#39;s Blog">Jark&#39;s Blog</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+  <div class="weiboshow">
+  <p class="asidetitle">新浪微博</p>
+    <iframe width="100%" height="119" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=5647304895&verifier=&dpc=1"></iframe>
+</div>
+
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hello, this is Scott speaking. <br/>
+			Good good study, day day up!</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2015 
+		
+		<a href="/about" target="_blank" title="Scott Yang">Scott Yang</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"i7298"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?e6d1f421bbc9962127a50488f9ed37d1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>

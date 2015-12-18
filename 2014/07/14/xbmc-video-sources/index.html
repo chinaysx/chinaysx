@@ -1,0 +1,668 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>XBMC用户手册之视频资料库篇 | 仁云亦晕</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="Scott Yang">
+    
+
+    
+    <meta name="description" content="视频资料库是XBMC通过数据库把你的视频文件相关信息整合管理起来。这些信息可以通过不同的渠道获取，例如通过刮削器（包括电影、剧集和音乐电视）和nfo文件。在资料库模式你可以按照类型、标题、年份、演员和导演等浏览视频内容。
+1.创建资料库
+要让你的视频文件与简介、演员信息、DVD封面、缩略图等相关信息一同呈现，你需要先把视频文件加入到视频资料库。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="XBMC用户手册之视频资料库篇">
+<meta property="og:url" content="/2014/07/14/xbmc-video-sources/index.html">
+<meta property="og:site_name" content="仁云亦晕">
+<meta property="og:description" content="视频资料库是XBMC通过数据库把你的视频文件相关信息整合管理起来。这些信息可以通过不同的渠道获取，例如通过刮削器（包括电影、剧集和音乐电视）和nfo文件。在资料库模式你可以按照类型、标题、年份、演员和导演等浏览视频内容。
+1.创建资料库
+要让你的视频文件与简介、演员信息、DVD封面、缩略图等相关信息一同呈现，你需要先把视频文件加入到视频资料库。">
+<meta property="og:image" content="https://farm9.staticflickr.com/8614/16437392170_ab3005b1b1_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8647/16417115317_ff9f70cf73_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8657/16438615329_ff9f70cf73_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8659/16624406955_c66f46d7d9_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8642/16624407045_121c0753bc_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8617/16598448516_cef7ff6b84_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8604/16004651833_d697b28e74_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8635/16437392680_566bf8f096_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8612/16002234034_715bb8d6bf_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8668/16417115977_1e8ee141e0_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8618/16623300051_5776f22e03_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8633/16623746912_37c0dabcbf_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8599/16623300091_1ed77d6dc4_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8574/16437392810_01eb9dcb72_z.jpg">
+<meta property="og:image" content="https://farm9.staticflickr.com/8670/16437233208_e8632c6391_z.jpg">
+<meta property="og:updated_time" content="2015-12-15T13:57:27.584Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="XBMC用户手册之视频资料库篇">
+<meta name="twitter:description" content="视频资料库是XBMC通过数据库把你的视频文件相关信息整合管理起来。这些信息可以通过不同的渠道获取，例如通过刮削器（包括电影、剧集和音乐电视）和nfo文件。在资料库模式你可以按照类型、标题、年份、演员和导演等浏览视频内容。
+1.创建资料库
+要让你的视频文件与简介、演员信息、DVD封面、缩略图等相关信息一同呈现，你需要先把视频文件加入到视频资料库。">
+
+    
+    <link rel="alternative" href="/atom.xml" title="仁云亦晕" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="仁云亦晕" title="仁云亦晕"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="仁云亦晕">仁云亦晕</a></h1>
+				<h2 class="blog-motto">总会有一个开始，总要去面对一个未来</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/about">About</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2014/07/14/xbmc-video-sources/" title="XBMC用户手册之视频资料库篇" itemprop="url">XBMC用户手册之视频资料库篇</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Scott Yang" target="_blank" itemprop="author">Scott Yang</a>
+		
+  <p class="article-time">
+    <time datetime="2014-07-14T00:43:54.000Z" itemprop="datePublished"> 发表于 2014-07-14</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			
+		
+		</div>
+		
+		<p>视频资料库是XBMC通过数据库把你的视频文件相关信息整合管理起来。这些信息可以通过不同的渠道获取，例如通过刮削器（包括电影、剧集和音乐电视）和nfo文件。在资料库模式你可以按照类型、标题、年份、演员和导演等浏览视频内容。</p>
+<p>1.创建资料库</p>
+<p>要让你的视频文件与简介、演员信息、DVD封面、缩略图等相关信息一同呈现，你需要先把视频文件加入到视频资料库。<br><img src="https://farm9.staticflickr.com/8614/16437392170_ab3005b1b1_z.jpg" alt="64"></p>
+<a id="more"></a>
+<div><strong>1.1 规范文件名</strong></div><br><div></div><br><div>要让刮削器准确地获取视频相关信息，视频文件的文件名需要遵循一定的格式。</div><br><div></div><br><div><strong>1.1.1 <wbr>电影命名规则</strong></div><br><div></div><br><div><br><div>提示：本命名规则主要针对XBMC官方默认的The MovieDB电影刮削器。</div><br><div></div><br><div>为准确搜索到正确结果，建议电影文件名只包括片名和年份（可选）加扩展文件名。也可以在文件名中加上媒体来源标签信息以标明电影视频的来源/清晰度。XBMC默认的Confluence皮肤可以识别电影文件名或目录名中的以下标签信息并以相应的图标来显示：</div><br><div></div><br><div><br><div><br><br><em>   DVD：如果文件名中包含“DVD”。
+</em>   Blu-Ray：如果文件名包含“BLURAY”、“BRRIP”、“BD25”或“BD50”。<br><em>   HDDVD：如果文件名包含“HDDVD”。
+</em>   TV：如果文件名包含“HDTV”、“PDTV”或“DSR”。<br><em>   VHS：如果文件名包含“VHS”。<br></em></div><br><div></div><br><div>在文件名中加上英文括号括起来的年份可以提高搜索准确性，这个命名规则能够得到最好的结果。少数影片可能搜索到多个结果。以下为按此规则命名电影文件的几个例子：</div><br><div></div><br><div>\电影\音乐之声 (1965).avi</div><br><div><br><div>\电影\音乐之声 The Sound of Music <wbr>(1965).avi</div><br>\电影\阿凡达 (2009) <wbr>- BluRay.avi<br><br></div><br><div></div><br><div><strong>1.1.2 剧集命名规则</strong></div><br><div></div><br><div><br><div><strong>目录结构和文件名</strong></div><br><div></div><br><div>每个剧集要存储于单独的目录中以便刮削器扫描到资料库中。剧集文件的命名方式要符合tvshowmatching中的正则表达式的定义。剧集的名称是从存储该剧集的根目录名中获取，而其中每一集信息则通过每集的文件名取得季和集的序号再获取。</div><br><div></div><br><div>目录结构范例： <wbr></div><br><div></div><br><div>电视剧</div><br><div> <wbr>  <wbr>|—-电视剧1</div><br><div> <wbr>  <wbr>|  <wbr>  <wbr>  <wbr> |<strong><em> 电视剧1视频文件</em></strong></div><br><div> <wbr>  <wbr>|</div><br><div> <wbr>  <wbr>|—-电视剧2</div><br><div> <wbr>  <wbr>|  <wbr>  <wbr>  <wbr> | 电视剧2视频文件</div><br><div> <wbr>  <wbr>|</div><br><div> <wbr>  <wbr>|<strong>_<em>电视剧3</em></strong></div><br><div> <wbr>  <wbr>  <wbr>  <wbr>  <wbr>  <wbr>| 电视剧3视频文件</div><br><div></div><br><div>你应该为“电视剧”目录设置刮削器。你还可以在每个电视剧目录中为不同季建立相应子目录。</div><br><div></div><br><div>默认情况下将匹配以下格式的文件名（均按第x季第x集格式）：</div><br><div>太空堡垒卡拉狄加.s01e01.avi</div><br><div>太空堡垒卡拉狄加.s01.e01.avi</div><br><div>太空堡垒卡拉狄加.s01<em>e01.avi</em></div><br><div>太空堡垒卡拉狄加[s01]<em>[e01]</em>.avi</div><br><div>太空堡垒卡拉狄加.1x01.avi</div><br><div>太空堡垒卡拉狄加.101.avi</div><br><div>默认情况下一个文件包含两集用以下格式：</div><br><div>太空堡垒卡拉狄加.s01e01-02.avi</div><br><div>太空堡垒卡拉狄加<em>[s01]</em>[e01-02]<em>.avi</em></div><br><div>太空堡垒卡拉狄加.1x01.1x02.avi</div><br><div>同样方式还可以包含三集或四集：</div><br><div>太空堡垒卡拉狄加.s01e01-02-03-04.avi</div><br><div>太空堡垒卡拉狄加[s01]<em>[e01-02-03-04]</em>.avi</div><br><div>太空堡垒卡拉狄加.1x01.1x02.1x03.1x04.avi</div><br><div>这里“太空堡垒卡拉狄加”可以是任意字符（包括空字符串），因为在刮削器扫描过程中只提取文件名中季和集的序号，剧集名是从目录名中提取。</div><br></div><br></div><br></div><br><div></div><br><div><br><div><strong>多集文件</strong></div><br><div></div><br><div>支持处理多集文件，如一个视频文件包括两集内容，DVD镜像文件中包含多集内容等。以下是有效的多集文件名：</div><br><div>太空堡垒卡拉狄加_s01e01e02e03_s02e01e02</div><br><div>太空堡垒卡拉狄加104-05-06-201-02</div><br><div>太空堡垒卡拉狄加1x07x08x09</div><br><div></div><br></div><br><div><br><div><strong>剧集特别篇</strong></div><br><div></div><br><div>TheTVDB.com刮削器支持剧集特别节目，要让XBMC刮削器识别特别节目，需将其编为第0季，具体集的序号应与TheTVDB.com网站内容相一致。例如：“太空堡垒卡拉狄加：最后的特别节目”文件名中应加入第0季第21集的信息：</div><br><div>太空堡垒卡拉狄加.s00e21.avi。</div><br><div></div><br></div><br><div><strong>单季剧集（绝对序号）</strong></div><br><div></div><br><div>XBMC默认剧集刮削器The TVDB的设置选项支持绝对序号，这使你可以把文件名不含季号的剧集加入到资料库，这对一些动漫剧集非常有用。对于不分季的剧集，均按第1季命名，或者用下面的单季命名方式：</div><br><div>人间正道是沧桑.ep01.avi</div><br><div></div><br><div><strong>1.2 添加视频源</strong></div><br><div></div><br><div><br><div>步骤1：在主界面点击“视频”。</div><br><div><br><br><img src="https://farm9.staticflickr.com/8647/16417115317_ff9f70cf73_z.jpg" alt="65"><br><br></div><br><div>步骤2：点击“文件”然后点击“添加视频”。</div><br><div><br><br><img src="https://farm9.staticflickr.com/8657/16438615329_ff9f70cf73_z.jpg" alt="66"><br><br></div><br><div>步骤3：当“添加视频目录”窗口出现时，点击“浏览”。</div><br><div><br><br><img src="https://farm9.staticflickr.com/8659/16624406955_c66f46d7d9_z.jpg" alt="67"><br><br></div><br><div>步骤4：现在可以浏览你的电脑找到存放视频的目录，然后点击“确定”。如果你的视频存放在网络盘中，请阅读PC共享设置的有关教程，先设置好的网络共享，然后可以在浏览窗口找到“Windows 网络(SMB)”，点击就可以浏览你的网络共享目录。</div><br><div><br><br> <img src="https://farm9.staticflickr.com/8642/16624407045_121c0753bc_z.jpg" alt="68"><br><br></div><br><div>步骤5：现在可以给你的视频源起个你喜欢的名字。如果是个电影目录，你可以命名为“Movies”，如果是电视剧目录你可以命名为“TV Shows”。目前XBMC仅支持输入英文，不过它默认会以你选定的文件夹名为默认名，只要文件夹是中文名，你就无需输入而得到中文视频源名称了。现在点击“确定”。</div><br><div><br><br><img src="https://farm9.staticflickr.com/8617/16598448516_cef7ff6b84_z.jpg" alt="69"><br><br></div><br><div>步骤6：现在打开了“设置内容”窗口，在此你可以告诉XBMC这个目录存在什么类型的视频。点击向下箭头直到你要的类型（本例设为“电影”）。</div><br><div><br><br><img src="https://farm9.staticflickr.com/8604/16004651833_d697b28e74_z.jpg" alt="70"><br><br></div><br><div>步骤7：这里出现很多选项，具体设置方法见后面“设置内容和扫描”部分，设置完成后点击“确定”。</div><br><div><br><br><img src="https://farm9.staticflickr.com/8635/16437392680_566bf8f096_z.jpg" alt="71"><br><br></div><br><div>步骤8：点击“是”扫描目录内容到资料库（如果点“否”则以后再扫描）。</div><br><div><br><br><img src="https://farm9.staticflickr.com/8612/16002234034_715bb8d6bf_z.jpg" alt="72"><br><br></div><br><div>你还可以把多个视频文件目录归入到同一个视频源。你可以已经注意到“添加视频目录”窗口不仅有“浏览”按钮，还有一个“添加”按钮。在你把一第个文件目录加入到视频源后，你还可以加入第二个文件目录（本地目录的网络共享目录可以混合使用），XBMC会把这几个不同位置的文件在同一视频源中显示，就好像在同一目录中管理。</div><br><div><br><br><img src="https://farm9.staticflickr.com/8668/16417115977_1e8ee141e0_z.jpg" alt="73"><br><br></div><br><div>XBMC还会合并同一视频源下不同目录中同名字目录。例如，你在一个硬盘中存放剧集，但磁盘空间不够了，你可以增加第二块硬盘并建立同名子目录，XBMC会把它们当成同一个目录来处理。就如：</div><br><div>硬盘1:\剧集\</div><br><div>硬盘2:\剧集\</div><br><div>子目录采用同样的目录名：</div><br><div>硬盘1:\剧集\太空堡垒卡拉狄加\</div><br><div>硬盘2:\剧集\太空堡垒卡拉狄加\</div><br><div>你可以把剧集“太空堡垒卡拉狄加”的一部分存在硬盘1，一部分存在硬盘2，当你把不同物理位置归到同一个视频源管理时，在XBMC中看到它们就象在单一目录中一样。</div><br><div></div><br><div><strong>1.3 <wbr>设置内容和扫描</strong></div><br><div></div><br><div>当进入“设置内容”窗口时，你可以把你的视频内容设置成音乐电视、电影或剧集。滚动选项以选择你需要的设置。如果你在增加视频源时未完成“设置内容”，可以之后通过在此视频源目录打开上下文菜单（默认按“C”键开启）来选择设置。</div><br><div></div><br><div><br><div><strong>1.3.1 设置子文件夹内容</strong></div><br><div></div><br><div>在上级目录已对刮削器等内容进行了设置的的情况下，你仍然可以为子目录再次“设置内容”。例如，你有一个“剧集”目录存放剧集，这个目录下有个子目录“Star Trek”存放了历史上不同时期的多部Star Trek剧集。如果你仅为“剧集”目录设置内容，XBMC会把“Star Trek”目录中的内容视为单个剧集。而如果你为这个特殊子目录单独设置内容，XBMC则会正确扫描该子目录下的多部剧集。</div><br><div></div><br><div>注意不能把已添加源的目录下的子目录再单独添加为另一个源，这会造成XBMC重复通过多个源去扫描同一个文件。</div><br></div><br><div></div><br><div><strong>1.3.2 电影内容选项</strong></div><br><div><img src="https://farm9.staticflickr.com/8618/16623300051_5776f22e03_z.jpg" alt="74"><br><wbr></div><br><div><strong>电影在以片名命名的单独目录中</strong></div><br>&gt; <div>如果你将每部电影保存在以影片名命名的单独目录中，则选定此选项</div><br>&gt;<br>&gt; <div>例如：/电影/天堂电影院/天堂电影院.mkv</div><br>&gt;<br>&gt; <div>如果你将有所电影保存在同一个大文件夹中，就让此选项保持未选定状态。</div><br><div><strong>嵌套查找</strong></div><br>&gt; <div>如果你的电影分类保存在子目录中（如按电影类型、按片名首字母等）。</div><br>&gt;<br>&gt; <div>例如：/电影/动作片/谍影重重.mkv</div><br><div><strong>被选文件夹包含单个视频</strong></div><br>&gt; 本选项用于一次只添加一部电影的情况。<br><div><strong>资料库更新时排除的路径</strong></div><br>&gt; 不扫描和更新本路径内容，就算它的上级目录设置了内容也仍然不扫描本路径内容。<br><div> <wbr></div><br><div><br><br><strong>电影刮削器设置</strong><br><br>本设置针对The MovieDB刮削器，这个官方默认刮削器能较好地支持中文资料获取，对于获取不到中文内容的电影，你可以到<a href="http://www.themoviedb.org/" target="_blank" rel="external">http://www.themoviedb.org/</a>网站注册后帮忙补全中文资料。<br><br></div><br><div><img src="https://farm9.staticflickr.com/8633/16623746912_37c0dabcbf_z.jpg" alt="75"><br><wbr></div><br><div><strong>使用未翻译片名</strong></div><br>&gt; 当获取一部外语片资料时，使用外文原版（未翻译）的片名。<br><div><strong>启用同人画</strong></div><br>&gt; 设置是否下载同人画。<br><div><strong>启用预告片（YouTube）</strong></div><br>&gt; 从YouTube网站下载电影预告片，国内因网络原因无法使用YouTube内容。<br><div><strong>备选HD-Trailers.net预告片</strong></div><br>&gt; 备选预告片下载。<br><div><strong>首选语言</strong></div><br>&gt; 显示电影剧情介绍及其他信息的语种，The MovieDB刮削器支持获取中文信息，用中文的朋友请设置为“zh”。<br><div><strong>获取评分于</strong></div><br>&gt; 选择获取影片评分的来源，国内由于网络原因无法使用IMDb网站内容，只能使用默认的TMDb。<br><div> <wbr></div><br><div><strong>1.3.3 剧集内容选项</strong></div><br><div> <wbr></div><br><div><br><br><img src="https://farm9.staticflickr.com/8599/16623300091_1ed77d6dc4_z.jpg" alt="76"><br><br><strong>被选文件夹包含单个电视剧集</strong><br><br></div><br>&gt; 本选项用于一次只添加一部剧集的情况。<br><div><br><div><strong>资料库更新时排除的路径</strong></div><br>&gt; 不扫描和更新本路径内容，就算它的上级目录设置了内容也仍然不扫描本路径内容。<br></div><br><div> <wbr></div><br><div><strong>剧集刮削器设置</strong></div><br><div> <wbr></div><br><div>本设置针对The TVDB刮削器，这个官方默认刮削器能较好地支持中文资料获取，对于获取不到中文内容的电影，你可以到<a href="http://thetvdb.com/" target="_blank" rel="external">http://thetvdb.com/</a>网站注册后帮忙补全中文资料。</div><br><div><br><br><img src="https://farm9.staticflickr.com/8574/16437392810_01eb9dcb72_z.jpg" alt="77"><br><br><strong>使用DVD顺序</strong><br><br></div><br>&gt; 使用DVD顺序而不是电视台播出顺序。<br><div><strong>使用绝对顺序（单季）</strong></div><br>&gt; 把剧集当作只有一季来看待，这样在文件名中就只需要有集号。通常用于只有一季的剧集或动漫。<br><div><strong>启用同人画</strong></div><br>&gt; 设置是否下载同人画。<br><div><strong>使用封面海报</strong></div><br>&gt; 下载普通海报而不是横幅。你还应到相应皮肤设置中调整相关显示方式选项，对于Confluence皮肤，到“系统设置 &gt; 皮肤 &gt; 常用”设置中选择“剧集中以海报代替宽幅图标”。<br><div><strong>语言</strong></div><br><div><br>&gt; 显示电影剧情介绍及其他信息的语种，The TVDB刮削器支持获取中文信息，用中文的朋友请设置为“zh”。<br></div><br><div> <wbr></div><br><div><br><br><em>*1.3.4 扫描和更新文件</em><br><br>扫描电影并加入资料库有多种方式：<br><br></div>
+
+<ul>
+<li>首次设置刮削器或更改刮削器后，系统提示“要刷新此目录下的所有项目吗？”时，选择“是”。</li>
+<li>在文件模式浏览时选定一个项目并按“I”键，或开启上下文菜单（按“C”键）并选择“视频信息”。</li>
+<li><ul>
+<li>如果资料库中已有该文件的信息，你还可以在信息显示窗口刷新资料库内容。</li>
+</ul>
+</li>
+<li><p>你可以选定存放这视频的目录并在上下文菜单（按“C”键）选择“扫描新的内容”来扫描目录中的所有文件。</p>
+</li>
+<li>在资料库模式你可以在上下文菜单（按“C”键）选择“更新资料库”。</li>
+<li>要让XBMC在启动时扫描新项目，设置“系统设置 &gt; 视频 &gt; 资料库 &gt; 在启动时更新资料库”。</li>
+<li>安装使用扩展功能XBMC Library Auto Update可以设置定时更新资料库。</li>
+<li>安装使用扩展功能Library watchdog可监控本地文件夹（或挂载到本地的网络共享）的新文件以触发资料库更新。<br><wbr></li>
+</ul>
+<p><strong>1.4 从资料库移除视频资料</strong><br><wbr><br>可以采取以下方式从资料库移除视频项目：</p>
+<ul>
+<li>在设置内容窗口将该目录包含的内容设置回“无”，系统会提示你“是否从XBMC资料库中移除所有位于该路径的项目？”，选择是就会移除相关项目资料。这个功能非常有用，因为在上下文菜单中你只能移除单个项目。建议你在更改刮削器前，先将目录包含的内容设置回“无”以清除旧的资料，然后再选择新的刮削器。</li>
+<li>移除单个资料库项目内容，可以选定此项目并打开上下文菜单（按“C”键）选择“从资料库中移除”。</li>
+<li>可以在“系统设置 &gt; 视频 &gt; 资料库”选择“清理资料库”以清除无效的和已丢失视频的相关资料。<br><wbr></li>
+</ul>
+<p><strong>1.5 无法自动获取资料时的处理</strong></p>
+<p><wbr></p>
+<p>造成无法扫描到资料库，或扫描获取的信息不正确通常是因为视频文件的文件名没起好。对于存在问题的文件，你最好先检查一下文件名，试一下这个电影的其它片名，或者加入年份信息。</p>
+<p><wbr></p>
+<p><strong>修正单个视频</strong></p>
+<p><wbr><br>加入新视频文件后，如果发现视频信息有误，你可以选定这个项目然后按“I”键打开电影信息窗口并选择“刷新”功能。这时候，你可以手工输入一个片名（目前仅支持英文输入）来搜索信息，有时候用完整片名（通常指英文片名）搜不到，而用片名的一部分则能搜到结果。</p>
+<p><wbr></p>
+<p><strong>辅助工具</strong></p>
+<p><wbr><br>有几个工具可以帮助你编辑/修改资料库项目，不管是单个项目还是上百个项目：</p>
+<ul>
+<li>Web界面扩展功能：XWMM - 支持通过Web浏览器编辑资料库项目，可从官方在线扩展功能库安装。</li>
+<li>视频扩展功能：<a href="http://forum.xbmc.org/showthread.php?tid=118263" target="_blank" rel="external">Missing Movie Scanner</a> - 这个视频插件会扫描你的视频源，列出所有未加入资料库的电影文件。</li>
+<li>你还可以到<a href="http://wiki.xbmc.org/index.php?title=Category:Library_managers" title="Category:Library_managers" target="_blank" rel="external">资料库管理</a>页面找到其它资料库管理工具。<br><wbr></li>
+</ul>
+<p><strong>NFO文件</strong></p>
+<p><wbr><br>另一个帮助刮削器获取正确信息的办法是使用Nfo文件，Nfo文件能直接提供电影信息，或者指引刮削器获取正确的电影信息（如给出电影资料的正确URL网络地址）。本手册后面会详细介绍Nfo文件使用。<br><strong>手工查找缺失视频</strong></p>
+<p><wbr><br>如果你的资料库内容不多，可以在文件模式浏览看哪个视频文件没有具体信息内容（包括海报等）。如果资料库规模很大的话，可以借助扩展功能插件：Missing Movie Scanner.</p>
+<p><wbr></p>
+<p><strong>1.6 家庭录像和自定义视频信息</strong></p>
+<p><wbr></p>
+<p>如果你想把家庭录像和其它一些通过普通刮削器无法获取资料的视频信息加入资料库该怎么办呢？下面告诉你解决办法：<br><strong>JustUseTheFileName刮削器</strong></p>
+<p><wbr></p>
+<p>安装这个名叫“就用文件名”的<a href="http://www.elbsolutions.com/xbmc/scraper/metadata.justUseFilename.org.zip" target="_blank" rel="external">justUseTheFilename刮削器</a>（下载并手工安装）并在“设置内容”窗口指定使用这个刮削器，这个刮削器会直接把视频加入资料库而不获取其它信息。<br><strong>NFO文件</strong></p>
+<p><wbr></p>
+<p>你可以为视频文件创建一个Nfo文件，XBMC在扫描时只会从Nfo文件提取一次信息。如果你修改了很多NFO文件内容并想刷新资料库内容，你应该使用前面提到的清除并重设大法，即在“设置内容”窗口将该目录包含的内容设置回“无”，清除旧的资料后再设回正确的内容重新扫描。本手册后面会详细介绍Nfo文件使用。</p>
+<p><wbr></p>
+<p><strong>1.7 特殊功能</strong></p>
+<p><wbr></p>
+<p><strong>文件堆叠</strong></p>
+<p><wbr></p>
+<p>XBMC的文件堆叠功能以一个简洁、直观的方式处理分成多部分的视频文件。文件堆叠把多部分的视频文件视作单个项目管理。它的连续播放也是对用户透明的方式实现，所有部分自动按顺序加入播放队列。文件堆叠功能是文件模式的一个视图设置选项，它在扫描电影到资料库时也有效。</p>
+<p><wbr><br><strong>影片集</strong></p>
+<p><wbr></p>
+<p>XBMC官方默认刮削器支持把电影分成影片集来更好地管理，这个功能特别便于管理系列电影。你可以通过影片集方式浏览更快找到相关系列电影。从11.0（Eden）版的XBMC开始，使用The MovieDB或IMDb电影刮削器可以支持此功能。</p>
+<p><wbr><br><strong>媒体存根</strong></p>
+<p><wbr><br>11.0（Eden）版的XBMC开始支持离线媒体的存根文件。这种存根文件使得一个不是实时与系统相连的媒体项目能被资料库所管理，可以浏览并选择播放。</p>
+<p><wbr></p>
+<p>存根文件的默认扩展名为“.disc”（可以在advancedsettings.xml配置文件中修改）。配合Confluence皮肤能识别文件名中的特殊标签并以媒体标志图标来显示，如“DVD”、“Bluray”和“HDDVD”。例如，你有一张“让子弹飞”的DVD光盘，你可以创建一个没有内容的空文件名为：“让子弹飞 (2010).dvd.disc”并加入到电影资料库。在Confluence皮肤中通过资料库浏览该电影，还会显示出DVD媒体标志，你点击播放时，XBMC会提示你插入“让子弹飞”的DVD光盘。</p>
+<p><wbr></p>
+<p>这个插入光盘的提示内容你还可以自行定义，提示信息按照下面的xml文件格式写到存根文件中就可以，特别注意要保存为utf-8格式，否则无法正确显示：</p>
+<p>&lt;discstub&gt;<br><wbr> &lt;message&gt;让子弹飞的光盘藏在冰箱的冷藏室哦！&lt;/message&gt;<br>&lt;/discstub&gt;</p>
+<p><img src="https://farm9.staticflickr.com/8670/16437233208_e8632c6391_z.jpg" alt="78"></p>
+<p></p></div><p></p>
+<div></div><br><div>本文转载自 <a href="http://blog.sina.com.cn/s/blog_4ae08cc001015ss3.html" target="_blank" rel="external">XBMC用户手册：视频资料库（一）创建资料库</a></div>  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/互联网/">互联网</a>
+</div>
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="/2014/07/14/xbmc-video-sources/" data-title="XBMC用户手册之视频资料库篇 | 仁云亦晕" data-tsina="5647304895" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2014/07/19/red-bags-of-didi/" title="啊！滴滴的红包">
+  <strong>上一篇：</strong><br/>
+  <span>
+  啊！滴滴的红包</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2014/05/27/e5-bf-86/"  title="忆">
+ <strong>下一篇：</strong><br/> 
+ <span>忆
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2014/07/14/xbmc-video-sources/" data-title="XBMC用户手册之视频资料库篇" data-url="/2014/07/14/xbmc-video-sources/"></div>
+</section>
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ 
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/互联网/" title="互联网">互联网<sup>30</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/公-amp-研/" title="公&amp;amp;研">公&amp;amp;研<sup>3</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/其他/" title="其他">其他<sup>9</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/学业/" title="学业">学业<sup>4</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/数码/" title="数码">数码<sup>20</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/互联网/数码/" title="数码">数码<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/生活/" title="生活">生活<sup>12</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/手机/" title="手机">手机<sup>9</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/教程/" title="教程">教程<sup>7</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/大学生/" title="大学生">大学生<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/应用/" title="应用">应用<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/iPad/" title="iPad">iPad<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/分享/" title="分享">分享<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/wordpress/" title="wordpress">wordpress<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Apple/" title="Apple">Apple<sup>4</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/生活/" title="生活">生活<sup>4</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/一加/" title="一加">一加<sup>4</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/电脑/" title="电脑">电脑<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/技巧/" title="技巧">技巧<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Android/" title="Android">Android<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/推荐/" title="推荐">推荐<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/杂谈/" title="杂谈">杂谈<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/考研/" title="考研">考研<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Google/" title="Google">Google<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/SSD/" title="SSD">SSD<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/海淘/" title="海淘">海淘<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/展望/" title="展望">展望<sup>2</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://wuchong.me" target="_blank" title="Jark&#39;s Blog">Jark&#39;s Blog</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+  <div class="weiboshow">
+  <p class="asidetitle">新浪微博</p>
+    <iframe width="100%" height="119" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=5647304895&verifier=&dpc=1"></iframe>
+</div>
+
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hello, this is Scott speaking. <br/>
+			Good good study, day day up!</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2015 
+		
+		<a href="/about" target="_blank" title="Scott Yang">Scott Yang</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"i7298"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?e6d1f421bbc9962127a50488f9ed37d1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>
