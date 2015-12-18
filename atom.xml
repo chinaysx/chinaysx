@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[仁云亦晕]]></title>
+  <subtitle><![CDATA[总会有一个开始，总要去面对一个未来]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2015-12-14T13:13:42.808Z</updated>
+  <id>/</id>
+  
+  <author>
+    <name><![CDATA[Scott Yang]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Hello Australia]]></title>
+    <link href="/2015/12/15/Hello-Australia/"/>
+    <id>/2015/12/15/Hello-Australia/</id>
+    <published>2015-12-14T13:13:42.000Z</published>
+    <updated>2015-12-14T13:13:42.808Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="/2015/12/15/hello-world/"/>
+    <id>/2015/12/15/hello-world/</id>
+    <published>2015-12-14T13:07:37.394Z</published>
+    <updated>2015-12-14T13:07:37.394Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[盘点关于一加2的那些细节]]></title>
+    <link href="/2015/07/13/small-things-about-oneplus2/"/>
+    <id>/2015/07/13/small-things-about-oneplus2/</id>
+    <published>2015-07-13T08:50:59.000Z</published>
+    <updated>2015-12-15T13:57:27.598Z</updated>
+    <content type="html"><![CDATA[<p>还有半个月就要见证一加2的发布了，今天在这里盘点一下那些已知的关于一加2的小细节。</p>
+<p>首先从官方正大光明的发布的消息开始说起。官方公布了5条消息</p>
+<p><img src="https://farm1.staticflickr.com/547/19633124166_64ef6ed53a_z.jpg" alt=""></p>
+<div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       1、CPU</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       一加2的CPU降使用高通的 骁龙 810 v2.1处理器，将会有更好的视频解码、拍照速度和游戏体验。搭载的Adreno 430 GPU更将支持4K流媒体播放等等。散热方面，一加将通过软硬两个方面来解决。具体来说，在硬件方面，会在手机上的不同区域间放置更多的热凝胶和石墨材料来使热量快速均匀地消散，同时也会将处理器降频至1.8GHz；在软件方面，一加会使用“黑科技”——独家的CPU调度技术，妥善合理分配不同的处理器处理不同的任务，避免两个或者更多的挨着的处理器同时工作。</span></span></div><br><div align="left"></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       2、USB Type C</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       一加的USB Type C数据线将会比一代的数据线更长，并且两端都双面可插。</span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">      </span></span></div><br><div align="left"></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       3、一加VR</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       至少在海外会场将会有全球首次手机发布会VR现场直播，对于没有VR眼镜的朋友也可以看到一个360°的视频直播。（两种直播均仅支持Android用户收看，会后会发布至Youtube供其它设备用户观看）（国内一加虚拟眼镜的介绍页面：<a href="http://store.oneplus.cn/oneplusvr）" target="_blank" rel="external">http://store.oneplus.cn/oneplusvr）</a></span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">      </span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       4、指纹识别</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       一加将采用时下最为先进指纹识别的传感器，响应速度要优于Touch ID。这个将会是一枚物理传感器，并不是高通的</span></span><span style="color: #000000;">Snapdragon Sense ID（超声波指纹识别技术），最多</span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">可以存储五个指纹。将使用按压式识别方案（非滑擦式）。</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">      </span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       5、RAM</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       一加2中将使用4GB 的LPDDR4 RAM，更大的带宽，更快的速度，和更低的功耗。不同于32位处理器只能使用最多3GB内存，64位的810处理器将会充分使用，发挥这4GB RAM的最高性能。</span></span></div><br><div align="left"></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6、其他的一些细节（均为官方消息，真实可靠）</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.1、一加2不会在发布的当天开售，但会明显短于一加1代的发布和发售的间隔时间。</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.2、为配合VR眼镜，一加（海外）将发布一款应用方便用户收看发布会的直播。</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.3、</span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">一加二的相机将会由台北办公室负责，里面有很多前HTC工程师</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.4、在一加2发布后，一加1代将仍然可以购买。</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.5、由于无线充电技术不成熟，速度慢，所以很可能不会有无线充电功能</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.6、对于支持的频段，就全球而言，将主要有两种模式（注：中国电信CDMA属于Band 5频段，LTE-FDD属于1、3频段）</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">               6.6.1 </span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">Europe GSM: 850, 900, 1800, 1900MHz WCDMA: Bands: 1/2/5/8 FDD-LTE: Bands: 1/3/5/7/8/20</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">               6.6.2 US GSM: 850, 900, 1800, 1900MHz WCDMA: Bands: 1/2/4/5/8 FDD-LTE: Bands: 1/2/4/5/7/8/12/17</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.7、氧OS将会有更多的特色功能。</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.8、将会由更多更好的后盖。（发布的时候至少会有5款）</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.9、一加二将会有欧版、北美版和中国版</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.10、一加二将会有三个版本（不确定和上一条是否重叠）</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.11、一加2的电池容量为 3300mah</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.12、一加2的售价将不高于450美元（约合2800人民币）</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       6.13、</span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">一加2的整机尺寸不会大于一加1代（至少不会大于竹制版），以下两部1代的下面均有一台一加2</span></span></div><br><div align="left"><img src="http://farm1.staticflickr.com/536/19652432982_c550dcaa3d_b.jpg" alt=""></div><br><div align="left"><img src="http://farm1.staticflickr.com/457/19652433292_18bce4c265_b.jpg" alt=""></div><br><div align="left"><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">7、部分传言</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       7.1 一加2的相机将采用索尼 1600W 像素的</span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">IMX240 Exmor RS摄像头</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       7.2 全网通</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       7.3 2K屏幕（1440P）</span></span></div><br><div align="left"></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       其他消息陆续更新中。</span></span></div><br></div><br><div align="left"></div>]]></content>
+    <summary type="html">
+    <![CDATA[<p>还有半个月就要见证一加2的发布了，今天在这里盘点一下那些已知的关于一加2的小细节。</p>
+<p>首先从官方正大光明的发布的消息开始说起。官方公布了5条消息</p>
+<p><img src="https://farm1.staticflickr.com/547/196331]]>
+    </summary>
+    
+      <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[若批评无意义，则赞美无自由————不止谈谈氢OS]]></title>
+    <link href="/2015/07/05/criticize-and-praise-about-h2os/"/>
+    <id>/2015/07/05/criticize-and-praise-about-h2os/</id>
+    <published>2015-07-05T13:50:27.000Z</published>
+    <updated>2015-12-15T13:57:27.596Z</updated>
+    <content type="html"><![CDATA[<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       好长时间没有写点东西用来扫地了，因为这个世界实在是太危险了，而且环境也很恶劣，扫了等于白扫。但扫地这件事就像一场旅行，重要的不是目的地，而是沿途的风景和看风景的心情。做一个现实的人，似乎与这个欲望过剩的时代不太合拍。默默的用了几周的氢OS，从第一版至今，看着这个ROM一点点的成长，总是有很多话想说说。2015年下半年的第一天，我想和这个世界谈谈。</span></span></span>&nbsp;</div></p>
+<p><br><a id="more"></a></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       想说的太多，整理了半天逻辑顺序也没缕明白，就想到哪说到哪吧。</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">//关于头条新闻</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       在谈一加的营销之前，先说说头条新闻吧。看到太多的人说一加不会做别的就会营销了，每天头条新闻里都好几条关于一加的新闻。其实呢，这恐怕完全归功于头条新闻的“高大上”的推荐了，因为你越关注，所以头条新闻推的越多，导致你越烦，对于一加营销推广的怨言也就越多。我不知道这到底是谁的过错，让一些加油认为满世界都是一加的宣传。要是一加真能做到这种水平的宣传，满世界就都是一加了。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       个人而言不是很喜欢这种针对于个人兴趣的推荐，虽然贴近于你的兴趣，但会让你的视野变窄，让生活收到局限。或者说，很多推荐类的做得还不够好。</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">//关于一加的营销推广</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       这一块尽管一加做得很努力，但不知道是不是达到了他们预期的效果。一方面，尽管只有一部手机产品，但他们保持了这部产品在一年多的时间内相当稳定的热度，对于手机市场而言，这是非常难能可贵的。一加像是一个谦谦君子，不和其他的厂家撕逼打骂，安安静静的宣传推广它的产品，而且仿佛和每一家厂商都是友商，在他们的微博里不知给多少其他厂商打过广告了。最近半年，他们的工作成功也是显而易见的，聘请韩寒代言，线下推广一加的广告，发布年度TVC，再到氢OS的如期而至和一加降价，以及现在和未来的关于一加二代的宣传造势，酒香也怕巷子深，他们渐渐的扩大宣传范围，从微博阵地到IT公论的硬广，他们努力让更多的人知道一加这个品牌和他的产品。</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       有多少人经常抱怨附近的人都没听说过一加，但又抱怨一加天天只在营销呢？</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       话说回来，一加不是一家公益机构。</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">//关于一加手机1</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       一加一代是一款已经上市一年多的机器了。</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       尽管一代的配置在今天依然算不上落后，但不可否认已经存在了一些短板，不然也没有发布新机器的意义了。一加1凭借优秀的硬件和与Color OS以及CM的合作，走了一条和小米锤子不同的道路，通过硬件杀入了手机的红海，然后再去迅速完善自己的软件。也正是因为这样的一条与众不同的路子，一加才能够发展的如此迅猛。其实，对很多厂家而言，提供一年的质保服务，已经对得起售价了。再往后，看的就是厂商的良心了。</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       Color OS的停更，我个人以为有这样几个原因，第一，大家都很忙，Color的团队忙着自己家的几部手机的Color 2.1的更新，而一加这边又要全身心扑到氢OS的开发上；第二，更新得不到认可，每周的更新一释出，无论轻重好坏，论坛里会有一大片的谩骂之声，既然你不喜欢，那么更新也无意义，不如停掉；第三，更新维护是需要成本的，既然都不喜欢Color OS，那不如节省下这笔开发经费，把钱花在刀刃上。而且，斩断了氢OS的退路，开发团队势必要咬着牙硬上了。当然我也不同意一加的这个做法，让公测中的Color 2.0夭折，但这个项目停掉肯定有一加自己的考虑，符合更长久的利益，长痛不如短痛吧。顺便，一加海外版的氧OS也发出公告暂停了对一加1代的更新，全力投入到一加2的系统研发中，针对一加1的氧OS的更新将会在一加2发布之后到来。</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       得益于一加1的开放，他的生命周期哪怕是官方停止了对一加一的维护都不会结束，国外会有非常多的爱好者给一加1提供支持的。所以以后会看到CM13，CM14在一加上流畅的运行，像少年啦飞驰。</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">//关于一加手机2</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       相比某族刚刚9个月就发布了一款新旗舰，一加1和一加2的中间隔了快15个月了，在各大友商接连发布新机的时候，一加也只能靠着提前开始宣传推广来让人们看到一个更好的选择。提前一个半月官方开始主动爆料，从810到USB Type-C再到一加2的发布时间和指纹识别，一加好像是第一个在发布会之前就把这些东西曝光的厂商吧，不知道发布会的时候还会有什么可说的。顺便说一句810，官方给的退烧的解决办法是降频到1.8GHz，同时采用一些其他的独门绝技。具体效果如何，发布之后再见分晓吧。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       “这是我规划这个产品时，觉得最无趣的部分。”一加的产品经理张璇在回答“一加二代会用什么样的配置”时如是说。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: large;"><img src="http://farm1.staticflickr.com/367/18816218994_15abff7953_b.jpg" alt=""><br></span></span></div></p>
+<p><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       一加2上基于Android 5.1的氢OS和氧OS会作为国内和国外市场的出厂ROM，软硬结合的一加2想必会非常让人期待。</span></span></div></p>
+<p><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: large;"><img src="http://farm4.staticflickr.com/3803/18816218854_8755fde1f8_b.jpg" alt=""><br></span></span></div></p>
+<p><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">//关于氢OS</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       自从发布会氢OS发布以来，氢OS获得了来自外界的广泛好评，氢视窗、去Dock栏、卡片短信、MD设计成为了氢OS的四大特色，给人留下了极其深刻的印象——上一个给人留下深刻印象的发布会发布的ROM应该还是锤子——印象中他们发布了一套拟物化的图标——从公布立项到发布用了一年半的时间，从发布到可刷又用了小半年的时间才慢慢成长为一个充满情怀的系统——相比而言一加从公布立项到发布只用了半年多的时间，可能是少了一年的时间把更多的图标画出来吧。关于氢OS的争论有好多，不管是去掉Dock的优劣还是氢视窗33%自由度的给予。关于对氢OS的批评与赞美，赞美来自于外界，批评来自于内部——因为内测方案的实施，因为低完成度的测试版的泄露，也因为用户对于氢OS的更多的期待。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       发布的四个版本每版其实都有很大的进步，耗电和功耗有了很大的改进，一些功能进行了充分的测试之后回炉修改，内测组提出的bug得到了修正，一些意见和建议也得到了采纳，其实可以说是按部就班，但只是不管是内测组还是广大的加油对氢OS的期待都太多太重，不知道他们是不是承受不来。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: large;"><img src="http://farm1.staticflickr.com/463/19251148048_1756b01b72_b.jpg" alt=""><img src="http://farm4.staticflickr.com/3731/19251132790_ca9bedc0c1_b.jpg" alt=""><br></span></span></div></p>
+<p><div align="left"></div><br>&nbsp;</p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       模仿很容易，创新很难。加油们的需求很多，希望有Color OS的这个，希望有MIUI的那个，希望有Flyme的这个，希望有iOS的那个，但这些模仿和“保留”又算是什么创新呢？氢OS作为一个后起之秀，留给他出新的地方不多了，但他还是拿出了氢视窗、卡片短信、去Dock栏这三大创新，可以说是非常弥足珍贵了，至于其他的那些微创新，能做到好看好用，就已经非常不错了。比如说被大家广为诟病的快捷开关，上下左右一共四个方向，坦白的说从下方呼出对于单手操作而言更加的方便，就一定要为了避开和iOS相似而放弃这个好用的设计么？在Google和Apple都互相吸取借鉴的时代，符合自己风格理念的设计才是好的设计。</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: large;"><img src="http://farm1.staticflickr.com/262/18818100013_0545fab4a9_b.jpg" alt=""><img src="http://farm1.staticflickr.com/456/19251133600_fb0d3d3e7c_b.jpg" alt=""><br></span></span></div></p>
+<p><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: large;"> </span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       的确，氢OS还存在着很多的不足，还有一些功能的缺失，内测阶段的节奏看起来有些缓慢，但有些东西是欲速而不达的，BUG反馈区两千六百多个帖子，每个帖子都有工作人员的回复，每周的更新也都会解决大量的bug，提高系统的稳定性和流畅性，让氢OS尽快的成熟起来，不只是我们每个加油，官方更是希望这一天早日到来。氢OS的成功，将会是影响一加手机销量的重要砝码。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       毕竟，一加1和一加2之间会有很多区别，比如指纹功能，所以氢OS的开发肯定会是双线进行，但基础功能上肯定是通用的，所以在内测阶段把这些基础功能做好非常的重要，也许一加会为了把一些特色的功能留到发布会上去讲，比如音乐，比如相机，比如调调，但这些是我们所不能改变的，达则兼济天下，只有让一加的手机卖的好，钱赚的多，才能指望他们给用户带来更好的体验与服务。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       看得见的价值、应满足的需求、摸得到的情感，和一点点，超出期待的惊喜，这才是一加应该带给我们的。</span></span></div><br>&nbsp;</p>
+<p><div align="left"></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">//关于内测组</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       马上氢OS就要第二次招募内测了，在这里也顺便说说内测组里的感受吧。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       第一批内测，将近250人左右的规模，很多人都很积极的为氢OS献计献策，认真反馈bug，也看到很多非常较真的加油，真的是很好的履行了一个内测组成员的职责，但也有部分加油不能正确的看待自己的位置，将氢OS说的一无是处，看不到氢OS一丝的进步，不光令那些工作人员，其他的内测成员看到也很寒心。既然选择加入内测组，首先应该要明确自己的责任，和一加的价值观尽量保持一致，齐心协力才能提高效率，才能共同打造出一个值得骄傲的系统。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">//关于一加</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       一加是一家小公司，尽管他有着远大的抱负，但他面对着严峻的事实。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       说到小公司，不得不想到另外一家一直以小公司自居的企业——魅族。从当年的一款机器打天下到现在的背靠阿里好乘凉，魅族一直说自己是一个小公司，相比较而言，不论是销量还是人力物力财力，一加可能连小公司都算不上了。一加国内外加一起不过也才卖了150W台而已。尽管自己的有些想法很美好，但实现起来很骨感，没有钱，没有人，说到底可能还是没有钱吧。所以一口吞不下一个胖子，要改变现实，只能1步1步来。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"></div></p>
+<p><div align="left"></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">//关于有意义的批评</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       最后要回归这篇帖子的主题了，有意义的批评。批评和漫骂是完全的两个概念，我们提倡的是以德服人和以理服人，要有理有据，使人信服。打蛇打七寸，批评要说到点子上。一加的好多工作人员都有在论坛，善意的批评和建议相信他们一定能够接受。而无谓的职责与骂言无助于事情的解决，坏了别人心情的同时更会坏了自己的心情。有人说一到网上就会容易动怒，克制会提高个人的修养。当然如果真的是无可救药的话，那么再怎么骂也没有什么意义，不如退避三舍。一个和谐的论坛环境才能吸引人来，整日乌烟瘴气的话，人会越来越少的。有多少“大神”都因为不愿意听论坛里的污言而选择了离开。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       可以有批评的自由，但更要有意义的批评，良药也许苦口，但切中要害的批评才能治本。多一些真心的交流，少一些无意义的灌水，没有了真东西，那些积分和等级又有什么意义呢？</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">//关于更自由的赞美</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       一步到位的虚荣、锦上添花的评价，都不是我们想要的。这句话曾经深深的打动了我，从去年年初了解到这个品牌，到去年秋天入手了一加，我感到非常的幸运。茫茫机海中，我做了一个非常明智的选择。满足了对一个手机的需求，看到了一个手机厂商一步一步的成长，宠辱不惊，我喜欢这种态度，我为我的选择而骄傲。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       那些合理与明智的东西，我们把它叫做“理性美”</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       理性美，就是真魅力。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       我想说，我喜欢这种魅力。</span></span></span>&nbsp;</div></p>
+<p></p>
+<p><div align="left"></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       若批评无自由，则赞美无意义</span></span></div></p>
+<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       若批评无意义，则赞美无自由</span></span></div></p>
+<p><div align="left"></div><br>p.s.解释下8小时亮屏，想看看日常使用的亮屏时长，开了屏幕常亮（设置里设置为30分钟），亮度为自动，正常频率使用QQ、微信、微博等常用应用，没玩游戏，接打两个电话的测试结果</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       好长时间没有写点东西用来扫地了，因为这个世界实在是太危险了，而且环境也很恶劣，扫了等于白扫。但扫地这件事就像一场旅行，重要的不是目的地，而是沿途的风景和看风景的心情。做一个现实的人，似乎与这个欲望过剩的时代不太合拍。默默的用了几周的氢OS，从第一版至今，看着这个ROM一点点的成长，总是有很多话想说说。2015年下半年的第一天，我想和这个世界谈谈。</span></span></span>&nbsp;</p>
+<p></div><br>]]>
+    
+    </summary>
+    
+      <category term="一加" scheme="/tags/%E4%B8%80%E5%8A%A0/"/>
+    
+      <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[换个角度看氢OS]]></title>
+    <link href="/2015/07/05/h2os-in-another-view/"/>
+    <id>/2015/07/05/h2os-in-another-view/</id>
+    <published>2015-07-05T13:38:17.000Z</published>
+    <updated>2015-12-15T13:57:27.596Z</updated>
+    <content type="html"><![CDATA[<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       有人说，我是专门给一加洗地的，其实不是太确切，ID上已经说了嘛，扫地而已。<br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       因为爱，所以会关注的多一些，了解的多一些，所以也会包容的多一些。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       经常回来一加论坛闲逛，当然想找干货的时候更多的还是回去海外版一加论坛和XDA，那些地方没有灌水，也都很务实。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       我喜欢理性又务实的人，喜欢理性又务实的企业。我不懂艺术，也不懂生活，但这无法阻挡我喜欢艺术的生活家，喜欢那种理性美。</span></span><a id="more"></a></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       有时候一直会思考一些问题，关于一加的</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       为什么Color OS 在每周一更的时候每个周五都会收到大量的责骂，但是说不再更新之后又会有好多的遗憾和挽留呢</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       为什么一加有那么多的成熟的ROM可以用可以刷却始终找不到满意的而在用别的手机只能用一个ROM的情况下却还能将就的用着，有些时候是不是没有选择要好多有太多的选择呢</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       为什么有人会说我都等氢OS一年了但其实在一加手机的发布会上刘作虎并没有说关于自家的ROM的事，在氢OS发布会之前真的好多人买手机是为了氢OS而买的么</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       为什么H2OS在咨询关于内置应用的时候好多人都会说不要内置但是第一版放出来之后好多人会说这个ROM里连个音乐和视频都没有算个什么ROM呢</span></span></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       其实这些问题有一个挺简单的答案，那就是说这些话的不是一批人。</span></span></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       还会引申出两个问题，一个我之前已经说过，什么是一加的归属感，这个之前已经说过，一加的归属感绝对不是自家氢OS的出现和使用，一加的归属感，更像是没有归属感，是因为开放而带来的新鲜感。老牛也喜欢吃嫩草，但说到底，是金窝银窝不如自己的狗窝。就像是好多人主题换来换去还是用回了默认主题，好多ROM换来换去又换回了出场的ROM。回归了，才是生活。</span></span></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       所以氢OS有他存在的意义，当你在外边野累了，总有一个地方，让你回来歇歇脚。这其实就是一加，是氢OS的归属感。</span></span></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       当然就像是一栋新建完的房子，刚刚盖完，没有装修，肯定也没有交工。这中间需要时间，其实哪怕是已经装修完交工了，也需要开窗放一段时间的味不是？</span></span></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       终于说到主题了，换个角度看氢OS，看看氢OS里面的这些应用。</span></span></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       发布会上，虎哥强调了一加的开放，术业有专攻，把专业的事情交给专业的团队去做，这样做有他的好处，可以给用户带来更好的服务和更优秀的体验，当然也有更大的难度，沟通与整合这件事，并不是像嘴上说说的那么容易的。</span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span></p>
+<div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><img src="http://farm4.staticflickr.com/3777/18817754783_730310d057_b.jpg" alt=""><br></span></span></div><br>&nbsp;<br><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">开放与合作，本身就会带来更大的风险和更高的挑战。</span></span></div><br><div align="center"><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       接下来就结合氢OS的内测第一版来谈谈一加的那些应用与服务。</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       在我之前的一篇帖子里（</span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">关于内置应用那点事：</span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><a href="http://www.oneplusbbs.com/thread-758637-1-1.html），我提到了做好一个内置应用需要做到的三点：设计、功能和内容。从目前来看，氢OS是一个开发者，也是一个管理者。" target="_blank" rel="external">http://www.oneplusbbs.com/thread-758637-1-1.html），我提到了做好一个内置应用需要做到的三点：设计、功能和内容。从目前来看，氢OS是一个开发者，也是一个管理者。</a></span></span></div><br><div align="left"><br><div align="center"><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       作为开发者，一加做了8个最基本的应用，这8个应用应该来说代表了氢OS的全部风格与特色</span></span></div><br></div><br></div><br><div align="left"><br><div align="center"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span></span><br><div align="center"><img src="http://farm1.staticflickr.com/530/19438379165_e1ef9fe824_b.jpg" alt=""></div><br></div><br></div><br></div><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       没错，就是这八个最基本的应用，的确就像你觉得的那样，这些应该还有一些功能上有一些简陋，甚至还有的在这一版里面还没有出现，但已经能够彰显出氢OS的应用风格了。尽管有人说一加商店就是Color的商店换了一层皮，但就是这一层皮，却大有不同，是iOS风和Oneplus Material Design的两条不同的路。由专业的内容服务商提供内容，一加的开发团队做设计和功能的开发，并接入有专业的内容提供商提供的内容。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       这个时候就不得不提到发布会上的这张图了</span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span><br><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><img src="http://farm1.staticflickr.com/446/18815904414_617e4ae255_b.jpg" alt=""><br></span></span></div><br>&nbsp;<br><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">一加选择的他们心目中的优秀的内容服务提供商。</span></span></div><br><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"> </span></span></div><br><div align="center"><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       电话：上图中的第一个图标——葡萄生活，</span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">黄页这个模块应该都是由葡萄生活提供的，帮助一加整合诸多O2O服务，比如</span></span></div><br><div align="left"><br><br><em>   <span style="font-family: 微软雅黑;"><span style="font-size: medium;">查快递——快递助手</span></span>
+</em>   <span style="font-family: 微软雅黑;"><span style="font-size: medium;">话费流量充值——葡萄生活</span></span><br><em>   <span style="font-family: 微软雅黑;"><span style="font-size: medium;">打车——滴滴、快的、还有即将接入的Uber</span></span>
+</em>   <span style="font-family: 微软雅黑;"><span style="font-size: medium;">电影票——中影票务通、卖座网</span></span><br><em>   <span style="font-family: 微软雅黑;"><span style="font-size: medium;">飞机票——去哪儿</span></span>
+</em>   <span style="font-family: 微软雅黑;"><span style="font-size: medium;">附近精选——大众点评</span></span><br></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       短信：虎哥在发布会上也说过了，短信的内容解析来自于小源科技（第二排第二个图标），目前国内智能短信行业的领导者。有了他们的服务才能让卡片式短信大放光彩。当然目前的卡片式短信还没有完全实现，只针对于部分运营商和银行等等短信有效。</span></span></div><br><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><img src="http://farm1.staticflickr.com/451/18817808983_6b3ee69715_b.jpg" alt=""><br></span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       日历：这个日历还是做的很棒的，包括图标上的日期会随现实变化，还可以自动导入来自Google日历中的内容，比如下图中的天气，Google用户的福音</span></span></div><br><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><img src="http://farm1.staticflickr.com/298/19250859868_1127ac8fbc_b.jpg" alt=""><br></span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       再说说剩下的一加充当管理员角色的那些内置的应用吧，还是用图说话。</span></span></div><br><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><img src="http://farm1.staticflickr.com/450/19432134092_82256d307d_b.jpg" alt=""><img src="http://farm4.staticflickr.com/3925/19250859898_1718a3638c_b.jpg" alt=""><img src="http://farm1.staticflickr.com/345/19412347436_8a8679db25_b.jpg" alt=""><br></span></span></div><br><div align="left"><br><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       目前的三款内置应用，可以说都已经通过了一加的审核，不管是设计功能还是内容上都达到了和一加一致的风格，提供了非常优秀的体验。由百度定制的一加输入法专版，由邮箱大师定制的一加邮箱和由QQ浏览器（？）提供的一加浏览器。</span></span><br><br></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       至于其他的应用，包括音乐视频等等，想必还没有和一加磨合的太好，在以后的版本中肯定会陆续的推出。至少现在网易云音乐的图标已经有变化了，不是么，只不过他们还没有准备好，还不够优秀。相信一加会在接下来的版本中去整合这些应用的内容，让应用的风格与氢OS更为一致。</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"> </span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       可能可以大概总结一下这些应用和氢OS的关系了。音乐的内容来自于网易云音乐，视频内容由腾讯视频提供，LBE提供安全支持，浏览器由腾讯定制，但也会融入欧朋流量宝的相关技术。黄页来自于葡萄生活，卡片式短信的内容转换来自于小源科技。文件管理中会加入Air droid的相关的电脑和手机互传共享之类的功能。邮箱来自于邮箱大师，输入法由百度定制。地图由高德负责，词典由有道输出。至于其他生活服务类的应用，比如美团、携程、去哪儿，新闻资讯类如网易新闻还有社交类如新浪微博，这些应用将以什么样的形式出现还是非常令人期待的。</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       还不得不说的一个合作商，刷机精灵。考虑到并不是每一个用户都能够娴熟的刷机，与刷机精灵的合作将会帮助一加减轻在用户从Color OS 向H2OS转移过程中的各种成本，届时的一键刷机可能也会让更多的用户受益。</span></span></div><br><div align="left"><br><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><img src="http://farm1.staticflickr.com/401/19432134142_4f844361d9_b.jpg" alt=""><br></span></span></div><br></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       一款应用从开始都需要一个漫长的版本迭代，更何况是一个系统呢？一加用了一个聪明的方法，与成熟的应用合作，很大程度上在保证了应用质量的同时提高了系统的研发速度，在不到半年的时间里拿出了这样的一个版本还是基本上令人满意的。但他们接下来还有很长的路要走，少了一些内置应用的压力，他们有限的人力可以更好的投入于对于基础场景的解决。当务之急可能就是发热与耗电了。</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       现在看氢OS是最快乐的的时候，就像看一个新生儿成长一样，每周都会不一样，每周都有新的变化，这种成长的快乐会让人们感到惊喜，而不是像CM12的夜版，或者Color 2.0曾经的周更版，只是看到版本号的变化。</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       当氢OS成熟之后，也许你们会骄傲的说，氢OS是我看着长大的。</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"> </span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"> </span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">Update 6.14</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       因为一直在关注氢OS在与这些应用的关系，对一加能否处理整合好与第三方的内容服务提供商还存在一些疑虑，所以在周五的提问中我特意问了@2ccc 一些问题，可惜被他逃掉了好多。</span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"> </span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">１、关于音乐等应用是否还会重新设计UI<br>一定会，有必要甚至UX</span></span></span>２、合作的第三方应用是否会都为一加进行MD化的设计，如何保持合作应用和氢OS保持尽可能的风格的一致性<br>是的，我们的合作是建立在保持一致用户体验的基础上的<br><br>３、如何协调解决定制应用跟不上通用版升级进度的问题<br>请相信我们与合作伙伴，一加版本也有通用没有的东西<br><br></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;"> </span></span></div><br><div align="left"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       与第三方合作会存在很多的问题，比如账号的整合，独占资源的发布，应用内讨论区的处理以及定制版本的升级更新等等。想必手机里内置了一个新浪微博，然后还得再装一个最新版的新浪微博以参加某些活动实现某些功能，这种事情是没有人希望发生的。</span></span></div><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><img src="http://farm1.staticflickr.com/317/19438479665_5088fde4ed_b.jpg" alt=""><br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">目前，这些应用还仅仅是简单的罗列，不过，希望再迭代几个版本之后，我们会看到这些应用的不同的展现形式。这些东西同样会成为氢OS大放异彩的地方。既然官方说会有一致的用户体验，那么这些改变都是非常值得期待的。不过，对官方有信心，对第三方的信心实在是不是那么太足……如果一加能让新浪微博拿出一个符合MD设计规范的一加订制微博客户端的话，那对于一加的宣传推广实在是太美……</span></span><br><br></div>]]></content>
+    <summary type="html">
+    <![CDATA[<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       有人说，我是专门给一加洗地的，其实不是太确切，ID上已经说了嘛，扫地而已。<br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       因为爱，所以会关注的多一些，了解的多一些，所以也会包容的多一些。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       经常回来一加论坛闲逛，当然想找干货的时候更多的还是回去海外版一加论坛和XDA，那些地方没有灌水，也都很务实。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       我喜欢理性又务实的人，喜欢理性又务实的企业。我不懂艺术，也不懂生活，但这无法阻挡我喜欢艺术的生活家，喜欢那种理性美。</span></span>]]>
+    
+    </summary>
+    
+      <category term="一加" scheme="/tags/%E4%B8%80%E5%8A%A0/"/>
+    
+      <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[望梅止渴与远水解不了近渴]]></title>
+    <link href="/2015/07/05/opinions-about-h2os/"/>
+    <id>/2015/07/05/opinions-about-h2os/</id>
+    <published>2015-07-05T13:25:52.000Z</published>
+    <updated>2015-12-15T13:57:27.592Z</updated>
+    <content type="html"><![CDATA[<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;"> 今天就要公布内测名单了，写了好几百字的申请感言，不知道能不能出现在名单里，想想的确是有些小期待。</span></span><a id="more"></a></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: small;">//对于氢OS的看法和估计<br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: small;"><br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       说句实在话，对氢OS的设计理念非常的赞同，也非常的期待，但是对氢OS的完成度也有一定的预判。毕竟，在发布会当天的帖子里他们说到目前完成度只有想象中的五分之一，毕竟在发布会时候出现的计算器还是原生的样子，毕竟昨天听到虎哥在电台里说为了氢视窗还推翻了一个多月的工作重做，毕竟在填写内测申请的时候官方郑重声明了要准备一台备机。<br>满打满算，抛去做的无用功，氢OS的第一版出来也就是半年的时间。半年出来的第一版，又怎么可能做到尽善尽美呢，iOS第一版的时候连短信功能都没有，安卓从1.5发展到现在的5.1又用了多长的时间。MIUI在最开始发展的时候基于CM简单做了几个应用就开始赶鸭子上架，那个时候的迭代让人感觉每周都有耳目一新的新东西，虽然优化很糟糕但也是很有趣，而锤子的ROM在发布会跳票之后又拖了三个多月才拿出了第一版UI，同样是基于CM。<br>对于氢OS而言，它站在巨人的肩膀上，有Google趋于成熟的MD设计风格，有海外团队开发的基于AOSP的系统底层，有顶尖的设计团队的协助，才让一加能在这么短的时间内能够拿出他们的作品。也许，他们做到的亮点虎哥已经在发布会上都已经说了，剩下的可能还是原生的样子；也许，现在还是咦外观的设计为主，还没有对底层做太多的优化，有些地方会有些卡顿，但一口吞不下个胖子，终归，饭要一口一口吃，路要一步一步走。步子迈大了，容易扯着蛋。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: small;">//内测的角色</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: small;"><br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       之所以会采用这种小范围的内测方法（其实也不少了，发布会110（论坛+贴吧），论坛选100，好像刷机精灵还有30，加一起小250人了），为的更有利于内测者把发现的bug及时反馈给开发人员，放出去2000个名额，那开发人员估计每天除了看bug反馈就干不了别的了，而且2000人反馈的bug和250人反馈的bug是一样的。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       如果能够拿到内测资格，这肯定不仅仅是一种荣誉，更是一种责任。我觉得不应该是刷上之后或者马上贴图招摇，秀一下自己的氢OS，或者因为出现一些FC卡顿或者死机什么的就破口大骂。作为一个内测者，要做的不仅仅是尝鲜，更应该及时的将发现的bug和其他问题准确客观的反馈给开发人员，帮助他们把氢OS做的越来越好。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       既然选择了内测，就要努力的坚持下去。如果只是为了抢先感受一下氢OS，用了两天不爽又刷回了原来的系统，那么好好的一个内测名额可能就会这么浪费掉了。自己做的饭，咬着牙也要吃下去。</span></span><!--more--><!--more--><!--more--></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: small;">//氢OS的归属感的理解</span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       </span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br>说起氢OS的归属感，或者说一加的归属感，我觉得目前来说其实是很低的，因为一加的太过开放。因为有太多的ROM可以选择，所以总会是欲求不满。稳定的你嫌他不更新，天天更新的你嫌他不稳定，官方的你嫌他太臃肿，民间的你嫌大神不给力，国外的你嫌不人性，国内的你嫌太花哨。因为有太多的选择，所以在选择中迷失了自己。这个ROM不好用，那就换一个别的，那个ROM不好用，那就再用下一个。你巴不得希望有MIUI的功能丰富性和主题多样性+Color的相机和音效+CM的流畅和精炼＋Flyme的清新设计，但那样做出来的不是一个自己的系统，是一个东拼西凑来的四不像。模仿很容易，创新很难，但氢OS选择了这条艰难的路，所以，如果爱，请深爱。<br></span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: small;">//远水解不了近渴与望梅止渴，画饼充饥</span></span></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       还是那句话，如果氢OS的完成度足够高，高到可以开放公测，那一加没必要背着现在的这些骂名，选择内测是为了有一个更好的公测。一加已经画好了一张大饼，已经指出了一片梅林，但也许他们才刚刚揉好面，刚刚浇下水，但梦想和目标是一定要有的。怀胎十月，哪吒在娘胎里呆了三年呢，像氢OS这样的早产儿更需要大家的关心与呵护。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       “我都已经等了好几个月了”“我等不下去了”“还得等”，是啊，光等都已经很累了，可是你们不知道开发这个新东西比干等着更为煎熬么，你们在等着，他们在加班，你们在等着，他们在熬夜干活，氢OS也许是你们手中一刷而过的ROM，但那是那些一加人的心血。大饼也好，梅林也罢，那都不是空谈，他们在路上。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       最后希望出现在内测名单里的加油们能够帮助氢OS做的越来越好。</span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;"> 今天就要公布内测名单了，写了好几百字的申请感言，不知道能不能出现在名单里，想想的确是有些小期待。</span></span>]]>
+    
+    </summary>
+    
+      <category term="一加" scheme="/tags/%E4%B8%80%E5%8A%A0/"/>
+    
+      <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[一加氢OS发布会前的文案海报解读]]></title>
+    <link href="/2015/07/05/interpret-h2os-posters/"/>
+    <id>/2015/07/05/interpret-h2os-posters/</id>
+    <published>2015-07-05T13:13:33.000Z</published>
+    <updated>2015-12-15T13:57:27.598Z</updated>
+    <content type="html"><![CDATA[<p>很多东西之前都写在了论坛上，陆续搬回来一些吧。存档留个纪念。一加氢OS发布会前的文案海报解读<a id="more"></a></p>
+<p><img src="http://farm4.staticflickr.com/3784/18816945743_28a1a4e62c_b.jpg" alt=""><br>一、也读颜之大卫<br><img src="http://farm1.staticflickr.com/271/19251483139_fec2901819_b.jpg" alt=""></p>
+<p>距离一加氢OS发布还有一个星期，一加开启了对氢OS的新的一波预热，这打头阵的，便是今天的这幅饱含深意的大卫像。</p>
+<p>仔细端详这幅图，其实我们可以看到这幅图中的五个方面：大卫的半头像、一加的团队剪影、背景线条、留白以及文字说明。</p>
+<p>首先，说说大卫的半头像，这个之前已经有加油进行了解读（<a href="http://www.oneplusbbs.com/thread-761023-1-1.html），作为艺术史上最为杰出的作品之一，作为力与美的代表，一加选择以此作为第一天的宣传，一方面表达了氢OS向这幅作品的致敬，也表达了想与其比肩，在安卓的系统ROM里做到极致的美好愿景，另一方面，也表达了一加要在氢OS的彰显力与美，用美好的设计打动人。" target="_blank" rel="external">http://www.oneplusbbs.com/thread-761023-1-1.html），作为艺术史上最为杰出的作品之一，作为力与美的代表，一加选择以此作为第一天的宣传，一方面表达了氢OS向这幅作品的致敬，也表达了想与其比肩，在安卓的系统ROM里做到极致的美好愿景，另一方面，也表达了一加要在氢OS的彰显力与美，用美好的设计打动人。</a></p>
+<p>这幅图中只是大卫的半头像，作为头像最重要的一部分——眼睛却并没有出现，在眼睛部位的是一加的工作人员的剪影，也正是因为他们的付出与努力，才能把一个优秀的系统带给用户，把美的享受带给用户。他们就是大卫的眼睛，不仅仅是临摹，更会散发出自己的光芒。感谢他们的付出，对他们致以最高的敬意。</p>
+<p>第三，背景的线条，寥寥几笔，却是氢OS的最基本的语言，勾勒出氢OS简洁纯粹的本质，体现出氢OS的深厚的设计功底和他们对艺术的生活家的理念的追求。</p>
+<p>第四，留白。大卫的半头像只是表面，能看到的只是表面的美，只是颜值的高，设计在大脑部分的留白了，这并不意味一加只有颜值，正相反，氢OS要表现的正是这种由内而外的美丽，而且，氢OS会更有头脑，独具一格的头脑，外观只是第一步，内容和功能更为重要。颜值背后，才是最美的。</p>
+<p>第五，文字。颜，显而易见，作为第一天的主题，意在表达氢OS将有由内而外的美丽；还有七天，接下来，氢OS的预告海报里还会给我们带来哪些惊喜呢？拭目以待吧</p>
+<p>刘作虎在微博中评论到，氢OS不想取悦所有人，我希望它是一个让人好恶分明的系统。要么爱，要么讨厌，绝不要仅仅是喜欢。<br>不得不让人想起一位一加员工在评价一加天气时候说过的一句话，一加天气可能将是一加第一款能够强力筛选用户的产品。其实，对于用户和品牌来说是一个互相选择的过程。一年来，一加作为一家刚刚起步的公司，在前进的道路上有很多妥协，他们想尽量满足每个人的诉求，却没有将自己的追求表达的淋漓尽致，终于，他们迎来了这个机会，也许并不是一些人眼中的“这个一定要有，那个一定要有”，但这是那些一加人的追求，是一加对于生活的艺术家的理解。</p>
+<p>二、论破与立</p>
+<p><img src="http://farm1.staticflickr.com/478/18817041413_c3ca3f4df6_b.jpg" alt=""></p>
+<p>今天，距离5月28日，还有六天<br>今天，一加放出了主题为“破”的宣传海报，不破不立<br>今天，一加天气获得升级，版本号0.9.83，更新亮点“你要的插件”<br>先说这幅海报，保持了一加一贯的高水准，精致简洁而巧妙，图有尽而意无穷。<br>安卓绿的小机器人，可惜却长成了苹果的样子，而且有的只是苹果的影子，打下了苹果的烙印，而且手中还不忘再拿着一个苹果。这情景是何等的熟悉，圆角矩形的图标，统一的逻辑设计，拙劣的外观模仿，甚至到发布会PPT的风格和主讲人的穿着，无不没有苹果的影子。也许是由于国人对于苹果的狂热，也许是因为曾经的Android没有成熟的设计规范，总之，现如今，且不说一个符合安卓设计规范的ROM，连国产的符合规范设计的应用都屈指可数。<br>是的，这一切应当进行改变，这“苹果”们的困局，需要有人来打破。而打破这一重担，被一加接了过来。<br>不破不立，但是破不容易，立更不容易。<br>所谓破，就要改变人们固有的思维习惯，改变人们的审美理念，彻彻底底的做一个变革，和那些苹果式的设计说再见，去回归原有的谷歌的设计理念，去遵循安卓的设计规范，做一个彻彻底底的Android的ROM。<br>所谓立，做一个有特色的安卓系统，做一个优秀的安卓系统，相信这是一加一如既往的追求，2014年锤子拿走了极客公园的“最佳用户体验奖”，这羡煞了刘作虎，他是多么希望能在2015年的时候拿到这个奖，让一加能够由里及外，从硬到软都做都极致。<br>可是，这其中，会遇到太多太多的阻力，会有太多太多的挑战。</p>
+<p>今天的一加天气的更新正好说明了这一点。一加将天气这个应用提前单独放出来是非常明智的，通过这个应用可以提前试探用户对于这套全新设计的意见，天气应用的反馈也不难猜测，知乎里好评一片，论坛里骂声一片；极客们好评一片，普通用户们反应平平，而且他们在持续一直不断的要求可能一加本不在意的桌面插件。<br>今天一加兑现了桌面插件，虽然说是“你要的插件”，但却依然是满满的“氢”风格，但遇到的阻力，甚至于可能超出了开发团队的预料，以至于今天出现在论坛的ROM开发人员的身影远远高于往日，他们在努力为天气，为氢OS正名，但他们也许在这时才真正感觉到了破的困难，感到了立的艰辛。<br>创新永远是困难且不被理解的，模仿很容易，创新很难。只是一味的满足用户的需要，满足用户的要求，显然这样是无法做出一个特立独行的ROM的，因为他们想要的只是他们看到的，这个系统的这个做的好，那个应用的那个功能做的好，什么都“一定要有”也许只会做出一个大杂烩，也许好吃，却无法回味。</p>
+<p>最后，既然已经决定了摒弃“ctrl+C”“ctrl+V”，那么一加肯定会一如既往的走下去，坚持自己的“破与立”的道路，可以说，一加在选择自己的用户，在找寻和自己志同道合的伙伴。</p>
+<p>不想取悦所有人，只想让人好恶分明。<br>要么爱，要么讨厌，绝不要仅仅是喜欢。</p>
+<p>三、 病树前头万木春</p>
+<p><img src="http://farm1.staticflickr.com/471/19437648285_419a380607_b.jpg" alt=""></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">沉舟侧畔千帆过，病树前头万木春。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">山穷水尽疑无路，柳暗花明又一村。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">枯处逢生，靠的是妙手回春的创新。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">说过了氢OS的“颜”，说过了氢OS的“神”，今天开始，大方向已经向氢OS的特色功能转移。预计接下来的几张海报，同样会在氢OS的各种特色功能上入手。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">今天的主要功能，一加手机在微博里已经给出了明确的提示，23年，短信。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">关于短信的宣传造势，其实很早以前就已经开始了，但具体氢OS会对短信做怎样的大手术，目前还是一个迷，对于垃圾短信，验证码通知等上面都会有独到的处理，与其说氢OS弱化了短信的功能，不如按今天的海报上所写，氢OS有信心给短信这个功能新生，让短信重新焕发光彩。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">再往远了说，氢OS会给国产ROM圈带来新的生机，让死气沉沉的安卓“iOS”圈充满新的力量。当然这个主题在昨天已经说过了。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">接下来的几张海报，估计一下，会有针对单手操作的海报，会有针对电话（骚扰电话类）的海报，也有可能有针对内置APP相关的海报，也不排除还会有针对氢OS通知中心的海报。那到底还会有哪些，我们拭目以待吧。</span></span></p>
+<p>四、 凭何得心又以何应手</p>
+<p><img src="http://farm1.staticflickr.com/561/19431365252_d287fe516d_b.jpg" alt=""></p>
+<p>距离氢OS发布会还有四天。<br>一加发布主题为“得心应手”的宣传海报。一加手机官微解读“解放你的双手！”，刘作虎解读“让大屏操作更有效率。”ROM官方人员@Danco的宣传点则落在了推送通知上，希望掌控自己的生活。</p>
+<p>正如昨天的解读贴所说，一加的宣传海报已经开始转向了对特色功能的宣传，今天的海报也印证了昨天的一些预言——一加特色单手操作以及一加的创新的消息通知管理。<br>两项功能虽然好猜，但是具体是怎么实现的却不得而知，这些恐怕就得等到发布会上再去揭晓了，大胆猜测一下，把操作区域部分挪出屏幕之外也未尝不可，毕竟图中的手便已经被选中，移动甚至部分移出了右上角，移到了一加本来的位置。不过关于消息中心的话，还是有一点点线索可查，在氢OS的泄露图中，有几张图的左上角有显示数字脚标1或2，也许是重要的通知实时显示，而不重要的通知统一收起只显示数目吧，大家也可以猜猜那些数字代表着什么。</p>
+<p>至于图上还有什么隐喻的话，也许因为图不是很清楚，也不太再好猜测，从一加图标中伸出的手，到底是谁在掌控谁，什么掌控什么呢，下面的两个小人和那些数字又会代表着些什么呢，还需要拭目以待吧，等氢OS发布之后这些便会大白于天下了。</p>
+<p>只希望凭独树一帜的设计，别出心裁的功能和酣畅淋漓的体验得加油之心，应加油之手。</p>
+<p>最后，生活要掌控在自己手中。</p>
+<p>期待明天的海报。</p>
+<p>五、 山容秀丽，海纳美好</p>
+<p><img src="http://farm1.staticflickr.com/510/18815160814_117e69ec0f_b.jpg" alt=""></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">5月25日，距氢OS发布会还有三天</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">一加放出主题为“纳”的宣传海报，解读为山容海纳。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">海纳美好！<br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">艺术需要被理解，也需要海纳各种美好，被欣赏。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">一个个优秀的app就是一件件艺术品，而氢OS就是展现它们的艺术馆～</span></span><br><span style="color: #333333;"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">欢迎加入氢OS“艺术馆”。</span></span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;">（以上四条解读来自一加手机、</span><span style="color: #333333;">梨涡浅笑plus（一加PR）、一加手机蒋婕、刘作虎）</span></span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;"><br></span></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;">一加的这一系列宣传海报的设计都值得欣赏与回味，与氢OS的风格和一加的气质都极为相称，设计水准相当高，给设计师加鸡腿，账目记到我的账上~</span></span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;"><br></span></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;">不过说实话，这张海报的主题来的比我预计的早了一两天，不知道接下来还会有什么惊喜。</span></span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;"><br></span></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;">说到开放与包容，一加一直以来就具有这样的基因，不管是当初的硬件还是今天的软件，不管是互动还是服务，一加仿佛一直在秉承这种理念。</span></span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">刘作虎说，大部分厂商搭建的生态圈都是封闭的，他们只希望自己在生态圈里玩，缺少开放和包容。氢OS更希望做一个开放和包容的平台。氢OS想作为为一个接口，或者说是一个超级大“商场”，搭建一个真正开放的平台。所以，”纳“这个主题在今天被提出，一加想海纳美好，想让自己成为一个艺术馆，用开放来招入优秀的APP的入驻。据传，一加已经在和很多APP厂商和企业进行沟通接洽，相信一加与这些第三方厂商的合作肯定不单单存在于定制这么一个简单的层面。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;">其实这个话题也可以和之前预测时候提到的一个话题归类，内置应用。氢OS在努力做到减少内置应用的数量，提到内置应用的水准，术业有专攻，既然内容不是他们的特长，那么就让专业的内容提供商来做就好了，而氢OS要做的就是给这些内容搭建一个优秀的平台。</span></span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;"><br></span></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;">有很多的人会说，现在就给予一加这么多的期待，会不会在发布会后会有巨大的落差，所谓飞的越高，摔的越惨。但是，从一加到目前为止放出的这些东西来看，又有什么理由不对氢OS充满希望呢，也许开始的几版会有很多不完善的地方，但思想更为有意义。</span></span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;"><br></span></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;">要么爱，要么讨厌，绝不要仅仅是喜欢。</span></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;"><br></span></span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><span style="color: #333333;">p.s. 海报中的四幅作品，除了梵高的自画像，中间的两幅实在是眼熟，但是想不起来了，后面那个好像是蒙德里安的作品吧，哪位大牛路过给科普一下，谢过。</span></span></span></p>
+<p>六、 删繁就简与领异标新</p>
+<p><img src="http://farm4.staticflickr.com/3942/19441894441_36e6b2ba49_b.jpg" alt=""></p>
+<p>5/26<br>距离氢OS发布会还有2天<br>一加放出主题为“简”的宣传海报，以简驭繁。<br>用最简单的元素来描绘复杂的世界！<br>简单却不失精彩。</p>
+<p>真的已经不太好说这海报是按照什么顺序发的了，也许真就是“哪个有感觉做的出来就发哪张”……<br>今天的“简”这个主题，相信在氢OS的设计和功能上都会有所体现。</p>
+<p>其实本文标题和海报主题不是那么特别匹配，完全是冲着郑公“删繁就简三秋树，领异标新二月花”这句诗去的，但是删繁就简与以简驭繁之间还是存在着很多的不同的，至少从字面上来讲，删繁就简，繁杂的部分都已经被去掉了，而以简驭繁呢，是用简捷了当的方法来处理复杂纷繁的事物。在这个纷繁的世界，当你不能去除繁杂的时候，以简驭繁体现的是更大的智慧。</p>
+<p>混乱是容易的，而简洁是极其困难的。（Danco）所以不要以为一个ROM的界面简洁，功能简单，操作容易就觉得这是团队在偷功减料，越是简单，背后要做的东西就越多，就更需要深厚的积累，你是在把一门课的知识都学完之后才能够把知识点都串联起来的。正如氢OS的名字一样，一加希望氢OS是崇尚轻的ROM，像氢气一样轻、快、简，无处不在又不知不觉的融入你的生活。</p>
+<p>相信“简”这个概念会贯穿整个氢OS，从功能到设计，从交互到视觉，不管是对系统逻辑层次的梳理，还是对信息控制的管理，无声无息，却又无处不在。高屋建瓴，才会知道这个世界的简单。</p>
+<p>当然，要想删繁就简，以简驭繁，离不开领异标新，但我们对氢OS所期望的，不正是那股不同和那股创新么？</p>
+<p>窗口虽然简洁，但透过窗子却能看到美丽的新世界。</p>
+<p>七、 乐享“氢”成</p>
+<p><img src="http://farm1.staticflickr.com/343/19411579476_7cacc9acd7_b.jpg" alt=""></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">5/27</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       距离氢OS发布会还有1天</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       不知道这是不是这一批的最后一张海报了</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       主题“趣”，妙趣横生！</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       一加手机的官微解读为  乐在“氢”中！</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       刘作虎的转发评论更为直接，有点意思，等“氢”来。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       怎么理解这张图呢？才疏学浅，今天往深挖挖不下去了，背景太深了，据说里面有来自政界商界等等的诸多人士，还有火烈鸟为之站台，那我还是站在表面上简单说说吧。今天这张海报的两层意思，一为“等”，二为“趣”。（你们觉得海报里面一共有几个人呢）</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       先说趣吧，毕竟是这幅海报的主题。之前的官方解读曾经说过，氢OS的三大核心价值点，轻，乐趣，以及控制力回归。乐趣对于氢OS而言具有非常重要的地位。这一点在预告片——一加天气中便已经展现的淋漓尽致，不管是交互动画还是感应器的巧妙结合，无不充满了乐趣，从看天气变成了玩天气，当然还有每版都会加入各种各样的彩蛋，更是给应用添加了不少趣味。相信这些在氢OS中会得到更为淋漓尽致的体验，里面的彩蛋和动效相当让人期待。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       好多人说放彩蛋纯属浪费人力物力财力，并没有什么乱用，然而，这些早就融入了轻OS的基因之中，不藏彩蛋就浑身刺挠。</span></span></p>
+<p><div align="center"><img src="http://farm1.staticflickr.com/556/19411858316_003a3bf2a4_b.jpg" alt=""></div><br>&nbsp;</p>
+<p><div align="center"><span style="font-family: 微软雅黑;"><span style="font-size: medium;">不知道这个“美呆了”的动态呈现会不会让广大加油感冒。</span></span></div><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       开一下脑洞，海报中有人，有鸟，多么和谐的生态圈，那氢OS又会打造什么样的生态圈呢？</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       接下来再说说等，这个就好说多了，毕竟明天就是发布会了，等了这么长的时间终于能看到氢OS的庐山真面目了，期待自然是少不了的。当然我可没有让人把这个排队理解成氢OS的某种发布测试的形式，明天如果只有发布会不放刷机包的话后果是可以预料的，外界好评一片，论坛以及一加的相关微博下面都会骂声震天。其实一加已经在做公测的准备了，但有没有做好还不得而知。毕竟也很少有发布会开完马上就放出最新的系统的，不管是苹果还是国产“iOS”，都要有一个过程。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;"><br></span></span></p>
+<p><div class="quote"></div></p>
+<blockquote>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">对所有一加的用户来说，已经等了太久。</span></span></p>
+<p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">但对一加来说，时间又觉得很快。（刘作虎）</span></span><br><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       在我们坐享“氢”成，乐享“氢”成的时候，也不妨尝试着换位思考，等等又何妨，社会太浮躁，这个时候静静是多么的珍贵。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       美好的东西值得欣赏，也值得等待。</span></span></p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>很多东西之前都写在了论坛上，陆续搬回来一些吧。存档留个纪念。一加氢OS发布会前的文案海报解读]]>
+    
+    </summary>
+    
+      <category term="一加" scheme="/tags/%E4%B8%80%E5%8A%A0/"/>
+    
+      <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[关于内置应用那点事]]></title>
+    <link href="/2015/05/18/opinions-on-built-in-applications/"/>
+    <id>/2015/05/18/opinions-on-built-in-applications/</id>
+    <published>2015-05-18T09:13:58.000Z</published>
+    <updated>2015-12-15T13:57:27.592Z</updated>
+    <content type="html"><![CDATA[<p><span style="font-family: 微软雅黑;">虎哥的一贴真算得上是一石激起千层浪，大家纷纷通过各种方式表达自己的诉求，有的说这些必须删掉，有的说那些一定要有，简言之，都在表达自己的观点和立场，这样做没有错，但这是在追求完全对自己口味的系统，在追求的道路上甚至偏离了原本的道路。</span></p>
+<p>氢OS在２月末的时候就已经完成了１.０版本的构建，这个时候１.2的版本应该也已经完成了，距离发布也只有10天左右的时间了，系统是什么样子已经基本上定型了，该有什么不该有什么也不会有太大的变化，对于那些系统应用，就像虎哥提出短信这个话题一样，氢OS有了更加独到的解决办法，大家畅谈之后，就可以看到氢OS在发布会上的真正面貌了。</p>
+<p>在回复虎哥的帖子中，关于系统应用这个概念，我提了三点，这三点作为一个好的内置应用而言是一定会考虑的，也决定了用户是否会接受这些系统内置应用，这里展开再说一下。<span style="font-family: 微软雅黑;"><br></span><br><span style="font-family: 微软雅黑;">一、设计</span><br><span style="font-family: 微软雅黑;">内置应用最大的优势在于他有着和系统风格一致的风格设计，和谐，不突兀，不会让你的充满安卓设计语言的系统上闪烁着iOS设计的光辉，这也是为什么Google的一整套服务在原生系统中看起来是那么的舒服。很显然第三方的应用厂商是不会为你的ROM费心进行重新设计的，即使是定制了一个，那么后续的更新依然跟不上，这时候就更够凸显内置应用的好处。</span></p>
+<p><br><span style="font-family: 微软雅黑;">二、功能</span><br><span style="font-family: 微软雅黑;">作为内置应用而言，其实并不需要有太多高大上的功能，根据用户的使用习惯，把一切都简单化，功能上直白化才是一个内置应用应该具备的，这样做的最大的好处，我认为就是降低了应用的学习成本，使用户更容易上手，也更容易从原有的使用习惯中迁移。照片拍下来便已经经过优化处理，音乐放出来便有适当的音效加成，邮件输入账户密码即可使用，方便易用的内置应用才会避免被用户遗弃。至于更专业，更高级的功能，有这些需求的人自然也明白要怎么处理内置应用。</span></p>
+<p><br><span style="font-family: 微软雅黑;">三、内容</span><br><span style="font-family: 微软雅黑;">这一点其实不仅仅对于系统，对于第三方的专业应用而言同样是个大问题，尤其是在越来越注重版权的今天，每个视频网站都有些独家资源，每个音乐网站都有音乐版权，如何获取到更多的内容对于系统的内置应用而言就提出了更大的挑战，当然也有了更多的机遇，因为可以把两方甚至三方的资源进行整合，而这就要看厂家够不够硬了~虎哥之前一直在说一加的开放，也在说一加要打造一个开放的生态圈，那么，具体是怎样实现的就要看氢OS在28日的时候是怎么展现的了</span><br><span style="font-family: 微软雅黑;"><br></span><br><span style="font-family: 微软雅黑;">系统的内置应用，可以说他们本来就不是为所谓的极客和发烧友所准备的，要有更大的适用面和适用人群，为更多的人所使用和服务。对于口味刁钻的来说，不管你做什么他们都不会满足，而好的系统应用则是应该让用户在第一次使用的时候就更够轻易上手并且喜欢上这些内置应用。能够在不安装其他第三方应用的情况下就能够提供足够的服务和良好的体验。</span><br><span style="font-family: 微软雅黑;"><br></span><br><span style="font-family: 微软雅黑;">想满足每个人的需求，这是不现实的，当然他们的需求也许也是不客观的。刷了太多的系统，所以他们想把这些系统中所有的特色和功能都拼到一起，当然这是不现实的，这样做出来的可能也仅仅是一个大杂烩，并不会有一个具有独特的“神”的系统，没有一个系统应该具有的精髓，所以一加只需要做自己觉得对的，用户的意见仅仅作为参考罢了。</span><br><span style="font-family: 微软雅黑;"><br></span><br><span style="font-family: 微软雅黑;">用户和系统是相互选择的，尤其是对于一加而言，所以尽管做就是了，也许直到你把好的东西放在用户面前的时候用户才会意识到，哦原来这样才是好的。</span></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><span style="font-family: 微软雅黑;">虎哥的一贴真算得上是一石激起千层浪，大家纷纷通过各种方式表达自己的诉求，有的说这些必须删掉，有的说那些一定要有，简言之，都在表达自己的观点和立场，这样做没有错，但这是在追求完全对自己口味的系统，在追求的道路上]]>
+    </summary>
+    
+      <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的搞机史]]></title>
+    <link href="/2015/04/29/my-history-of-mobiles/"/>
+    <id>/2015/04/29/my-history-of-mobiles/</id>
+    <published>2015-04-29T05:42:34.000Z</published>
+    <updated>2015-12-15T13:57:27.591Z</updated>
+    <content type="html"><![CDATA[<p>想想自己的刷机史，从06年到现在，马上就快十年了。十年，弹指一挥间。<br>06年，从老爸的手中接过了我的第一台手机，Moto E398，那台机器到我手上的时候，已经被我爸刷过了，Java系统，能跑一些Java小程序，那个时候就有很多人在做E398刷机包，加入了各种功能，刷机工具也很简陋，而且全都是线刷。值得一提的是，那时候就已经有了内置软件和反内置软件了—<br>过了两年，E398在我的摧残之下，终于宣告退役，所以从我老爸手里接过了我的第二台手机——Moto L7，也是当时的一个经典啊，还有30W的摄像头，直板硬朗的机身，当然还有数不清的刷机包，每个包都在追求各自的特点，结果每个包都大同小异。<br>对了，那个时候有个土豪同学用着行货的Moto A1200，由于玩着不爽被我抢过来给刷了—然后我们度过了一段非常开心的日子<br>再后来，上了大学之后，终于有了第一台属于自己的手机，自己挑选的一手机器——Moto Milestone。一代的里程碑，想来不知道从什么时候开始我就已经潜移默化的成为Moto的粉丝了，我是身边的人里面第一个用安卓智能机的，在那个满世界都是诺基亚的时代，有一种–特立独行–的感觉。我差不多问遍了淘宝的每一家卖水货里程碑的店家，最后花了2000多才买下了那台机器。里程碑陪了我三年，到最后因为屏幕失灵而退役。<br>用里程碑的时候，每天沉浸于机锋-安智网的milestone板块和软件应用板块，还有一个必去的论坛——itfunz，看着很面熟么，是的，后来他改名了，叫做mfunz。那时候每天最期待的就是等着龙猪发包，每天在那里水啊水，直到龙猪放弃了milestone。很多年以后，当我因为一加的缘故再次进入mfunz，用当年的账号居然登陆进去的时候，感慨良多。<br>miui也是那个时候开始用的，那个时候小米1还没有发布，从itfunz里看到了网友喊人去miui投票求适配的帖子——和今天又是何等的相似。miui刚刚起步，但是一些功能的确是深得我心。那个时候我觉得miui真的是国内最好用的ROM了。小米1发布，30W台预售，我抢了一个号，送给了舍友。从那时起我好像也没再怎么用过miui，也许是因为milestone已经跑不动越来越臃肿的miui，也许是miui的那种风格的确不适合我。<br>插一句，其实搞机也并不仅仅局限于手机，毕竟我还刷过电子词典，并且在相当长的一段时间内沉迷于各种路由器，早在各种智能路由器出来之前，我的路由器就比他们的还要智能了。<br>告别了我的第一台自己挑选的手机，有继续接过了老爸的二手机——联想P770，他换了HTC的M7，说起来，p770是我为他选的，两三年前就有3500mah的大电池，配上mtk的处理器，不说性能，论续航，应该是数一数二的了。那个时候老爸早已经退出刷机圈了，所以手机到我手上的时候，依然是原生的联系系统，乐UI，好像是这个名字吧。当然，因为看不惯那么多的内置软件，到我手上的第一天，系统就被我刷掉了，印象中可能是换成了乐蛙。在网上找来找去，大概是找到了唯一还活跃的P770的论坛–移动叔叔。在那里，一位大神的包简直是每发必刷——suda。很高兴在一加这里依然能看到他。<br>从放弃了miui开始，我意识到自己还是属于那种更倾向于原生系统的那种人，追求着那种简单的生活方式。所以即使是手机上没有aosp的包，即使是刷的乐蛙，也要装上nova，至少看起来也像那么回事，简单，直接，实用才是正道。<br>因为学的是计算机专业，也许是由于专业的关系，一直比较科技圈的事，所以从一加品牌发布的时候就关注了下这个牌子，到手机发布会上说道一加将于CM合作的时候，那时候忽然觉得这个手机好符合我对手机的要求啊，只是遗憾P770太过坚挺，也没有什么换机的理由。<br>去年九月，终于，P770给了我一个机会，让我有借口入了倾心已久的一加。<br>机器到手的第一天，系统变成了CM11S，Color 1.2大概存活了不到4个小时。突然觉得好圆满。再后来，等到安卓5.0出来，感受着安卓的变化和MD设计的美学。氧OS的发布，更是让手中的一加有一种成了谷歌干儿子的感觉。CM12S更是锦上添花了。<br>一加天气是一款强力筛选一加用户的应用，我很喜欢这句话，也对氢有了更多的信心。因为志同道合，所以我情愿做一加的自干五。<br>希望我们不会让彼此失望。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>想想自己的刷机史，从06年到现在，马上就快十年了。十年，弹指一挥间。<br>06年，从老爸的手中接过了我的第一台手机，Moto E398，那台机器到我手上的时候，已经被我爸刷过了，Java系统，能跑一些Java小程序，那个时候就有很多人在做E398刷机包，加入了各种功能，刷]]>
+    </summary>
+    
+      <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[苹果，会革了自己的命么]]></title>
+    <link href="/2015/03/10/apple-revolution/"/>
+    <id>/2015/03/10/apple-revolution/</id>
+    <published>2015-03-09T23:23:16.000Z</published>
+    <updated>2015-12-15T13:57:27.591Z</updated>
+    <content type="html"><![CDATA[<p>好像是最近几年来第一次没有追苹果的发布会直播，感觉还不错，至少睡了个好觉。而且，发布会也并没有因为我没有看而少发布了些什么东西。<a id="more"></a></p>
+<p>一直以来，苹果都是以一个革命者的姿态出现在业界，从ipod到iphone，从ipad到mac，一直到apple watch，是的，即使其他厂家早已发布了各自的watch产品，但apple watch依然会被看作是革命者，历史的延传吧。</p>
+<p>那么，这次，苹果会革了自己的命么？</p>
+<p>当然，没那么容易。</p>
+<p>已经打下了广阔江山的苹果，现在并不需要大步的迈进，小步快跑就可以了，毕竟步子迈大了，容易扯着蛋，但这次，苹果的步子稍微有点大，但还不至于伤身。</p>
+<p>Apple TV  不知道有多少人盼着这个小东西更新，但是本着小步快跑的原则，这次还是先降价吧，不过与内容提供商的深化合作，给其体验加分，加量不加价的感觉。毕竟，<del>迫于小米盒子的压力，苹果下调了Apple TV的价格。</del></p>
+<p>MacBook  12寸的大ipad pro早已甚嚣尘上，这个时候推出12寸的macbook想必是及其有深意的，一方面是为了薄不择手段，另一方面，不光卖电脑要赚钱，卖配件更要赚钱。</p>
+<p>Apple watch  这东西上次发布会已经说过了，但好东西就是要五次三番的说嘛，可穿戴设备是一个趋势，手表作为排头兵肯定要冲锋陷阵，但苹果这表，学习成本目测不低，续航时间目测不高，运动版爱答不理，标准版高攀不起，就是这么一个挺尴尬的地位。恐怕也就留给时尚人士和高逼格人群了吧，apple watch 这玩意，还是等到第三代发布之后再买吧，那个时候苹果才会意识到做什么，怎么做。</p>
+<p>东西都足够有新意，也足够有心意，但是能不能让人心仪，还要看苹果下季度的财报了。不过，至少大中华区的财报依然会非常抢眼，这就够了。</p>
+<p>苹果还会继续革命下去的</p>
+<p><img src="http://ww2.sinaimg.cn/large/6e4bb1f3jw1eq0ffjkgg9j20go09ejrg.jpg" alt=""><br>(图自IT之家）</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>好像是最近几年来第一次没有追苹果的发布会直播，感觉还不错，至少睡了个好觉。而且，发布会也并没有因为我没有看而少发布了些什么东西。]]>
+    
+    </summary>
+    
+      <category term="Apple" scheme="/tags/Apple/"/>
+    
+      <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android 私房收藏与推荐]]></title>
+    <link href="/2015/01/29/android-software-recommend/"/>
+    <id>/2015/01/29/android-software-recommend/</id>
+    <published>2015-01-28T13:12:43.000Z</published>
+    <updated>2015-12-15T13:57:27.590Z</updated>
+    <content type="html"><![CDATA[<p>当初选择一加真是个明智的选择啊，简直是爱不释手，而且终于可以跟紧潮流，每日一更新了。这篇文章作为记录，把自己的一些常用应用记录下来，省得忘。<a id="more"></a></p>
+<p>无顺序排列，如果非要说有，那应该就是从刷完机开始到日常使用吧。文中涉及应用来源，包括酷市场、ZD423（捐赠版软件）以及Google Play 。</p>
+<p>0、SuperSU</p>
+<p>虽然CM 12 自带了Root，但有些情况下还是有些问题，比如钛备份只能恢复无法备份等，所以一个SuperSU的zip包还是有必要刷的。</p>
+<p><a href="http://www.zdfans.com/3562.html" target="_blank" rel="external">http://www.zdfans.com/3562.html</a></p>
+<p>1、钛备份</p>
+<p>一些必备的应用早已用钛备份做成zip包，刷机时候直接刷入了。</p>
+<p><a href="http://www.zdfans.com/1443.html" target="_blank" rel="external">http://www.zdfans.com/1443.html</a></p>
+<p>2、谷歌拼音输入法</p>
+<p>御用输入法了，滑动输入简直就是个bug，实在是不能再流畅了</p>
+<p><a href="http://www.coolapk.com/apk/com.google.android.inputmethod.pinyin" target="_blank" rel="external">http://www.coolapk.com/apk/com.google.android.inputmethod.pinyin</a></p>
+<p>3、影梭</p>
+<p>离开谷歌实在是不适应，所以影梭是必装的了，由于一些原因，只给官方商店的链接吧</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.github.shadowsocks&amp;hl=zh_CN" target="_blank" rel="external">https://play.google.com/store/apps/details?id=com.github.shadowsocks&amp;hl=zh_CN</a></p>
+<p>4、酷市场</p>
+<p>我觉得是国内最良心的应用市场了吧，岂止是良心，简直就是良心啊。里面的应用质量极高，而且评论大都很有意义。</p>
+<p><a href="http://www.coolapk.com/apk/com.coolapk.market" target="_blank" rel="external">http://www.coolapk.com/apk/com.coolapk.market</a></p>
+<p>５、360极客版</p>
+<p>现在自己用的是2.0极客版的内测版，其实360的东西的水准一向都是很高的，只可惜出身不是太好。一个极客版可以取代绿色守护+安全软件了，美观好用。要是和海外版那个结合其实就更好了。</p>
+<p><a href="http://geek.360.cn/" target="_blank" rel="external">http://geek.360.cn/</a></p>
+<p>6、Hosts同步</p>
+<p>相当实用的一款应用，也算得上是最简单的使用Google 服务的方法了，应用的评论区总是有一些可以借鉴和参考的。</p>
+<p><a href="http://www.coolapk.com/apk/net.wszf.client.synchost" target="_blank" rel="external">http://www.coolapk.com/apk/net.wszf.client.synchost</a></p>
+<p>7、CyanDelta</p>
+<p>CM的增量升级工具，最新版需要Google的服务包。一次下载30M左右比下载200M左右要方便多了</p>
+<p><a href="http://www.coolapk.com/apk/com.cyandelta" target="_blank" rel="external">http://www.coolapk.com/apk/com.cyandelta</a></p>
+<p>8、Pushbullet</p>
+<p>手机和电脑之间互相合作的简易工具了，一直用这个，很方便。</p>
+<p><a href="http://www.coolapk.com/apk/com.pushbullet.android" target="_blank" rel="external">http://www.coolapk.com/apk/com.pushbullet.android</a></p>
+<p>9、Inbox</p>
+<p>取代了Gmail的邮箱服务，还是很方便的，可惜还是有些不如Gmail用着习惯。</p>
+<p><a href="http://www.coolapk.com/apk/com.google.android.apps.inbox" target="_blank" rel="external">http://www.coolapk.com/apk/com.google.android.apps.inbox</a></p>
+<p>10、Podcast O2</p>
+<p>一个播客应用，简洁、美观、大方、实用。</p>
+<p><a href="http://www.coolapk.com/apk/com.appo2.podcast" target="_blank" rel="external">http://www.coolapk.com/apk/com.appo2.podcast</a></p>
+<p>11、Messenger</p>
+<p>Google推出的新的短信应用，没的说。</p>
+<p><a href="http://www.coolapk.com/apk/com.google.android.apps.messaging" target="_blank" rel="external">http://www.coolapk.com/apk/com.google.android.apps.messaging</a></p>
+<p>12、Keep</p>
+<p>小巧好用的便签应用，有俩月没更新了。</p>
+<p><a href="http://www.coolapk.com/apk/com.google.android.keep" target="_blank" rel="external">http://www.coolapk.com/apk/com.google.android.keep</a></p>
+<p>13、Poweramp</p>
+<p>当年冰点时候买过的为数不多的正版应用之一。</p>
+<p><a href="http://www.coolapk.com/apk/com.maxmpz.audioplayer" target="_blank" rel="external">http://www.coolapk.com/apk/com.maxmpz.audioplayer</a></p>
+<p>14、Flipboard 国际版</p>
+<p>国内版实在是不成气候啊</p>
+<p><a href="http://www.coolapk.com/apk/flipboard.app" target="_blank" rel="external">http://www.coolapk.com/apk/flipboard.app</a></p>
+<p>15、动动计步器</p>
+<p>试用了几个，这个的准确性和易用性还不错。</p>
+<p><a href="http://www.coolapk.com/apk/cc.pacer.androidapp" target="_blank" rel="external">http://www.coolapk.com/apk/cc.pacer.androidapp</a></p>
+<p>16、Smooth</p>
+<p>第三方的微博客户端，我觉得和CM12很是搭配</p>
+<p><a href="http://www.coolapk.com/apk/com.mzba.happy.laugh" target="_blank" rel="external">http://www.coolapk.com/apk/com.mzba.happy.laugh</a></p>
+<p>17、微博、微信、QQ、淘宝、支付宝、UC浏览器等</p>
+<p>不再多说了吧，我就一俗人</p>
+<p>03.04 Update1 按字母序排列</p>
+<p>a.阿里小号</p>
+<p>额外多了个手机号</p>
+<p>b.百度地图、百度贴吧、京东、京东金融、美团、闲鱼</p>
+<p>c.扫描全能王</p>
+<p>的确很好用，扫文件，扫名片等等，直接做身份证A4复印件，里面模板很多</p>
+<p>d.水表助手</p>
+<p>查快递的应用，美观实用</p>
+<p>e.无秘</p>
+<p>f.一加社区</p>
+<p>g.优顾炒股</p>
+<p>h.知乎</p>
+<p>i.转运中国</p>
+<p>j.赚客吧</p>
+<p>k.Chrome</p>
+<p>l.FeedlyReader</p>
+<p>m.Fuubo</p>
+<p>n.IT之家</p>
+<p>o.LastPass</p>
+<p>p.MX Player</p>
+<p>q.QQ邮箱</p>
+<p>r.UC浏览器</p>
+<p>s.WPS Office</p>
+<p>&nbsp;</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>当初选择一加真是个明智的选择啊，简直是爱不释手，而且终于可以跟紧潮流，每日一更新了。这篇文章作为记录，把自己的一些常用应用记录下来，省得忘。]]>
+    
+    </summary>
+    
+      <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[再见，2014&你好，2015]]></title>
+    <link href="/2014/12/31/goodbye-2014-and-hello-2015/"/>
+    <id>/2014/12/31/goodbye-2014-and-hello-2015/</id>
+    <published>2014-12-31T11:51:29.000Z</published>
+    <updated>2015-12-15T13:57:27.590Z</updated>
+    <content type="html"><![CDATA[<p>尽管现在对时间有着无限的恐惧感，但还是不得不去面对现实。</p>
+<p>总会有一个开始，总要去面对一个未来。</p>
+<p>再见，2014</p>
+<p>你好，2015</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>尽管现在对时间有着无限的恐惧感，但还是不得不去面对现实。</p>
+<p>总会有一个开始，总要去面对一个未来。</p>
+<p>再见，2014</p>
+<p>你好，2015</p>
+]]>
+    </summary>
+    
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Windows To Go最佳拍档：Sandisk CZ80 64G——安装VHD+WTG傻瓜教程]]></title>
+    <link href="/2014/12/29/win-to-go-vhd-cz80/"/>
+    <id>/2014/12/29/win-to-go-vhd-cz80/</id>
+    <published>2014-12-29T09:57:11.000Z</published>
+    <updated>2015-12-15T13:57:27.590Z</updated>
+    <content type="html"><![CDATA[<p>本文节选编辑自《<a href="http://show.smzdm.com/detail/147541" target="_blank" rel="external">13秒启动！Windows To Go最佳拍档：Sandisk CZ80 64G开箱+速度测试+安装VHD+WTG傻瓜教程（带附件）</a>》，这里只挑干货整理，为过两天可能会买的cz80做准备。</p>
+<p><a href="http://i7298.qiniudn.com/wp-content/uploads/2014/12/未命名_meitu_1.jpg" target="_blank" rel="external"><img src="http://i7298.qiniudn.com/wp-content/uploads/2014/12/未命名_meitu_1.jpg" alt="未命名_meitu_1"></a></p>
+<p>Windows to go（下文简称WTG）作为windows8时代的全新功能，可以使完整版本的win8从USB驱动器启动及运行，自问世之初就受到了巨大的关注。由于WTG时系统运行于USB驱动器（U盘&amp;移动硬盘）上，磁盘性能完全依附于所使用的设备，容量过小及速度过慢的U盘/移硬都会严重影响该系统的体验，因此微软还特地授予了部分U盘WTG认证（其实就是容量＞32G+速度较快的USB3.0 U盘而已）。</p>
+<p>WTG系统有什么作用？</p>
+<ol>
+<li>作为安装系统时使用的启动盘（在系统里放一个NT6.1安装器+diskgenuis即可）；</li>
+<li>使用Acronis True Image在不同硬盘间迁移系统时可以使用WTG系统过度，不需制作专用的USB启动U盘，且更快速；</li>
+<li>在系统里安装较为冷门的办公软件（OCR软件、PDF转格式软件etc）后可以在不同的电脑上使用，不需要再次安装该软件（其实硬件跑分狂也可以用来装一堆3DMARK进行测试……）</li>
+<li>需要演示文稿时可以载入自带的系统，不用担心演示用的机子所使用的软件版本不同所引起的的排版错误<br>相比WTG刚推出的时候，现在VHD下安装WTG过程已经十分简单，安装完纯净系统之后也还有近30+G可用于存放其他文件，现将所需文件及傻瓜教程附上。</li>
+</ol>
+<p>既然是傻瓜教程，那就先复制一段关于VHD的百科。</p>
+<p>VHD是Microsoft Virtual Hard Disk format（微软虚拟磁盘文件）的简称，具体地说，即是创见出虚拟成硬盘分区的文件，系统可从该虚拟磁盘中启动。而VHD不使用时也可以被压缩成一个文件存放在宿主机器的文件系统上。</p>
+<p>使用VHD安装WTG的好处是不需在U盘划分系统专用分区，且易于管理，不需要时可随时删除，同时可以在原有系统下挂载VHD查看其中的文件。</p>
+<p>WTG刚推出的时候的VHD安装需要自己手动创建VHD，在非WIN8企业版的系统下还需手动安装系统后bootice引导启动，安装系统之后还要kms破解……但现在已经有了傻瓜程序，WIN7/WIN8下均可运行。</p>
+<p>下载地址 链接: <a href="http://pan.baidu.com/s/1ntKDOY9" target="_blank" rel="external">http://pan.baidu.com/s/1ntKDOY9</a> 密码: eika</p>
+<p>其中包含</p>
+<p>Windows8的iso镜像（LZ上传的是cn_windows_8_1_x64_dvd_2707237.iso，也即8.1的X64企业版）；</p>
+<p>WTG辅助工具；</p>
+<p>OEM8福利工具。</p>
+<p>首先解压iso（winrar即可）镜像成为文件夹，打开WTG辅助工具，界面如下：</p>
+<p>&nbsp;</p>
+<p>首先点击红框处，在弹出的窗口中打开刚刚iso镜像解压的文件夹，在sources子文件夹下，选中install.wim</p>
+<p>&nbsp;</p>
+<p>然后点击绿框处选中Sandisk Extreme USB Device（这个千万别选错了）</p>
+<p>最后在蓝框处选中VHD模式。</p>
+<p>全都选好之后应该大致是这个样子（目录和磁盘名可能不同）：</p>
+<p>&nbsp;</p>
+<p>就绪点击“写入”即可自动安装在U盘上，然后进入BIOS选择sandisk 启动（这个每个电脑不同，有些机子有便捷的快捷启动选项，度娘一下即可，相当简单）。</p>
+<p>LZ主板是技嘉的，BIOS界面设定如下：</p>
+<p>先将U盘设定成硬盘第一顺位：</p>
+<p>&nbsp;</p>
+<p>再设定优先硬盘启动：</p>
+<p>&nbsp;</p>
+<p>通过USB启动后进行系统初次启动设置，然后使用OEM8福利工具即可一键福利。</p>
+<p>实际使用感受极其顺滑，毫无阻碍，相当于随身带着一个SSD下的微型操作系统了。</p>
+<p>感谢原作者 <a href="http://www.smzdm.com/member/2065688716" target="_blank" rel="external">waterloke</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>本文节选编辑自《<a href="http://show.smzdm.com/detail/147541" target="_blank" rel="external">13秒启动！Windows To Go最佳拍档：Sandisk CZ80 64G开箱+速度测试+安装VH]]>
+    </summary>
+    
+      <category term="WTG" scheme="/tags/WTG/"/>
+    
+      <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[盘点那些被我折腾过的路由器]]></title>
+    <link href="/2014/12/02/routers-ever-played/"/>
+    <id>/2014/12/02/routers-ever-played/</id>
+    <published>2014-12-02T12:16:45.000Z</published>
+    <updated>2015-12-15T13:57:27.586Z</updated>
+    <content type="html"><![CDATA[<p>本文是个坑，什么时候填完全看心情。说说玩过的那些路由器吧，跪在折腾。</p>
+<a id="more"></a>
+<p>一、水星MW151RM（TP-Link WR703N）150M迷你型无线路由器</p>
+<p>二、水星MW4530R 750M双频千兆无线路由器</p>
+<p>三、NETGEAR R7000 1900M 双频千兆无线路由器</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>本文是个坑，什么时候填完全看心情。说说玩过的那些路由器吧，跪在折腾。</p>]]>
+    
+    </summary>
+    
+      <category term="OpenWrt" scheme="/tags/OpenWrt/"/>
+    
+      <category term="路由器" scheme="/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    
+      <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[苹果iPhone/iPad 微信免越狱多开（兼容iOS8&8.1）]]></title>
+    <link href="/2014/11/20/iphone-wechat-multopen/"/>
+    <id>/2014/11/20/iphone-wechat-multopen/</id>
+    <published>2014-11-20T05:08:58.000Z</published>
+    <updated>2015-12-15T13:57:27.595Z</updated>
+    <content type="html"><![CDATA[<p>用手机自带浏览器Safari打开以下连接，即可下载安装<br>兼容ios8.1，不需要修改时间日期。<a id="more"></a></p>
+<p><table cellspacing="0" cellpadding="0"></table></p>
+<p><tbody></tbody></p>
+<p><tr></tr></p>
+<p><td id="postmessage_23955707" class="t_f">苹果手机微信6.0.0 版本1-10<br><a href="http://www.pgyer.com/7u6i" target="_blank" rel="external">http://www.pgyer.com/7u6i</a><br><a href="http://www.pgyer.com/YYd7" target="_blank" rel="external">http://www.pgyer.com/YYd7</a><br><a href="http://www.pgyer.com/qU15" target="_blank" rel="external">http://www.pgyer.com/qU15</a><br><a href="http://www.pgyer.com/xGbo" target="_blank" rel="external">http://www.pgyer.com/xGbo</a><br><a href="http://www.pgyer.com/r0IC" target="_blank" rel="external">http://www.pgyer.com/r0IC</a><br><a href="http://www.pgyer.com/IBJI" target="_blank" rel="external">http://www.pgyer.com/IBJI</a><br><a href="http://www.pgyer.com/rCoa" target="_blank" rel="external">http://www.pgyer.com/rCoa</a><br><a href="http://www.pgyer.com/RlQ9" target="_blank" rel="external">http://www.pgyer.com/RlQ9</a><br><a href="http://www.pgyer.com/YSEA" target="_blank" rel="external">http://www.pgyer.com/YSEA</a><br><a href="http://www.pgyer.com/Vnes" target="_blank" rel="external">http://www.pgyer.com/Vnes</a></td></p>
+<p>苹果手机微信6.0.0 版本11-20<br><a href="http://www.pgyer.com/COJz" target="_blank" rel="external">http://www.pgyer.com/COJz</a><br><a href="http://www.pgyer.com/Gi48" target="_blank" rel="external">http://www.pgyer.com/Gi48</a><br><a href="http://www.pgyer.com/C8un" target="_blank" rel="external">http://www.pgyer.com/C8un</a><br><a href="http://www.pgyer.com/9ZqE" target="_blank" rel="external">http://www.pgyer.com/9ZqE</a><br><a href="http://www.pgyer.com/ThJz" target="_blank" rel="external">http://www.pgyer.com/ThJz</a><br><a href="http://www.pgyer.com/b5RX" target="_blank" rel="external">http://www.pgyer.com/b5RX</a><br><a href="http://www.pgyer.com/f4Vr" target="_blank" rel="external">http://www.pgyer.com/f4Vr</a><br><a href="http://www.pgyer.com/Ncgl" target="_blank" rel="external">http://www.pgyer.com/Ncgl</a><br><a href="http://www.pgyer.com/WOg9" target="_blank" rel="external">http://www.pgyer.com/WOg9</a><br><a href="http://www.pgyer.com/2KU1" target="_blank" rel="external">http://www.pgyer.com/2KU1</a></p>
+<p>微信6.0.0 版本21-30<br><a href="http://www.pgyer.com/3XPn" target="_blank" rel="external">http://www.pgyer.com/3XPn</a><br><a href="http://www.pgyer.com/nyrN" target="_blank" rel="external">http://www.pgyer.com/nyrN</a><br><a href="http://www.pgyer.com/dXGR" target="_blank" rel="external">http://www.pgyer.com/dXGR</a><br><a href="http://www.pgyer.com/ToPp" target="_blank" rel="external">http://www.pgyer.com/ToPp</a><br><a href="http://www.pgyer.com/lO3C" target="_blank" rel="external">http://www.pgyer.com/lO3C</a><br><a href="http://www.pgyer.com/gvqr" target="_blank" rel="external">http://www.pgyer.com/gvqr</a><br><a href="http://www.pgyer.com/8BVx" target="_blank" rel="external">http://www.pgyer.com/8BVx</a><br><a href="http://www.pgyer.com/hy9l" target="_blank" rel="external">http://www.pgyer.com/hy9l</a><br><a href="http://www.pgyer.com/hqLF" target="_blank" rel="external">http://www.pgyer.com/hqLF</a><br><a href="http://www.pgyer.com/jx3K" target="_blank" rel="external">http://www.pgyer.com/jx3K</a></p>
+<p>微信6.0.0 版本31-40<br><a href="http://www.pgyer.com/uD1t" target="_blank" rel="external">http://www.pgyer.com/uD1t</a><br><a href="http://www.pgyer.com/eOh7" target="_blank" rel="external">http://www.pgyer.com/eOh7</a><br><a href="http://www.pgyer.com/KcEG" target="_blank" rel="external">http://www.pgyer.com/KcEG</a><br><a href="http://www.pgyer.com/NO9G" target="_blank" rel="external">http://www.pgyer.com/NO9G</a><br><a href="http://www.pgyer.com/YT2Y" target="_blank" rel="external">http://www.pgyer.com/YT2Y</a><br><a href="http://www.pgyer.com/3tx8" target="_blank" rel="external">http://www.pgyer.com/3tx8</a><br><a href="http://www.pgyer.com/6XTH" target="_blank" rel="external">http://www.pgyer.com/6XTH</a><br><a href="http://www.pgyer.com/mTbq" target="_blank" rel="external">http://www.pgyer.com/mTbq</a><br><a href="http://www.pgyer.com/iGLm" target="_blank" rel="external">http://www.pgyer.com/iGLm</a><br><a href="http://www.pgyer.com/REEL" target="_blank" rel="external">http://www.pgyer.com/REEL</a></p>
+<p>微信6.0.0 版本41-50<br><a href="http://www.pgyer.com/HLPN" target="_blank" rel="external">http://www.pgyer.com/HLPN</a><br><a href="http://www.pgyer.com/EuHN" target="_blank" rel="external">http://www.pgyer.com/EuHN</a><br><a href="http://www.pgyer.com/bGHP" target="_blank" rel="external">http://www.pgyer.com/bGHP</a><br><a href="http://www.pgyer.com/ApVL" target="_blank" rel="external">http://www.pgyer.com/ApVL</a><br><a href="http://www.pgyer.com/aZZ6" target="_blank" rel="external">http://www.pgyer.com/aZZ6</a><br><a href="http://www.pgyer.com/2L7L" target="_blank" rel="external">http://www.pgyer.com/2L7L</a><br><a href="http://www.pgyer.com/oxh0" target="_blank" rel="external">http://www.pgyer.com/oxh0</a><br><a href="http://www.pgyer.com/yIJV" target="_blank" rel="external">http://www.pgyer.com/yIJV</a><br><a href="http://www.pgyer.com/nLFf" target="_blank" rel="external">http://www.pgyer.com/nLFf</a><br><a href="http://www.pgyer.com/ueB7" target="_blank" rel="external">http://www.pgyer.com/ueB7</a></p>
+<p>微信6.0.0 版本51-59<br><a href="http://www.pgyer.com/cLqW" target="_blank" rel="external">http://www.pgyer.com/cLqW</a><br><a href="http://www.pgyer.com/5xx0" target="_blank" rel="external">http://www.pgyer.com/5xx0</a><br><a href="http://www.pgyer.com/ujuk" target="_blank" rel="external">http://www.pgyer.com/ujuk</a><br><a href="http://www.pgyer.com/f2LH" target="_blank" rel="external">http://www.pgyer.com/f2LH</a><br><a href="http://www.pgyer.com/wMTv" target="_blank" rel="external">http://www.pgyer.com/wMTv</a><br><a href="http://www.pgyer.com/zS2T" target="_blank" rel="external">http://www.pgyer.com/zS2T</a><br><a href="http://www.pgyer.com/HGAf" target="_blank" rel="external">http://www.pgyer.com/HGAf</a><br><a href="http://www.pgyer.com/Irl2" target="_blank" rel="external">http://www.pgyer.com/Irl2</a><br><a href="http://www.pgyer.com/RirB" target="_blank" rel="external">http://www.pgyer.com/RirB</a></p>
+<p>微信6.0.0 版本60-69<br><a href="http://www.pgyer.com/HUW9" target="_blank" rel="external">http://www.pgyer.com/HUW9</a><br><a href="http://www.pgyer.com/qxhV" target="_blank" rel="external">http://www.pgyer.com/qxhV</a><br><a href="http://www.pgyer.com/7vhJ" target="_blank" rel="external">http://www.pgyer.com/7vhJ</a><br><a href="http://www.pgyer.com/bArV" target="_blank" rel="external">http://www.pgyer.com/bArV</a><br><a href="http://www.pgyer.com/yACA" target="_blank" rel="external">http://www.pgyer.com/yACA</a><br><a href="http://www.pgyer.com/KwRe" target="_blank" rel="external">http://www.pgyer.com/KwRe</a><br><a href="http://www.pgyer.com/Yi8F" target="_blank" rel="external">http://www.pgyer.com/Yi8F</a><br><a href="http://www.pgyer.com/oIXX" target="_blank" rel="external">http://www.pgyer.com/oIXX</a><br><a href="http://www.pgyer.com/cDuB" target="_blank" rel="external">http://www.pgyer.com/cDuB</a><br><a href="http://www.pgyer.com/aPuP" target="_blank" rel="external">http://www.pgyer.com/aPuP</a></p>
+<p>微信6.0.0 版本70-79<br><a href="http://www.pgyer.com/Wp1l" target="_blank" rel="external">http://www.pgyer.com/Wp1l</a><br><a href="http://www.pgyer.com/FJHG" target="_blank" rel="external">http://www.pgyer.com/FJHG</a><br><a href="http://www.pgyer.com/tOrV" target="_blank" rel="external">http://www.pgyer.com/tOrV</a><br><a href="http://www.pgyer.com/vbN4" target="_blank" rel="external">http://www.pgyer.com/vbN4</a><br><a href="http://www.pgyer.com/sG3d" target="_blank" rel="external">http://www.pgyer.com/sG3d</a><br><a href="http://www.pgyer.com/m2f6" target="_blank" rel="external">http://www.pgyer.com/m2f6</a><br><a href="http://www.pgyer.com/PEFi" target="_blank" rel="external">http://www.pgyer.com/PEFi</a><br><a href="http://www.pgyer.com/khs6" target="_blank" rel="external">http://www.pgyer.com/khs6</a><br><a href="http://www.pgyer.com/XE7p" target="_blank" rel="external">http://www.pgyer.com/XE7p</a><br><a href="http://www.pgyer.com/GBT5" target="_blank" rel="external">http://www.pgyer.com/GBT5</a></p>
+<p>微信6.0.0 版本80-89<br><a href="http://www.pgyer.com/SzZk" target="_blank" rel="external">http://www.pgyer.com/SzZk</a><br><a href="http://www.pgyer.com/0URv" target="_blank" rel="external">http://www.pgyer.com/0URv</a><br><a href="http://www.pgyer.com/AElp" target="_blank" rel="external">http://www.pgyer.com/AElp</a><br><a href="http://www.pgyer.com/XS2M" target="_blank" rel="external">http://www.pgyer.com/XS2M</a><br><a href="http://www.pgyer.com/YeCZ" target="_blank" rel="external">http://www.pgyer.com/YeCZ</a><br><a href="http://www.pgyer.com/iThN" target="_blank" rel="external">http://www.pgyer.com/iThN</a><br><a href="http://www.pgyer.com/e0JJ" target="_blank" rel="external">http://www.pgyer.com/e0JJ</a><br><a href="http://www.pgyer.com/F701" target="_blank" rel="external">http://www.pgyer.com/F701</a><br><a href="http://www.pgyer.com/8jyF" target="_blank" rel="external">http://www.pgyer.com/8jyF</a><br><a href="http://www.pgyer.com/65kO" target="_blank" rel="external">http://www.pgyer.com/65kO</a></p>
+<p>微信6.0.0 版本90-99<br><a href="http://www.pgyer.com/3diI" target="_blank" rel="external">http://www.pgyer.com/3diI</a><br><a href="http://www.pgyer.com/W8PJ" target="_blank" rel="external">http://www.pgyer.com/W8PJ</a><br><a href="http://www.pgyer.com/hQgE" target="_blank" rel="external">http://www.pgyer.com/hQgE</a><br><a href="http://www.pgyer.com/dXGR" target="_blank" rel="external">http://www.pgyer.com/dXGR</a><br><a href="http://www.pgyer.com/Aekn" target="_blank" rel="external">http://www.pgyer.com/Aekn</a><br><a href="http://www.pgyer.com/adHo" target="_blank" rel="external">http://www.pgyer.com/adHo</a><br><a href="http://www.pgyer.com/clMA" target="_blank" rel="external">http://www.pgyer.com/clMA</a><br><a href="http://www.pgyer.com/ipMl" target="_blank" rel="external">http://www.pgyer.com/ipMl</a><br><a href="http://www.pgyer.com/tXtg" target="_blank" rel="external">http://www.pgyer.com/tXtg</a><br><a href="http://www.pgyer.com/mxSE" target="_blank" rel="external">http://www.pgyer.com/mxSE</a><br><a href="http://www.pgyer.com/G5CF" target="_blank" rel="external">http://www.pgyer.com/G5CF</a></p>
+<p>微信6.0.0 版本101-110<br><a href="http://www.pgyer.com/yCFB" target="_blank" rel="external">http://www.pgyer.com/yCFB</a><br><a href="http://www.pgyer.com/4c0o" target="_blank" rel="external">http://www.pgyer.com/4c0o</a><br><a href="http://www.pgyer.com/tW20" target="_blank" rel="external">http://www.pgyer.com/tW20</a><br><a href="http://www.pgyer.com/keAv" target="_blank" rel="external">http://www.pgyer.com/keAv</a><br><a href="http://www.pgyer.com/k69H" target="_blank" rel="external">http://www.pgyer.com/k69H</a><br><a href="http://www.pgyer.com/8RAJ" target="_blank" rel="external">http://www.pgyer.com/8RAJ</a><br><a href="http://www.pgyer.com/wwUp" target="_blank" rel="external">http://www.pgyer.com/wwUp</a><br><a href="http://www.pgyer.com/PZX3" target="_blank" rel="external">http://www.pgyer.com/PZX3</a><br><a href="http://www.pgyer.com/wmhf" target="_blank" rel="external">http://www.pgyer.com/wmhf</a><br><a href="http://www.pgyer.com/2a3M" target="_blank" rel="external">http://www.pgyer.com/2a3M</a></p>
+<p>微信6.0.0 版本111-120<br><a href="http://www.pgyer.com/pdFr" target="_blank" rel="external">http://www.pgyer.com/pdFr</a><br><a href="http://www.pgyer.com/VQ5q" target="_blank" rel="external">http://www.pgyer.com/VQ5q</a><br><a href="http://www.pgyer.com/hrID" target="_blank" rel="external">http://www.pgyer.com/hrID</a><br><a href="http://www.pgyer.com/cVB5" target="_blank" rel="external">http://www.pgyer.com/cVB5</a><br><a href="http://www.pgyer.com/2YbH" target="_blank" rel="external">http://www.pgyer.com/2YbH</a><br><a href="http://www.pgyer.com/ZFgs" target="_blank" rel="external">http://www.pgyer.com/ZFgs</a><br><a href="http://www.pgyer.com/cxvP" target="_blank" rel="external">http://www.pgyer.com/cxvP</a><br><a href="http://www.pgyer.com/B8nT" target="_blank" rel="external">http://www.pgyer.com/B8nT</a><br><a href="http://www.pgyer.com/prjZ" target="_blank" rel="external">http://www.pgyer.com/prjZ</a><br><a href="http://www.pgyer.com/vu4G" target="_blank" rel="external">http://www.pgyer.com/vu4G</a></p>
+<p>微信6.0.0 版本121-130<br><a href="http://www.pgyer.com/mdD9" target="_blank" rel="external">http://www.pgyer.com/mdD9</a><br><a href="http://www.pgyer.com/lLWt" target="_blank" rel="external">http://www.pgyer.com/lLWt</a><br><a href="http://www.pgyer.com/ibM3" target="_blank" rel="external">http://www.pgyer.com/ibM3</a><br><a href="http://www.pgyer.com/gjsD" target="_blank" rel="external">http://www.pgyer.com/gjsD</a><br><a href="http://www.pgyer.com/fwhH" target="_blank" rel="external">http://www.pgyer.com/fwhH</a><br><a href="http://www.pgyer.com/tu1I" target="_blank" rel="external">http://www.pgyer.com/tu1I</a><br><a href="http://www.pgyer.com/ofhO" target="_blank" rel="external">http://www.pgyer.com/ofhO</a><br><a href="http://www.pgyer.com/XV7B" target="_blank" rel="external">http://www.pgyer.com/XV7B</a><br><a href="http://www.pgyer.com/6XvI" target="_blank" rel="external">http://www.pgyer.com/6XvI</a><br><a href="http://www.pgyer.com/9GZI" target="_blank" rel="external">http://www.pgyer.com/9GZI</a></p>
+<p>微信6.0.0 版本131-140<br><a href="http://www.pgyer.com/2J8e" target="_blank" rel="external">http://www.pgyer.com/2J8e</a><br><a href="http://www.pgyer.com/aeGd" target="_blank" rel="external">http://www.pgyer.com/aeGd</a><br><a href="http://www.pgyer.com/46Y1" target="_blank" rel="external">http://www.pgyer.com/46Y1</a><br><a href="http://www.pgyer.com/yI03" target="_blank" rel="external">http://www.pgyer.com/yI03</a><br><a href="http://www.pgyer.com/wj0T" target="_blank" rel="external">http://www.pgyer.com/wj0T</a><br><a href="http://www.pgyer.com/jdtw" target="_blank" rel="external">http://www.pgyer.com/jdtw</a><br><a href="http://www.pgyer.com/0Pau" target="_blank" rel="external">http://www.pgyer.com/0Pau</a><br><a href="http://www.pgyer.com/1WtG" target="_blank" rel="external">http://www.pgyer.com/1WtG</a><br><a href="http://www.pgyer.com/WB0b" target="_blank" rel="external">http://www.pgyer.com/WB0b</a><br><a href="http://www.pgyer.com/3I6n" target="_blank" rel="external">http://www.pgyer.com/3I6n</a></p>
+<p>微信6.0.0 版本141-150<br><a href="http://www.pgyer.com/w8e8" target="_blank" rel="external">http://www.pgyer.com/w8e8</a><br><a href="http://www.pgyer.com/1WTk" target="_blank" rel="external">http://www.pgyer.com/1WTk</a><br><a href="http://www.pgyer.com/pXPr" target="_blank" rel="external">http://www.pgyer.com/pXPr</a><br><a href="http://www.pgyer.com/u5Hd" target="_blank" rel="external">http://www.pgyer.com/u5Hd</a><br><a href="http://www.pgyer.com/zOB8" target="_blank" rel="external">http://www.pgyer.com/zOB8</a><br><a href="http://www.pgyer.com/TkIq" target="_blank" rel="external">http://www.pgyer.com/TkIq</a><br><a href="http://www.pgyer.com/9G47" target="_blank" rel="external">http://www.pgyer.com/9G47</a><br><a href="http://www.pgyer.com/fxia" target="_blank" rel="external">http://www.pgyer.com/fxia</a><br><a href="http://www.pgyer.com/45Sc" target="_blank" rel="external">http://www.pgyer.com/45Sc</a><br><a href="http://www.pgyer.com/z1lD" target="_blank" rel="external">http://www.pgyer.com/z1lD</a><br><br><br><br>&nbsp;</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>用手机自带浏览器Safari打开以下连接，即可下载安装<br>兼容ios8.1，不需要修改时间日期。]]>
+    
+    </summary>
+    
+      <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[后盒子时代到底应该怎么玩]]></title>
+    <link href="/2014/11/14/what-to-play-about-tvbox/"/>
+    <id>/2014/11/14/what-to-play-about-tvbox/</id>
+    <published>2014-11-14T08:33:55.000Z</published>
+    <updated>2015-12-15T13:57:27.590Z</updated>
+    <content type="html"><![CDATA[<p>要不是海美迪开出了双十一征文活动，哪有动力写下此文呢？上次一加晒单的奖品今天降至，过两天这次征文中的盒子也要到了，真是令人愉悦呢~</p>
+<p>既然那边已经评选完了，就把那边的那篇搬回来好了。就是这样</p>
+<p>&nbsp;</p>
+<a id="more"></a>
+<p>众所周知，广电最近的一系列举措令互联网影视媒体、盒子厂商以及用户的日子都不太好过，有人说盒子的好日子已经过去了，也有人说盒子已经没有用了，可以说哀声遍野啊，所以呢，我姑且称现在为后盒子时代。既然盒子鼎盛的时候有鼎盛时候的玩法，没落的时候也有没落时候的玩法。接下来，我就简单的说一说后盒子时代都有哪些玩的，后盒子时代到底应该怎么玩。</p>
+<p>我觉得，在后盒子时代玩盒子，主要可以分为这么几个阶段，入门阶段-进阶阶段-高级阶段-骨灰阶段。</p>
+<p><img src="https://farm9.staticflickr.com/8606/16624243665_e907e03970_o.jpg" alt=""></p>
+<p><strong>一、入门阶段</strong><br>在这个阶段的人群大都是没有深入的接触过安卓系统和盒子的初级用户，他们买盒子的两大主要原因，当然也是大多数盒子用户的主要原因：一是看直播，二是看点播。但初级用户的区别在于他们只知道看盒子里自带的芒果TV直播和点播，所以当广电总局的政策出台的时候，他们的反应也是最为强烈的。<br>那么作为入门阶段的用户应该怎么做呢，一种选择是办理广电的有线，去看稳定清晰的直播，盒子专门用来点播一些电影，芒果的影库不算全不算厚道但倒也够用了，在点播的时候也可以更加灵活，比如在微信上关注“海美迪智能电视盒子”，可以在手机上进行点播，遥控等操作。曾经有传言在微信客户端可以直接收看vip的付费节目，据说是芒果为海美迪留下的后门，但在最近的测试中发现已经失效，还希望海美迪能够尽快修复。<br>除此之外，就要往下学习进阶阶段的内容了。</p>
+<p><strong>二、进阶阶段</strong><br>进阶阶段说起来也比较简单，其实呢就是通过安装各种各样的应用来丰富盒子的直播和点播内容。要知道并不是只有hiTV和直播DIY，作为一个安卓盒子，他可以安装各种各样的应用。就像你在手机上做的那样。<br>那么要怎样安装应用呢？<br>这里介绍一个通用的方法，找一个U盘，将下载好的应用放入U盘内，将U盘插入盒子，在文件管理中找到安装文件安装即可。如果你打开了盒子的smb服务，更可以直接通过网络邻居直接将安装文件拷入盒子内。<br>正如同手机上有各种各样的应用市场，专门为盒子电视大屏幕设计的应用市场也有很多，下面简单介绍几个，大家挑看着舒服的进行下载。<br>沙发管家（<a href="http://www.shafa.com/" target="_blank" rel="external">http://www.shafa.com/</a>）<br>当贝市场（<a href="http://down.znds.com/" target="_blank" rel="external">http://down.znds.com/</a>）<br>奇珀市场（<a href="http://down.7po.com/" target="_blank" rel="external">http://down.7po.com/</a>）<br>爱家市场（<a href="http://app.ijiatv.com/" target="_blank" rel="external">http://app.ijiatv.com/</a>）<br>当然还有海美迪自带的360也算是一个小的应用市场。<br>有了应用市场，大家可以体验的内容就多了，由于广电的政策限制，最近很多视频网站的app都下架了，这里推荐几个还能用而且还好用的应用给各位，大家根据自己的需要进行选择。<br>电视直播类：HDP直播，电视家，VST全聚合，电视猫，泰捷TV等等<br>聚合点播类：VST全聚合，泰捷TV，布丁电视等等<br>至于视频网站的官方APP，截止到这篇帖子写作的时候，优酷还能正常使用。<br>当然，除了以上的聚合类的直播点播软件之外，对于视频网站官方的APP，还可以用以下的几种方法进行解决：</p>
+<p>１、使用网站为安卓平板开发的HD版（可能有部分应用出现遥控器无法控制的现象，最好再配个无线鼠标）<br>２、使用网友破解版的应用，可以正常收看的大网站的节目。这里给大家提供一份整理的吧</p>
+<p>链接: <a href="http://pan.baidu.com/s/1o6ia81W" target="_blank" rel="external">http://pan.baidu.com/s/1o6ia81W</a> 密码: u088</p>
+<p>３、通过盒子内的浏览器或者其他浏览器应用访问网站进行观看（体验不好，不推荐）<br>４、利用手机客户端，通过airplay、DLNA等形式将视频传到电视上进行观看。</p>
+<p><strong>三、高级阶段</strong><br>高级阶段，说到底也只是安装app的一种衍生，只不过他要安装的是一个跨平台的神器——XBMC。</p>
+<p>关于XBMC的详细介绍，我在前一篇<a href="http://i7298.com/archives/317" title="手把手玩转XBMC——XBMC（Kodi）全攻略" target="_blank" rel="external">文章</a>中已经进行了很详细的说明，包括安装、设置中文、更新媒体库、安装插件、调用第三方播放器等等。今天再主要介绍几个小细节。</p>
+<p>1、在外挂第三方播放器的时候，由于在nas里的文件由于还没有挂载，可以出现无法播放的情况。解决办法可以参考如下：在使用XBMC之前先进入海美迪自带媒体中心的nfs或smb目录快捷方式，然后按主页键回到首页再进入XBMC，这时媒体便已经处于挂载状态（这时访问路径也需要要做相应修改）<br>2、充分利用XBMC的插件库。XBMC不仅仅是一个本地的媒体中心，同样也是一个网络的媒体中心，通过XBMC的视频插件，你一样可以收看优酷等上面的节目。下面提供最新的插件库包，大家可以安装后按需安装自己想要的插件。<br>3、暂时还没想起来</p>
+<p>总之XBMC是一个可玩性非常高的应用，而且电脑手机盒子都可以用，各种系统都支持，非常值得大家体验。</p>
+<p><strong>四、骨灰模式</strong><br>其实，玩到这个模式的玩家，已经完全不需要这篇文章了，盒子在他们手中不仅仅是盒子，可以玩出各种花样。下面随便说几个吧<br>1、自定义直播源，只看自己想看的直播<br>2、通过电脑控制盒子<br>3、ROOT，真正实现迅雷脱机下载<br>4、将盒子当作幻灯片播放器，绘声绘影，分享家庭快乐<br>5、将盒子作为家庭数据中心，当一个小NAS用了<br>6、又想不起来了，玩游戏、K歌什么的肯定不能算到这里面来了，但不失为一种拓展。<br>7、将手机、平板的界面通过盒子投射到电视上<br>8、更多玩法，大家来补充吧</p>
+<p>既然都是基于Android平台的，那么光靠禁令是不够的，大禹治水，不能光堵，更重要的在于疏导</p>
+<script type="text/javascript">// < ![CDATA[
+// < ![CDATA[
+// < ![CDATA[
+/*内文  创建于 2014-12-04*/
+var cpro_id = "u1843858";
+// ]]></script>
+<script src="http://cpro.baidustatic.com/cpro/ui/cnw.js" type="text/javascript"></script>]]></content>
+    <summary type="html">
+    <![CDATA[<p>要不是海美迪开出了双十一征文活动，哪有动力写下此文呢？上次一加晒单的奖品今天降至，过两天这次征文中的盒子也要到了，真是令人愉悦呢~</p>
+<p>既然那边已经评选完了，就把那边的那篇搬回来好了。就是这样</p>
+<p>&nbsp;</p>]]>
+    
+    </summary>
+    
+      <category term="XBMC" scheme="/tags/XBMC/"/>
+    
+      <category term="盒子" scheme="/tags/%E7%9B%92%E5%AD%90/"/>
+    
+      <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[喜欢就会放肆——说说一加手机]]></title>
+    <link href="/2014/10/22/my-oneplus-show/"/>
+    <id>/2014/10/22/my-oneplus-show/</id>
+    <published>2014-10-22T07:35:01.000Z</published>
+    <updated>2015-12-15T13:57:27.585Z</updated>
+    <content type="html"><![CDATA[<p>首先，这是一篇留给京东的晒单，毕竟京东的活动说晒单可能会有耳机送（虽然送到我这儿的可能性真的不是很大，再说了像我这么高（qiong)风(kun)亮(liao)节(dao)的人有怎么会不在乎一条耳机呢），那下面就正式开始晒<a id="more"></a></p>
+<p>1、Why 一加</p>
+<p>换机的想法其实来的很突然，毕竟之前的那部P770还能再坚持一阵子，但这想法一来就挥之不去了，在MX4发布之后尤为强烈，在这种想法慢慢达到顶点的时候，也正赶上京东手机节促销，我决定下手了。花了两天时间将手机的选择范围缩小到一加，MX4和荣耀6三款机器上。在错过了MX4的抢购，凭借外观和系统pass掉了荣耀6之后，小心谨慎的冒着极大的风险（因为你不知道双十一这家伙会不会降200促销也不知道再过两个月搭载805的一加2会不会上市）冲着一加下手了。不过事实证明，这次的选择还是比较明智的。</p>
+<p>再说说为什么要选择一加，尤其是在没摸过手感太TM 爽了的baby skin之下，在配置看起来仿佛是和其他手机如出一辙的情况下，最打动人的地方应该就在于它的开放了吧，尤其是支持cm 11 更是令我下定了购买的决心。当然，就外观来说，一加的外观也足够打动人。</p>
+<p><img src="https://farm9.staticflickr.com/8586/16438478889_9554769cfe_o.jpg" alt="46"> <img src="https://farm9.staticflickr.com/8576/16004517373_d78c3c4de8_o.png" alt="47"> <img src="https://farm9.staticflickr.com/8570/16416980027_416d851555_o.png" alt="48"> <img src="https://farm9.staticflickr.com/8681/16624271215_80b7db6052_o.jpg" alt="49"></p>
+<p>2、How一加</p>
+<p>一加到手，从打开包装开始便处处流露着不将就的态度，包装盒设计的及其精致，充电器的设计更是充满了人性化，数据线虽然插在手机上有些紧但也足以打动人。摸到后壳，手感，的确很爽。可是也不无担心，这样的白色后壳在使用中会不会变黄或者留下划痕，好在立志继承科技以换壳为主的一加说要准备出后壳（额。。发布好像小半年了市面上才流出来两种后壳的样子——还买不到），要加油了。不过京东还送了官方的保护壳，又借着促销的大潮买了官方的手机套，所以，哪怕是有划痕又怎样，戴上套又是一条好汉，先爽一阵子再说。</p>
+<p><img src="https://farm9.staticflickr.com/8562/16623163071_15198ee256_o.jpg" alt="50"> <img src="https://farm9.staticflickr.com/8567/16002098984_70206f20cc_o.jpg" alt="51"></p>
+<p>开机，精致的Color OS，简单的用了下，更新系统，简单的试用了下，在国产的系统中可以说算是比较优秀的，交互动画比较合理美观，各种功能也一应俱全。据说Color OS 2.0 的进步很大，可以期待一下，当然，简单的试用之后，开机，连电脑，在刷了机仍然有保修的优待之下，直奔我的心头好——CM 11（这时我才发现CM还为一加出了专门优化的CM 11S），所以以下的体验都是基于CM 11S。</p>
+<p>看到支持联通3G 的一加 CM 11S你是不是很感动呢？</p>
+<p><img src="https://farm9.staticflickr.com/8631/16623613872_b9d9d70f81_o.png" alt="52"></p>
+<p>一看到CM 11S我就心潮澎湃</p>
+<p>在装满了日常使用的应用之后，咱也跑个分</p>
+<p><img src="https://farm9.staticflickr.com/8584/16437095648_72de09e721_o.png" alt="53"> <img src="https://farm9.staticflickr.com/8645/16416980137_55dc742251_o.png" alt="54"> <img src="https://farm9.staticflickr.com/8583/16004517633_9876eb3a72_o.png" alt="55"></p>
+<p>用了一加之后才感受到生活的美好，原来系统也可以这么流畅</p>
+<p><img src="https://farm9.staticflickr.com/8614/16624271475_caed641fe2_o.png" alt="56"></p>
+<p>相机是CM的弱项，不过看起来也并没有那么不堪，一切都那么美好。</p>
+<p><img src="https://farm9.staticflickr.com/8615/16438479369_1370a8ce93_o.jpg" alt="57"> <img src="https://farm9.staticflickr.com/8601/16002099254_eac2ed7bb3_o.jpg" alt="58"></p>
+<p>续航也很令人满意，重度使用一天也不是问题。轻度使用一天也就用了30%的电</p>
+<p><img src="https://farm9.staticflickr.com/8674/16623163461_eea17959ee_o.png" alt="59"> <img src="https://farm9.staticflickr.com/8613/16624271645_6667a67d65_o.png" alt="60"></p>
+<p>当然，还有很好用的双击屏幕唤醒操作，双击状态栏锁屏以及黑屏状态下的手势操作都非常的好用。</p>
+<p>对了，传说中的黄屏问题感觉并不是很严重，使用过程中并没有明显的感觉。</p>
+<p>3、Where一加</p>
+<p>可以说，一加的第一款手机做得非常不错，比某有情怀的厂家好了很多，但未来的一加仍然需要努力，比如一加在保持开放包容的同时开发自己的UI，搭建自己的云生态系统；同时，也希望一加能够尽快推出联通版，免去使用一些手段的麻烦，也希望一加能够推出双卡双待版的机器，满足更多人的需求。</p>
+<p>最后简单推测一下下一代的一加配置好了（一加 2 ）</p>
+<p>高通805+3G内存+2k屏幕+2070W像素摄像头+one plus系统</p>
+<p>最后，敬不将就！</p>
+<p>&nbsp;</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>首先，这是一篇留给京东的晒单，毕竟京东的活动说晒单可能会有耳机送（虽然送到我这儿的可能性真的不是很大，再说了像我这么高（qiong)风(kun)亮(liao)节(dao)的人有怎么会不在乎一条耳机呢），那下面就正式开始晒]]>
+    
+    </summary>
+    
+      <category term="手机" scheme="/tags/%E6%89%8B%E6%9C%BA/"/>
+    
+      <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[各它勇猛 全攻略]]></title>
+    <link href="/2014/10/11/Strategy-Guide-Camel/"/>
+    <id>/2014/10/11/Strategy-Guide-Camel/</id>
+    <published>2014-10-11T01:46:08.000Z</published>
+    <updated>2015-12-15T13:57:27.584Z</updated>
+    <content type="html"><![CDATA[<p>天猫各它旗舰店最近的活动，据说水很多，实物也很多，可惜我抽不到。。。</p>
+<p>本文仅供收藏使用<br><a id="more"></a></p>
+<p>活动地址：<a href="http://www.tmall.com/market/alimama/camel_10.php" target="_blank" rel="external">http://www.tmall.com/market/alimama/camel_10.php</a></p>
+<p><img src="https://farm9.staticflickr.com/8599/16437391860_7c21213044_z.jpg" alt="61"></p>
+<p>玩的时候，123按顺序摆塔然后就可以挂机了。</p>
+<p>如果仅仅这样也不能完全说是攻略。。</p>
+<p>1、看看有没有<a href="http://latour.tmall.com/lottery/LotteryWinningRecord.do?lotteryID=341D002ADB509665CC1D4AC70334BCA3&amp;_ksTS=1412924204675_103&amp;callback=jsonp104&amp;clk1=22b7f6eb22c4ef3566b5d640d45d40ac&amp;upsid=22b7f6eb22c4ef3566b5d640d45d40ac" target="_blank" rel="external">放水</a>（主要是中奖时间）</p>
+<p>2、进游戏先玩一下</p>
+<p>3、绕过游戏直接<a href="http://showcase.display.taobao.com/luotuo/lottey.json?app=luotuo07&amp;ua=075YlJgThc3UTYWOBgrdllqXG9aa1liUGtefiF%252B%257CYVJ8T3lKekFxSntOekBwQh0%253D%257CYFB%252BJwdGLFwxXjkZNxcmEzMdPWgDbwlkEWBAH0A%253D%257CZ1RkSmpZb1xsV2dcbVhsWWxfZ1V5SntLfUd9SX9NeEh5THtbBA%253D%253D%257CZlVuQBkpBzQCLB8pBydXdQdrDDNqWHYZbURhHz9gPw%253D%253D%257CZV9xUXEu%257CZF9xUXEu%257Ca1hrRRw8ViBWJBwxHGkcaUUzXD9RPxNyH3BdMlEhSC9ZdBd5En0ecRI%252FXj1SNVsGNQcrWTNBYEBuTm4xbg%253D%253D%257Calt1LB4wAiwfJBYlCzAFPxEiGSkbNQY0DjwSIRoqGDYFNwEzbDM%253D%257CaVpoRmY%252FCD8EMAsle1toXm1eaV1qXG1caVJgHiwANA89CzoMNwA7DTcBMQUzAlx8UmE%252BHkE%253D%257CaF5wKQlgET5POl5xQnJBYU9%252BRXFfaV5lS3pOdEAfQA%253D%253D%257Cb1l3Lg5nFjlIPVl2RXVGZkhzSXxSZFNpR3B&amp;clk1=ed01cd17804b8e306dfcf81ca2ce67d3&amp;upsid=ed01cd17804b8e306dfcf81ca2ce67d3" target="_blank" rel="external">抽奖</a> 注意每个号有次数限制的，出现”reason” : “LOT05”,就是没戏了~~</p>
+<p>4、如果中了实物那恭喜你了~~~提交代码，自己修改相应的内容之后，粘帖在浏览器。</p>
+<p><pre class="prettyprint linenums"><a href="http://showcase.display.taobao.com/common/addForm.json?app=luotuo03&amp;value={&quot;username&quot;:&quot;李某某&quot;,&quot;phone&quot;:&quot;180XXXXXXXX&quot;,&quot;email&quot;:&quot;XXXXXXXXXXX@qq.com&quot;,&quot;province&quot;:&quot;XX省&quot;,&quot;city&quot;:&quot;XX市&quot;,&quot;address&quot;:&quot;XXXXXXXXXXXX&quot;,&quot;lottey&quot;:&quot;游戏通关&quot;}" target="_blank" rel="external">http://showcase.display.taobao.com/common/addForm.json?app=luotuo03&amp;value={&quot;username&quot;:&quot;李某某&quot;,&quot;phone&quot;:&quot;180XXXXXXXX&quot;,&quot;email&quot;:&quot;XXXXXXXXXXX@qq.com&quot;,&quot;province&quot;:&quot;XX省&quot;,&quot;city&quot;:&quot;XX市&quot;,&quot;address&quot;:&quot;XXXXXXXXXXXX&quot;,&quot;lottey&quot;:&quot;游戏通关&quot;}</a><br></pre><br>你以为这样就结束了么，还没有。</p>
+<p>右下角还有一个幸运抽奖，里面1000各它币抽一次，但没币怎么办</p>
+<p>点<a href="http://showcase.display.taobao.com/common/addScore.json?app=luotuo09&amp;score=1000&amp;_ksTS=1412931318637_1015&amp;callback=jsonp1016" target="_blank" rel="external">这儿</a>进去，然后不断刷新，一下F5=1000各它币。。。</p>
+<p>再然后，抽奖自己来吧</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>天猫各它旗舰店最近的活动，据说水很多，实物也很多，可惜我抽不到。。。</p>
+<p>本文仅供收藏使用<br>]]>
+    
+    </summary>
+    
+      <category term="福利" scheme="/tags/%E7%A6%8F%E5%88%A9/"/>
+    
+      <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[【教程】群晖NAS 全系列 支持DTS解码]]></title>
+    <link href="/2014/10/08/synology-nas-dts/"/>
+    <id>/2014/10/08/synology-nas-dts/</id>
+    <published>2014-10-08T12:09:10.000Z</published>
+    <updated>2015-12-15T13:57:27.585Z</updated>
+    <content type="html"><![CDATA[<p>由于授权问题群晖去掉了<span style="font-family: Tahoma;">Video Station</span><span style="font-family: 宋体;">的</span><span style="font-family: Tahoma;">DTS</span><span style="font-family: 宋体;">解码功能，直接导致好多片子无法播放。@liyaocheng from chiphell根据源代码编译了相关的文件，安装之后就可以了。</span></p>
+<p><img src="https://farm9.staticflickr.com/8614/16623746062_82c164fba8_z.jpg" alt="62"></p>
+<p>全系列机型的下载地址参见：<a href="http://www.chiphell.com/thread-1103008-1-1.html" target="_blank" rel="external">http://www.chiphell.com/thread-1103008-1-1.html</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>由于授权问题群晖去掉了<span style="font-family: Tahoma;">Video Station</span><span style="font-family: 宋体;">的</span><span style="font-family: Tahoma]]>
+    </summary>
+    
+      <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[【整理】一些快递公司的内网查询通道]]></title>
+    <link href="/2014/10/07/ems-search/"/>
+    <id>/2014/10/07/ems-search/</id>
+    <published>2014-10-07T06:05:22.000Z</published>
+    <updated>2015-12-15T13:57:27.584Z</updated>
+    <content type="html"><![CDATA[<p>收藏于此方便以后查询使用。<a id="more"></a></p>
+<p>EMS</p>
+<p><a href="http://www.fjxmems.com/yjcx.php" target="_blank" rel="external">http://www.fjxmems.com/yjcx.php</a></p>
+<p><a href="http://www.kiees.cn/ems-neiwang.php" target="_blank" rel="external">http://www.kiees.cn/ems-neiwang.php</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>收藏于此方便以后查询使用。]]>
+    
+    </summary>
+    
+      <category term="内网" scheme="/tags/%E5%86%85%E7%BD%91/"/>
+    
+      <category term="快递" scheme="/tags/%E5%BF%AB%E9%80%92/"/>
+    
+      <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+  </entry>
+  
+</feed>
