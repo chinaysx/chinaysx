@@ -4,7 +4,7 @@
   <subtitle><![CDATA[总会有一个开始，总要去面对一个未来]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/"/>
-  <updated>2015-12-14T13:13:42.808Z</updated>
+  <updated>2015-12-22T13:25:21.938Z</updated>
   <id>/</id>
   
   <author>
@@ -13,6 +13,98 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[markdown练习]]></title>
+    <link href="/2015/12/22/markdown-practice/"/>
+    <id>/2015/12/22/markdown-practice/</id>
+    <published>2015-12-22T12:48:59.000Z</published>
+    <updated>2015-12-22T13:25:21.938Z</updated>
+    <content type="html"><![CDATA[<p>Markdown 学习记录</p>
+<p><em>斜体</em><br><em>斜体</em></p>
+<p><strong>强调</strong><br><strong>强调</strong></p>
+<p><strong><em>斜体和强调么</em></strong><br><strong><em>好像的确是斜体+强调</em></strong></p>
+<p>#这是标题</p>
+<p>#这是标题#</p>
+<p>##这也是标题##</p>
+<p>###这个也是标题</p>
+<p>列表</p>
+<ul>
+<li>一个星号表示列表么</li>
+<li>那两个星号呢</li>
+<li>三个呢</li>
+</ul>
+<p>-这个呢<br>-第二个<br>-第三个</p>
+<ul>
+<li>第四个</li>
+<li>第五个</li>
+</ul>
+<p><em> 一个
+</em> 二个<br>_ 三个</p>
+<ul>
+<li>试这个</li>
+<li>二个</li>
+<li>三个</li>
+<li>四个</li>
+</ul>
+<ol>
+<li>google</li>
+<li>map</li>
+<li>hello</li>
+<li>world</li>
+<li>great</li>
+<li>haha</li>
+</ol>
+<blockquote>
+<p>这个表示引用</p>
+<blockquote>
+<p>这个就是引用中的引用</p>
+<blockquote>
+<p>那这个差不多就是第三层引用了</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>‘sort()’ 函数按升序对给定数组的值排序<br>‘’’php<br>&lt;?php<br>    $my_array = array(‘a’ =&gt; ‘Dog’, ‘b’ =&gt;’Cat’<br>        );<br>    sort($my_array);<br>    print_r($my_array);<br>    ?&gt;<br>    ‘’’</p>
+<p><a href="http://i7298.com" title="仁" target="_blank" rel="external">仁云亦晕</a></p>
+<p><a href="http:i7298.com" title="ryyy" target="_blank" rel="external">i7298</a></p>
+<hr>
+<hr>
+<hr>
+<p>表格<br>| a |hh|<br>| :–|:–:|<br>| z | 0 |<br>| ds| dsfs |</p>
+<p>小结 代码段并没有生效<br>     表格并没有生效</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Markdown 学习记录</p>
+<p><em>斜体</em><br><em>斜体</em></p>
+<p><strong>强调</strong><br><strong>强调</strong></p>
+<p><strong><em>斜体和强调么</em></strong>]]>
+    </summary>
+    
+      <category term="test" scheme="/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[澳洲采购清单]]></title>
+    <link href="/2015/12/19/what-to-buy-in-australia/"/>
+    <id>/2015/12/19/what-to-buy-in-australia/</id>
+    <published>2015-12-19T07:52:52.000Z</published>
+    <updated>2015-12-22T12:48:27.298Z</updated>
+    <content type="html"><![CDATA[<p>用这篇文章来练习一下Markdown的使用。</p>
+<p>#引子<br>用这篇文章记录下在澳洲想去买的东西</p>
+<p>##1.Swisse 肉桂片 辅助降低血糖 平衡血糖<br>Swisse 肉桂片平衡血糖。采用一种优质的配方,帮助支持健康的血糖水平，帮助消化、维持心血管健康。<br>Swisse Ultiboost Cinnamon 50 Tablets</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>用这篇文章来练习一下Markdown的使用。</p>
+<p>#引子<br>用这篇文章记录下在澳洲想去买的东西</p>
+<p>##1.Swisse 肉桂片 辅助降低血糖 平衡血糖<br>Swisse 肉桂片平衡血糖。采用一种优质的配方,帮助支持健康的血糖水平，帮助消化、维持心]]>
+    </summary>
+    
+      <category term="购物" scheme="/tags/%E8%B4%AD%E7%89%A9/"/>
+    
+      <category term="life" scheme="/categories/life/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hello Australia]]></title>
@@ -720,48 +812,6 @@ var cpro_id = "u1843858";
     </summary>
     
       <category term="福利" scheme="/tags/%E7%A6%8F%E5%88%A9/"/>
-    
-      <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[【教程】群晖NAS 全系列 支持DTS解码]]></title>
-    <link href="/2014/10/08/synology-nas-dts/"/>
-    <id>/2014/10/08/synology-nas-dts/</id>
-    <published>2014-10-08T12:09:10.000Z</published>
-    <updated>2015-12-15T13:57:27.585Z</updated>
-    <content type="html"><![CDATA[<p>由于授权问题群晖去掉了<span style="font-family: Tahoma;">Video Station</span><span style="font-family: 宋体;">的</span><span style="font-family: Tahoma;">DTS</span><span style="font-family: 宋体;">解码功能，直接导致好多片子无法播放。@liyaocheng from chiphell根据源代码编译了相关的文件，安装之后就可以了。</span></p>
-<p><img src="https://farm9.staticflickr.com/8614/16623746062_82c164fba8_z.jpg" alt="62"></p>
-<p>全系列机型的下载地址参见：<a href="http://www.chiphell.com/thread-1103008-1-1.html" target="_blank" rel="external">http://www.chiphell.com/thread-1103008-1-1.html</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>由于授权问题群晖去掉了<span style="font-family: Tahoma;">Video Station</span><span style="font-family: 宋体;">的</span><span style="font-family: Tahoma]]>
-    </summary>
-    
-      <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[【整理】一些快递公司的内网查询通道]]></title>
-    <link href="/2014/10/07/ems-search/"/>
-    <id>/2014/10/07/ems-search/</id>
-    <published>2014-10-07T06:05:22.000Z</published>
-    <updated>2015-12-15T13:57:27.584Z</updated>
-    <content type="html"><![CDATA[<p>收藏于此方便以后查询使用。<a id="more"></a></p>
-<p>EMS</p>
-<p><a href="http://www.fjxmems.com/yjcx.php" target="_blank" rel="external">http://www.fjxmems.com/yjcx.php</a></p>
-<p><a href="http://www.kiees.cn/ems-neiwang.php" target="_blank" rel="external">http://www.kiees.cn/ems-neiwang.php</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>收藏于此方便以后查询使用。]]>
-    
-    </summary>
-    
-      <category term="内网" scheme="/tags/%E5%86%85%E7%BD%91/"/>
-    
-      <category term="快递" scheme="/tags/%E5%BF%AB%E9%80%92/"/>
     
       <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
