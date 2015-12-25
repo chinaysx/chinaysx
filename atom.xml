@@ -4,7 +4,7 @@
   <subtitle><![CDATA[总会有一个开始，总要去面对一个未来]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/"/>
-  <updated>2015-12-23T00:19:21.728Z</updated>
+  <updated>2015-12-25T04:08:00.338Z</updated>
   <id>/</id>
   
   <author>
@@ -13,6 +13,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[不同地区机械键盘的轴体的不同名字整理]]></title>
+    <link href="/2015/12/25/mechanical-keyboard-switches-names/"/>
+    <id>/2015/12/25/mechanical-keyboard-switches-names/</id>
+    <published>2015-12-25T03:52:01.000Z</published>
+    <updated>2015-12-25T04:08:00.338Z</updated>
+    <content type="html"><![CDATA[<h1 id="u5404_u5730_u533A_u7684_u8F74_u4F53_u540D_u5B57_u53EB_u6CD5"><a href="#u5404_u5730_u533A_u7684_u8F74_u4F53_u540D_u5B57_u53EB_u6CD5" class="headerlink" title="各地区的轴体名字叫法"></a>各地区的轴体名字叫法</h1><h2 id="u6700_u8FD1_u6709_u70B9_u5BF9_u673A_u68B0_u952E_u76D8_u957F_u8349_uFF0C_u641C_u96C6_u8D44_u6599_u8FC7_u7A0B_u4E2D_u5728_u4E0D_u540C_u5730_u533A_u7684_u5404_u79CD_u540D_u5B57_u4E4B_u95F4_u5207_u6362_uFF0C_u6709_u70B9_u7ED5_u3002_u6574_u7406_u4E00_u4E0B_uFF0C_u987A_u4FBF_u7EC3_u4E60_u4E00_u4E0B_u7528markdown_u753B_u8868_u683C_u3002"><a href="#u6700_u8FD1_u6709_u70B9_u5BF9_u673A_u68B0_u952E_u76D8_u957F_u8349_uFF0C_u641C_u96C6_u8D44_u6599_u8FC7_u7A0B_u4E2D_u5728_u4E0D_u540C_u5730_u533A_u7684_u5404_u79CD_u540D_u5B57_u4E4B_u95F4_u5207_u6362_uFF0C_u6709_u70B9_u7ED5_u3002_u6574_u7406_u4E00_u4E0B_uFF0C_u987A_u4FBF_u7EC3_u4E60_u4E00_u4E0B_u7528markdown_u753B_u8868_u683C_u3002" class="headerlink" title="最近有点对机械键盘长草，搜集资料过程中在不同地区的各种名字之间切换，有点绕。整理一下，顺便练习一下用markdown画表格。"></a>最近有点对机械键盘长草，搜集资料过程中在不同地区的各种名字之间切换，有点绕。整理一下，顺便练习一下用markdown画表格。</h2><table>
+<thead>
+<tr>
+<th style="text-align:center">中文</th>
+<th style="text-align:center">英文</th>
+<th style="text-align:center">美亚称法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">青轴</td>
+<td style="text-align:center">MX Blue</td>
+<td style="text-align:center">Click Action</td>
+</tr>
+<tr>
+<td style="text-align:center">黑轴</td>
+<td style="text-align:center">MX Black</td>
+<td style="text-align:center">Linear Action</td>
+</tr>
+<tr>
+<td style="text-align:center">茶轴</td>
+<td style="text-align:center">MX Brown</td>
+<td style="text-align:center">Tactile Action</td>
+</tr>
+<tr>
+<td style="text-align:center">红轴</td>
+<td style="text-align:center">MX Red</td>
+<td style="text-align:center">Soft Linear Action</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="u5404_u5730_u533A_u7684_u8F74_u4F53_u540D_u5B57_u53EB_u6CD5"><a href="#u5404_u5730_u533A_u7684_u8F74_u4F53_u540D_u5B57_u53EB_u6CD5" ]]>
+    </summary>
+    
+      <category term="键盘" scheme="/tags/%E9%94%AE%E7%9B%98/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[markdown练习]]></title>
@@ -817,39 +863,6 @@ var cpro_id = "u1843858";
       <category term="手机" scheme="/tags/%E6%89%8B%E6%9C%BA/"/>
     
       <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[各它勇猛 全攻略]]></title>
-    <link href="/2014/10/11/Strategy-Guide-Camel/"/>
-    <id>/2014/10/11/Strategy-Guide-Camel/</id>
-    <published>2014-10-11T01:46:08.000Z</published>
-    <updated>2015-12-15T13:57:27.584Z</updated>
-    <content type="html"><![CDATA[<p>天猫各它旗舰店最近的活动，据说水很多，实物也很多，可惜我抽不到。。。</p>
-<p>本文仅供收藏使用<br><a id="more"></a></p>
-<p>活动地址：<a href="http://www.tmall.com/market/alimama/camel_10.php" target="_blank" rel="external">http://www.tmall.com/market/alimama/camel_10.php</a></p>
-<p><img src="https://farm9.staticflickr.com/8599/16437391860_7c21213044_z.jpg" alt="61"></p>
-<p>玩的时候，123按顺序摆塔然后就可以挂机了。</p>
-<p>如果仅仅这样也不能完全说是攻略。。</p>
-<p>1、看看有没有<a href="http://latour.tmall.com/lottery/LotteryWinningRecord.do?lotteryID=341D002ADB509665CC1D4AC70334BCA3&amp;_ksTS=1412924204675_103&amp;callback=jsonp104&amp;clk1=22b7f6eb22c4ef3566b5d640d45d40ac&amp;upsid=22b7f6eb22c4ef3566b5d640d45d40ac" target="_blank" rel="external">放水</a>（主要是中奖时间）</p>
-<p>2、进游戏先玩一下</p>
-<p>3、绕过游戏直接<a href="http://showcase.display.taobao.com/luotuo/lottey.json?app=luotuo07&amp;ua=075YlJgThc3UTYWOBgrdllqXG9aa1liUGtefiF%252B%257CYVJ8T3lKekFxSntOekBwQh0%253D%257CYFB%252BJwdGLFwxXjkZNxcmEzMdPWgDbwlkEWBAH0A%253D%257CZ1RkSmpZb1xsV2dcbVhsWWxfZ1V5SntLfUd9SX9NeEh5THtbBA%253D%253D%257CZlVuQBkpBzQCLB8pBydXdQdrDDNqWHYZbURhHz9gPw%253D%253D%257CZV9xUXEu%257CZF9xUXEu%257Ca1hrRRw8ViBWJBwxHGkcaUUzXD9RPxNyH3BdMlEhSC9ZdBd5En0ecRI%252FXj1SNVsGNQcrWTNBYEBuTm4xbg%253D%253D%257Calt1LB4wAiwfJBYlCzAFPxEiGSkbNQY0DjwSIRoqGDYFNwEzbDM%253D%257CaVpoRmY%252FCD8EMAsle1toXm1eaV1qXG1caVJgHiwANA89CzoMNwA7DTcBMQUzAlx8UmE%252BHkE%253D%257CaF5wKQlgET5POl5xQnJBYU9%252BRXFfaV5lS3pOdEAfQA%253D%253D%257Cb1l3Lg5nFjlIPVl2RXVGZkhzSXxSZFNpR3B&amp;clk1=ed01cd17804b8e306dfcf81ca2ce67d3&amp;upsid=ed01cd17804b8e306dfcf81ca2ce67d3" target="_blank" rel="external">抽奖</a> 注意每个号有次数限制的，出现”reason” : “LOT05”,就是没戏了~~</p>
-<p>4、如果中了实物那恭喜你了~~~提交代码，自己修改相应的内容之后，粘帖在浏览器。</p>
-<p><pre class="prettyprint linenums"><a href="http://showcase.display.taobao.com/common/addForm.json?app=luotuo03&amp;value={&quot;username&quot;:&quot;李某某&quot;,&quot;phone&quot;:&quot;180XXXXXXXX&quot;,&quot;email&quot;:&quot;XXXXXXXXXXX@qq.com&quot;,&quot;province&quot;:&quot;XX省&quot;,&quot;city&quot;:&quot;XX市&quot;,&quot;address&quot;:&quot;XXXXXXXXXXXX&quot;,&quot;lottey&quot;:&quot;游戏通关&quot;}" target="_blank" rel="external">http://showcase.display.taobao.com/common/addForm.json?app=luotuo03&amp;value={&quot;username&quot;:&quot;李某某&quot;,&quot;phone&quot;:&quot;180XXXXXXXX&quot;,&quot;email&quot;:&quot;XXXXXXXXXXX@qq.com&quot;,&quot;province&quot;:&quot;XX省&quot;,&quot;city&quot;:&quot;XX市&quot;,&quot;address&quot;:&quot;XXXXXXXXXXXX&quot;,&quot;lottey&quot;:&quot;游戏通关&quot;}</a><br></pre><br>你以为这样就结束了么，还没有。</p>
-<p>右下角还有一个幸运抽奖，里面1000各它币抽一次，但没币怎么办</p>
-<p>点<a href="http://showcase.display.taobao.com/common/addScore.json?app=luotuo09&amp;score=1000&amp;_ksTS=1412931318637_1015&amp;callback=jsonp1016" target="_blank" rel="external">这儿</a>进去，然后不断刷新，一下F5=1000各它币。。。</p>
-<p>再然后，抽奖自己来吧</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>天猫各它旗舰店最近的活动，据说水很多，实物也很多，可惜我抽不到。。。</p>
-<p>本文仅供收藏使用<br>]]>
-    
-    </summary>
-    
-      <category term="福利" scheme="/tags/%E7%A6%8F%E5%88%A9/"/>
-    
-      <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
   </entry>
   
