@@ -4,7 +4,7 @@
   <subtitle><![CDATA[总会有一个开始，总要去面对一个未来]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/"/>
-  <updated>2016-01-01T02:42:53.611Z</updated>
+  <updated>2016-01-02T12:55:22.499Z</updated>
   <id>/</id>
   
   <author>
@@ -13,6 +13,86 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[随便写写，仅仅做个记录]]></title>
+    <link href="/2016/01/02/just-something/"/>
+    <id>/2016/01/02/just-something/</id>
+    <published>2016-01-02T10:34:04.000Z</published>
+    <updated>2016-01-02T12:55:22.499Z</updated>
+    <content type="html"><![CDATA[<p>随便写点东西，来自于四面八方，也没准是因为键盘坏了，下面的东西都是随便敲的，练习一下敲代码。</p>
+<p>cat /dev/ppp</p>
+<p>vi /etc/yum.repos.d/epel.repo</p>
+<p>[epel]<br>name=Extra Packages for Enterprise Linux 7 - $basearch</p>
+<p>#baseurl=<a href="http://download.fedoraproject.org/pub/epel/7/$basearch" target="_blank" rel="external">http://download.fedoraproject.org/pub/epel/7/$basearch</a><br>mirrorlist=<a href="https://mirrors.fedoraproject.org/metalink?repo=epel-7&amp;arch=$basearch" target="_blank" rel="external">https://mirrors.fedoraproject.org/metalink?repo=epel-7&amp;arch=$basearch</a><br>failovermethod=priority<br>enabled=1<br>gpgcheck=0<br>gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7</p>
+<p>[epel-debuginfo]<br>name=Extra Packages for Enterprise Linux 7 - $basearch - Debug</p>
+<p>#baseurl=<a href="http://download.fedoraproject.org/pub/epel/7/$basearch/debug" target="_blank" rel="external">http://download.fedoraproject.org/pub/epel/7/$basearch/debug</a><br>mirrorlist=<a href="https://mirrors.fedoraproject.org/metalink?repo=epel-debug-7&amp;arch=$basearch" target="_blank" rel="external">https://mirrors.fedoraproject.org/metalink?repo=epel-debug-7&amp;arch=$basearch</a><br>failovermethod=priority<br>enabled=0<br>gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7<br>gpgcheck=1</p>
+<p>[epel-source]<br>name=Extra Packages for Enterprise Linux 7 - $basearch - Source</p>
+<p>#baseurl=<a href="http://download.fedoraproject.org/pub/epel/7/SRPMS" target="_blank" rel="external">http://download.fedoraproject.org/pub/epel/7/SRPMS</a><br>mirrorlist=<a href="https://mirrors.fedoraproject.org/metalink?repo=epel-source-7&amp;arch=$basearch" target="_blank" rel="external">https://mirrors.fedoraproject.org/metalink?repo=epel-source-7&amp;arch=$basearch</a><br>failovermethod=priority<br>enabled=0<br>gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7<br>gpgcheck=1</p>
+<p>yum makecache</p>
+<p>yum install ppp iptables pptpd</p>
+<p>vi /etc/pptpd.conf</p>
+<p>localip 192.168.0.1<br>remoteip 192.168.0.234-238,192.168.0.245</p>
+<p>vi /etc/ppp/options.pptpd</p>
+<p>ms-dns 8.8.8.8<br>ms-dns 8.8.4.4 </p>
+<p>vi /etc/ppp/chap-secrets</p>
+<p>vi /etc/sysctl.conf </p>
+<p>net.ipv4.ip_forward=1 </p>
+<p>sysctl -p </p>
+<p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE</p>
+<p>chmod +x /etc/rc.d/rc.local </p>
+<p>vi /etc/rc.d/rc.local </p>
+<p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE</p>
+<p>/etc/init.d/pptpd start</p>
+<p>systemctl restart pptpd</p>
+<p>Shadowsocks</p>
+<p>yum install epel-release</p>
+<p>yum update</p>
+<p>yum install python-setuptools</p>
+<p>easy_install pip</p>
+<p>pip install shadowsocks</p>
+<p>{<br>    “server”:”0.0.0.0”,<br>    “server_port”:端口号,<br>    “local_address”: “127.0.0.1”,<br>    “local_port”:1080,<br>    “password”:”你的密码”,<br>    “timeout”:500,<br>    “method”:”aes-256-cfb”,<br>    “fast_open”: true<br>}</p>
+<p>yum install python-setuptools supervisor</p>
+<p>easy_install pip</p>
+<p>pip install shadowsocks</p>
+<p>vi /etc/supervisord.conf </p>
+<p>[program:shadowsocks]<br>command=ssserver -c /etc/shadowsocks.json<br>autostart=true<br>autorestart=true<br>user=root</p>
+<p>sudo chkconfig –add supervisord</p>
+<p>sudo chkconfig supervisord on</p>
+<p>service supervisord start</p>
+<p>supervisorctl reload</p>
+<p>reboot</p>
+<p>uname -a </p>
+<p>echo 3 &gt; /proc/sys/net/ipv4/tcp_fastopen</p>
+<p>vi /etc/sysctl.conf </p>
+<p>vi /etc/security/limits.conf </p>
+<ul>
+<li>soft nofile 51200</li>
+<li>hard nofile 51200</li>
+</ul>
+<p>ulimit -n 51200</p>
+<p>sysctl net.ipv4.tcp_available_congestion_control </p>
+<p>/sbin/modprobe tcp_hybla</p>
+<p>sysctl net.ipv4.tcp_available_congestion_control </p>
+<p>cp /etc/sysctl.conf /root/</p>
+<p>vi /etc/sysctl.conf </p>
+<p>fs.file-max = 51200<br>net.core.rmem_max = 67108864<br>net.core.wmem_max = 67108864<br>net.core.netdev_max_backlog = 250000<br>net.core.somaxconn = 3240000</p>
+<p>net.ipv4.tcp_syncookies = 1<br>net.ipv4.tcp_tw_reuse = 1<br>net.ipv4.tcp_tw_recycle = 0<br>net.ipv4.tcp_fin_timeout = 30<br>net.ipv4.tcp_keepalive_time = 1200<br>net.ipv4.ip_local_port_range = 10000 65000<br>net.ipv4.tcp_max_syn_backlog = 8192<br>net.ipv4.tcp_max_tw_buckets = 5000<br>net.ipv4.tcp_fastopen = 3<br>net.ipv4.tcp_rmem = 4096 87380 67108864<br>net.ipv4.tcp_wmem = 4096 65536 67108864<br>net.ipv4.tcp_mtu_probing = 1<br>net.ipv4.tcp_congestion_control = hybla</p>
+<p>sysctl -p </p>
+<p>sysctl net.ipv4.tcp_fastopen </p>
+<p>估计这个东西只能当作给自己看的存档吧</p>
+<p>估计过一阵子自己看起来都会费点劲了</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>随便写点东西，来自于四面八方，也没准是因为键盘坏了，下面的东西都是随便敲的，练习一下敲代码。</p>
+<p>cat /dev/ppp</p>
+<p>vi /etc/yum.repos.d/epel.repo</p>
+<p>[epel]<br>name=Extra Packa]]>
+    </summary>
+    
+      <category term="special" scheme="/tags/special/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[新年快乐]]></title>
@@ -776,41 +856,6 @@
       <category term="路由器" scheme="/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
     
       <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[苹果iPhone/iPad 微信免越狱多开（兼容iOS8&8.1）]]></title>
-    <link href="/2014/11/20/iphone-wechat-multopen/"/>
-    <id>/2014/11/20/iphone-wechat-multopen/</id>
-    <published>2014-11-20T05:08:58.000Z</published>
-    <updated>2015-12-15T13:57:27.595Z</updated>
-    <content type="html"><![CDATA[<p>用手机自带浏览器Safari打开以下连接，即可下载安装<br>兼容ios8.1，不需要修改时间日期。<a id="more"></a></p>
-<p><table cellspacing="0" cellpadding="0"></table></p>
-<p><tbody></tbody></p>
-<p><tr></tr></p>
-<p><td id="postmessage_23955707" class="t_f">苹果手机微信6.0.0 版本1-10<br><a href="http://www.pgyer.com/7u6i" target="_blank" rel="external">http://www.pgyer.com/7u6i</a><br><a href="http://www.pgyer.com/YYd7" target="_blank" rel="external">http://www.pgyer.com/YYd7</a><br><a href="http://www.pgyer.com/qU15" target="_blank" rel="external">http://www.pgyer.com/qU15</a><br><a href="http://www.pgyer.com/xGbo" target="_blank" rel="external">http://www.pgyer.com/xGbo</a><br><a href="http://www.pgyer.com/r0IC" target="_blank" rel="external">http://www.pgyer.com/r0IC</a><br><a href="http://www.pgyer.com/IBJI" target="_blank" rel="external">http://www.pgyer.com/IBJI</a><br><a href="http://www.pgyer.com/rCoa" target="_blank" rel="external">http://www.pgyer.com/rCoa</a><br><a href="http://www.pgyer.com/RlQ9" target="_blank" rel="external">http://www.pgyer.com/RlQ9</a><br><a href="http://www.pgyer.com/YSEA" target="_blank" rel="external">http://www.pgyer.com/YSEA</a><br><a href="http://www.pgyer.com/Vnes" target="_blank" rel="external">http://www.pgyer.com/Vnes</a></td></p>
-<p>苹果手机微信6.0.0 版本11-20<br><a href="http://www.pgyer.com/COJz" target="_blank" rel="external">http://www.pgyer.com/COJz</a><br><a href="http://www.pgyer.com/Gi48" target="_blank" rel="external">http://www.pgyer.com/Gi48</a><br><a href="http://www.pgyer.com/C8un" target="_blank" rel="external">http://www.pgyer.com/C8un</a><br><a href="http://www.pgyer.com/9ZqE" target="_blank" rel="external">http://www.pgyer.com/9ZqE</a><br><a href="http://www.pgyer.com/ThJz" target="_blank" rel="external">http://www.pgyer.com/ThJz</a><br><a href="http://www.pgyer.com/b5RX" target="_blank" rel="external">http://www.pgyer.com/b5RX</a><br><a href="http://www.pgyer.com/f4Vr" target="_blank" rel="external">http://www.pgyer.com/f4Vr</a><br><a href="http://www.pgyer.com/Ncgl" target="_blank" rel="external">http://www.pgyer.com/Ncgl</a><br><a href="http://www.pgyer.com/WOg9" target="_blank" rel="external">http://www.pgyer.com/WOg9</a><br><a href="http://www.pgyer.com/2KU1" target="_blank" rel="external">http://www.pgyer.com/2KU1</a></p>
-<p>微信6.0.0 版本21-30<br><a href="http://www.pgyer.com/3XPn" target="_blank" rel="external">http://www.pgyer.com/3XPn</a><br><a href="http://www.pgyer.com/nyrN" target="_blank" rel="external">http://www.pgyer.com/nyrN</a><br><a href="http://www.pgyer.com/dXGR" target="_blank" rel="external">http://www.pgyer.com/dXGR</a><br><a href="http://www.pgyer.com/ToPp" target="_blank" rel="external">http://www.pgyer.com/ToPp</a><br><a href="http://www.pgyer.com/lO3C" target="_blank" rel="external">http://www.pgyer.com/lO3C</a><br><a href="http://www.pgyer.com/gvqr" target="_blank" rel="external">http://www.pgyer.com/gvqr</a><br><a href="http://www.pgyer.com/8BVx" target="_blank" rel="external">http://www.pgyer.com/8BVx</a><br><a href="http://www.pgyer.com/hy9l" target="_blank" rel="external">http://www.pgyer.com/hy9l</a><br><a href="http://www.pgyer.com/hqLF" target="_blank" rel="external">http://www.pgyer.com/hqLF</a><br><a href="http://www.pgyer.com/jx3K" target="_blank" rel="external">http://www.pgyer.com/jx3K</a></p>
-<p>微信6.0.0 版本31-40<br><a href="http://www.pgyer.com/uD1t" target="_blank" rel="external">http://www.pgyer.com/uD1t</a><br><a href="http://www.pgyer.com/eOh7" target="_blank" rel="external">http://www.pgyer.com/eOh7</a><br><a href="http://www.pgyer.com/KcEG" target="_blank" rel="external">http://www.pgyer.com/KcEG</a><br><a href="http://www.pgyer.com/NO9G" target="_blank" rel="external">http://www.pgyer.com/NO9G</a><br><a href="http://www.pgyer.com/YT2Y" target="_blank" rel="external">http://www.pgyer.com/YT2Y</a><br><a href="http://www.pgyer.com/3tx8" target="_blank" rel="external">http://www.pgyer.com/3tx8</a><br><a href="http://www.pgyer.com/6XTH" target="_blank" rel="external">http://www.pgyer.com/6XTH</a><br><a href="http://www.pgyer.com/mTbq" target="_blank" rel="external">http://www.pgyer.com/mTbq</a><br><a href="http://www.pgyer.com/iGLm" target="_blank" rel="external">http://www.pgyer.com/iGLm</a><br><a href="http://www.pgyer.com/REEL" target="_blank" rel="external">http://www.pgyer.com/REEL</a></p>
-<p>微信6.0.0 版本41-50<br><a href="http://www.pgyer.com/HLPN" target="_blank" rel="external">http://www.pgyer.com/HLPN</a><br><a href="http://www.pgyer.com/EuHN" target="_blank" rel="external">http://www.pgyer.com/EuHN</a><br><a href="http://www.pgyer.com/bGHP" target="_blank" rel="external">http://www.pgyer.com/bGHP</a><br><a href="http://www.pgyer.com/ApVL" target="_blank" rel="external">http://www.pgyer.com/ApVL</a><br><a href="http://www.pgyer.com/aZZ6" target="_blank" rel="external">http://www.pgyer.com/aZZ6</a><br><a href="http://www.pgyer.com/2L7L" target="_blank" rel="external">http://www.pgyer.com/2L7L</a><br><a href="http://www.pgyer.com/oxh0" target="_blank" rel="external">http://www.pgyer.com/oxh0</a><br><a href="http://www.pgyer.com/yIJV" target="_blank" rel="external">http://www.pgyer.com/yIJV</a><br><a href="http://www.pgyer.com/nLFf" target="_blank" rel="external">http://www.pgyer.com/nLFf</a><br><a href="http://www.pgyer.com/ueB7" target="_blank" rel="external">http://www.pgyer.com/ueB7</a></p>
-<p>微信6.0.0 版本51-59<br><a href="http://www.pgyer.com/cLqW" target="_blank" rel="external">http://www.pgyer.com/cLqW</a><br><a href="http://www.pgyer.com/5xx0" target="_blank" rel="external">http://www.pgyer.com/5xx0</a><br><a href="http://www.pgyer.com/ujuk" target="_blank" rel="external">http://www.pgyer.com/ujuk</a><br><a href="http://www.pgyer.com/f2LH" target="_blank" rel="external">http://www.pgyer.com/f2LH</a><br><a href="http://www.pgyer.com/wMTv" target="_blank" rel="external">http://www.pgyer.com/wMTv</a><br><a href="http://www.pgyer.com/zS2T" target="_blank" rel="external">http://www.pgyer.com/zS2T</a><br><a href="http://www.pgyer.com/HGAf" target="_blank" rel="external">http://www.pgyer.com/HGAf</a><br><a href="http://www.pgyer.com/Irl2" target="_blank" rel="external">http://www.pgyer.com/Irl2</a><br><a href="http://www.pgyer.com/RirB" target="_blank" rel="external">http://www.pgyer.com/RirB</a></p>
-<p>微信6.0.0 版本60-69<br><a href="http://www.pgyer.com/HUW9" target="_blank" rel="external">http://www.pgyer.com/HUW9</a><br><a href="http://www.pgyer.com/qxhV" target="_blank" rel="external">http://www.pgyer.com/qxhV</a><br><a href="http://www.pgyer.com/7vhJ" target="_blank" rel="external">http://www.pgyer.com/7vhJ</a><br><a href="http://www.pgyer.com/bArV" target="_blank" rel="external">http://www.pgyer.com/bArV</a><br><a href="http://www.pgyer.com/yACA" target="_blank" rel="external">http://www.pgyer.com/yACA</a><br><a href="http://www.pgyer.com/KwRe" target="_blank" rel="external">http://www.pgyer.com/KwRe</a><br><a href="http://www.pgyer.com/Yi8F" target="_blank" rel="external">http://www.pgyer.com/Yi8F</a><br><a href="http://www.pgyer.com/oIXX" target="_blank" rel="external">http://www.pgyer.com/oIXX</a><br><a href="http://www.pgyer.com/cDuB" target="_blank" rel="external">http://www.pgyer.com/cDuB</a><br><a href="http://www.pgyer.com/aPuP" target="_blank" rel="external">http://www.pgyer.com/aPuP</a></p>
-<p>微信6.0.0 版本70-79<br><a href="http://www.pgyer.com/Wp1l" target="_blank" rel="external">http://www.pgyer.com/Wp1l</a><br><a href="http://www.pgyer.com/FJHG" target="_blank" rel="external">http://www.pgyer.com/FJHG</a><br><a href="http://www.pgyer.com/tOrV" target="_blank" rel="external">http://www.pgyer.com/tOrV</a><br><a href="http://www.pgyer.com/vbN4" target="_blank" rel="external">http://www.pgyer.com/vbN4</a><br><a href="http://www.pgyer.com/sG3d" target="_blank" rel="external">http://www.pgyer.com/sG3d</a><br><a href="http://www.pgyer.com/m2f6" target="_blank" rel="external">http://www.pgyer.com/m2f6</a><br><a href="http://www.pgyer.com/PEFi" target="_blank" rel="external">http://www.pgyer.com/PEFi</a><br><a href="http://www.pgyer.com/khs6" target="_blank" rel="external">http://www.pgyer.com/khs6</a><br><a href="http://www.pgyer.com/XE7p" target="_blank" rel="external">http://www.pgyer.com/XE7p</a><br><a href="http://www.pgyer.com/GBT5" target="_blank" rel="external">http://www.pgyer.com/GBT5</a></p>
-<p>微信6.0.0 版本80-89<br><a href="http://www.pgyer.com/SzZk" target="_blank" rel="external">http://www.pgyer.com/SzZk</a><br><a href="http://www.pgyer.com/0URv" target="_blank" rel="external">http://www.pgyer.com/0URv</a><br><a href="http://www.pgyer.com/AElp" target="_blank" rel="external">http://www.pgyer.com/AElp</a><br><a href="http://www.pgyer.com/XS2M" target="_blank" rel="external">http://www.pgyer.com/XS2M</a><br><a href="http://www.pgyer.com/YeCZ" target="_blank" rel="external">http://www.pgyer.com/YeCZ</a><br><a href="http://www.pgyer.com/iThN" target="_blank" rel="external">http://www.pgyer.com/iThN</a><br><a href="http://www.pgyer.com/e0JJ" target="_blank" rel="external">http://www.pgyer.com/e0JJ</a><br><a href="http://www.pgyer.com/F701" target="_blank" rel="external">http://www.pgyer.com/F701</a><br><a href="http://www.pgyer.com/8jyF" target="_blank" rel="external">http://www.pgyer.com/8jyF</a><br><a href="http://www.pgyer.com/65kO" target="_blank" rel="external">http://www.pgyer.com/65kO</a></p>
-<p>微信6.0.0 版本90-99<br><a href="http://www.pgyer.com/3diI" target="_blank" rel="external">http://www.pgyer.com/3diI</a><br><a href="http://www.pgyer.com/W8PJ" target="_blank" rel="external">http://www.pgyer.com/W8PJ</a><br><a href="http://www.pgyer.com/hQgE" target="_blank" rel="external">http://www.pgyer.com/hQgE</a><br><a href="http://www.pgyer.com/dXGR" target="_blank" rel="external">http://www.pgyer.com/dXGR</a><br><a href="http://www.pgyer.com/Aekn" target="_blank" rel="external">http://www.pgyer.com/Aekn</a><br><a href="http://www.pgyer.com/adHo" target="_blank" rel="external">http://www.pgyer.com/adHo</a><br><a href="http://www.pgyer.com/clMA" target="_blank" rel="external">http://www.pgyer.com/clMA</a><br><a href="http://www.pgyer.com/ipMl" target="_blank" rel="external">http://www.pgyer.com/ipMl</a><br><a href="http://www.pgyer.com/tXtg" target="_blank" rel="external">http://www.pgyer.com/tXtg</a><br><a href="http://www.pgyer.com/mxSE" target="_blank" rel="external">http://www.pgyer.com/mxSE</a><br><a href="http://www.pgyer.com/G5CF" target="_blank" rel="external">http://www.pgyer.com/G5CF</a></p>
-<p>微信6.0.0 版本101-110<br><a href="http://www.pgyer.com/yCFB" target="_blank" rel="external">http://www.pgyer.com/yCFB</a><br><a href="http://www.pgyer.com/4c0o" target="_blank" rel="external">http://www.pgyer.com/4c0o</a><br><a href="http://www.pgyer.com/tW20" target="_blank" rel="external">http://www.pgyer.com/tW20</a><br><a href="http://www.pgyer.com/keAv" target="_blank" rel="external">http://www.pgyer.com/keAv</a><br><a href="http://www.pgyer.com/k69H" target="_blank" rel="external">http://www.pgyer.com/k69H</a><br><a href="http://www.pgyer.com/8RAJ" target="_blank" rel="external">http://www.pgyer.com/8RAJ</a><br><a href="http://www.pgyer.com/wwUp" target="_blank" rel="external">http://www.pgyer.com/wwUp</a><br><a href="http://www.pgyer.com/PZX3" target="_blank" rel="external">http://www.pgyer.com/PZX3</a><br><a href="http://www.pgyer.com/wmhf" target="_blank" rel="external">http://www.pgyer.com/wmhf</a><br><a href="http://www.pgyer.com/2a3M" target="_blank" rel="external">http://www.pgyer.com/2a3M</a></p>
-<p>微信6.0.0 版本111-120<br><a href="http://www.pgyer.com/pdFr" target="_blank" rel="external">http://www.pgyer.com/pdFr</a><br><a href="http://www.pgyer.com/VQ5q" target="_blank" rel="external">http://www.pgyer.com/VQ5q</a><br><a href="http://www.pgyer.com/hrID" target="_blank" rel="external">http://www.pgyer.com/hrID</a><br><a href="http://www.pgyer.com/cVB5" target="_blank" rel="external">http://www.pgyer.com/cVB5</a><br><a href="http://www.pgyer.com/2YbH" target="_blank" rel="external">http://www.pgyer.com/2YbH</a><br><a href="http://www.pgyer.com/ZFgs" target="_blank" rel="external">http://www.pgyer.com/ZFgs</a><br><a href="http://www.pgyer.com/cxvP" target="_blank" rel="external">http://www.pgyer.com/cxvP</a><br><a href="http://www.pgyer.com/B8nT" target="_blank" rel="external">http://www.pgyer.com/B8nT</a><br><a href="http://www.pgyer.com/prjZ" target="_blank" rel="external">http://www.pgyer.com/prjZ</a><br><a href="http://www.pgyer.com/vu4G" target="_blank" rel="external">http://www.pgyer.com/vu4G</a></p>
-<p>微信6.0.0 版本121-130<br><a href="http://www.pgyer.com/mdD9" target="_blank" rel="external">http://www.pgyer.com/mdD9</a><br><a href="http://www.pgyer.com/lLWt" target="_blank" rel="external">http://www.pgyer.com/lLWt</a><br><a href="http://www.pgyer.com/ibM3" target="_blank" rel="external">http://www.pgyer.com/ibM3</a><br><a href="http://www.pgyer.com/gjsD" target="_blank" rel="external">http://www.pgyer.com/gjsD</a><br><a href="http://www.pgyer.com/fwhH" target="_blank" rel="external">http://www.pgyer.com/fwhH</a><br><a href="http://www.pgyer.com/tu1I" target="_blank" rel="external">http://www.pgyer.com/tu1I</a><br><a href="http://www.pgyer.com/ofhO" target="_blank" rel="external">http://www.pgyer.com/ofhO</a><br><a href="http://www.pgyer.com/XV7B" target="_blank" rel="external">http://www.pgyer.com/XV7B</a><br><a href="http://www.pgyer.com/6XvI" target="_blank" rel="external">http://www.pgyer.com/6XvI</a><br><a href="http://www.pgyer.com/9GZI" target="_blank" rel="external">http://www.pgyer.com/9GZI</a></p>
-<p>微信6.0.0 版本131-140<br><a href="http://www.pgyer.com/2J8e" target="_blank" rel="external">http://www.pgyer.com/2J8e</a><br><a href="http://www.pgyer.com/aeGd" target="_blank" rel="external">http://www.pgyer.com/aeGd</a><br><a href="http://www.pgyer.com/46Y1" target="_blank" rel="external">http://www.pgyer.com/46Y1</a><br><a href="http://www.pgyer.com/yI03" target="_blank" rel="external">http://www.pgyer.com/yI03</a><br><a href="http://www.pgyer.com/wj0T" target="_blank" rel="external">http://www.pgyer.com/wj0T</a><br><a href="http://www.pgyer.com/jdtw" target="_blank" rel="external">http://www.pgyer.com/jdtw</a><br><a href="http://www.pgyer.com/0Pau" target="_blank" rel="external">http://www.pgyer.com/0Pau</a><br><a href="http://www.pgyer.com/1WtG" target="_blank" rel="external">http://www.pgyer.com/1WtG</a><br><a href="http://www.pgyer.com/WB0b" target="_blank" rel="external">http://www.pgyer.com/WB0b</a><br><a href="http://www.pgyer.com/3I6n" target="_blank" rel="external">http://www.pgyer.com/3I6n</a></p>
-<p>微信6.0.0 版本141-150<br><a href="http://www.pgyer.com/w8e8" target="_blank" rel="external">http://www.pgyer.com/w8e8</a><br><a href="http://www.pgyer.com/1WTk" target="_blank" rel="external">http://www.pgyer.com/1WTk</a><br><a href="http://www.pgyer.com/pXPr" target="_blank" rel="external">http://www.pgyer.com/pXPr</a><br><a href="http://www.pgyer.com/u5Hd" target="_blank" rel="external">http://www.pgyer.com/u5Hd</a><br><a href="http://www.pgyer.com/zOB8" target="_blank" rel="external">http://www.pgyer.com/zOB8</a><br><a href="http://www.pgyer.com/TkIq" target="_blank" rel="external">http://www.pgyer.com/TkIq</a><br><a href="http://www.pgyer.com/9G47" target="_blank" rel="external">http://www.pgyer.com/9G47</a><br><a href="http://www.pgyer.com/fxia" target="_blank" rel="external">http://www.pgyer.com/fxia</a><br><a href="http://www.pgyer.com/45Sc" target="_blank" rel="external">http://www.pgyer.com/45Sc</a><br><a href="http://www.pgyer.com/z1lD" target="_blank" rel="external">http://www.pgyer.com/z1lD</a><br><br><br><br>&nbsp;</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>用手机自带浏览器Safari打开以下连接，即可下载安装<br>兼容ios8.1，不需要修改时间日期。]]>
-    
-    </summary>
-    
-      <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
   </entry>
   

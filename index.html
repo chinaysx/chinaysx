@@ -81,6 +81,125 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
+      <a href="/2016/01/02/just-something/" title="随便写写，仅仅做个记录" itemprop="url">随便写写，仅仅做个记录</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Scott Yang" target="_blank" itemprop="author">Scott Yang</a>
+		
+  <p class="article-time">
+    <time datetime="2016-01-02T10:34:04.000Z" itemprop="datePublished"> 发表于 2016-01-02</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>随便写点东西，来自于四面八方，也没准是因为键盘坏了，下面的东西都是随便敲的，练习一下敲代码。</p>
+<p>cat /dev/ppp</p>
+<p>vi /etc/yum.repos.d/epel.repo</p>
+<p>[epel]<br>name=Extra Packages for Enterprise Linux 7 - $basearch</p>
+<p>#baseurl=<a href="http://download.fedoraproject.org/pub/epel/7/$basearch" target="_blank" rel="external">http://download.fedoraproject.org/pub/epel/7/$basearch</a><br>mirrorlist=<a href="https://mirrors.fedoraproject.org/metalink?repo=epel-7&amp;arch=$basearch" target="_blank" rel="external">https://mirrors.fedoraproject.org/metalink?repo=epel-7&amp;arch=$basearch</a><br>failovermethod=priority<br>enabled=1<br>gpgcheck=0<br>gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7</p>
+<p>[epel-debuginfo]<br>name=Extra Packages for Enterprise Linux 7 - $basearch - Debug</p>
+<p>#baseurl=<a href="http://download.fedoraproject.org/pub/epel/7/$basearch/debug" target="_blank" rel="external">http://download.fedoraproject.org/pub/epel/7/$basearch/debug</a><br>mirrorlist=<a href="https://mirrors.fedoraproject.org/metalink?repo=epel-debug-7&amp;arch=$basearch" target="_blank" rel="external">https://mirrors.fedoraproject.org/metalink?repo=epel-debug-7&amp;arch=$basearch</a><br>failovermethod=priority<br>enabled=0<br>gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7<br>gpgcheck=1</p>
+<p>[epel-source]<br>name=Extra Packages for Enterprise Linux 7 - $basearch - Source</p>
+<p>#baseurl=<a href="http://download.fedoraproject.org/pub/epel/7/SRPMS" target="_blank" rel="external">http://download.fedoraproject.org/pub/epel/7/SRPMS</a><br>mirrorlist=<a href="https://mirrors.fedoraproject.org/metalink?repo=epel-source-7&amp;arch=$basearch" target="_blank" rel="external">https://mirrors.fedoraproject.org/metalink?repo=epel-source-7&amp;arch=$basearch</a><br>failovermethod=priority<br>enabled=0<br>gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7<br>gpgcheck=1</p>
+<p>yum makecache</p>
+<p>yum install ppp iptables pptpd</p>
+<p>vi /etc/pptpd.conf</p>
+<p>localip 192.168.0.1<br>remoteip 192.168.0.234-238,192.168.0.245</p>
+<p>vi /etc/ppp/options.pptpd</p>
+<p>ms-dns 8.8.8.8<br>ms-dns 8.8.4.4 </p>
+<p>vi /etc/ppp/chap-secrets</p>
+<p>vi /etc/sysctl.conf </p>
+<p>net.ipv4.ip_forward=1 </p>
+<p>sysctl -p </p>
+<p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE</p>
+<p>chmod +x /etc/rc.d/rc.local </p>
+<p>vi /etc/rc.d/rc.local </p>
+<p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE</p>
+<p>/etc/init.d/pptpd start</p>
+<p>systemctl restart pptpd</p>
+<p>Shadowsocks</p>
+<p>yum install epel-release</p>
+<p>yum update</p>
+<p>yum install python-setuptools</p>
+<p>easy_install pip</p>
+<p>pip install shadowsocks</p>
+<p>{<br>    “server”:”0.0.0.0”,<br>    “server_port”:端口号,<br>    “local_address”: “127.0.0.1”,<br>    “local_port”:1080,<br>    “password”:”你的密码”,<br>    “timeout”:500,<br>    “method”:”aes-256-cfb”,<br>    “fast_open”: true<br>}</p>
+<p>yum install python-setuptools supervisor</p>
+<p>easy_install pip</p>
+<p>pip install shadowsocks</p>
+<p>vi /etc/supervisord.conf </p>
+<p>[program:shadowsocks]<br>command=ssserver -c /etc/shadowsocks.json<br>autostart=true<br>autorestart=true<br>user=root</p>
+<p>sudo chkconfig –add supervisord</p>
+<p>sudo chkconfig supervisord on</p>
+<p>service supervisord start</p>
+<p>supervisorctl reload</p>
+<p>reboot</p>
+<p>uname -a </p>
+<p>echo 3 &gt; /proc/sys/net/ipv4/tcp_fastopen</p>
+<p>vi /etc/sysctl.conf </p>
+<p>vi /etc/security/limits.conf </p>
+<ul>
+<li>soft nofile 51200</li>
+<li>hard nofile 51200</li>
+</ul>
+<p>ulimit -n 51200</p>
+<p>sysctl net.ipv4.tcp_available_congestion_control </p>
+<p>/sbin/modprobe tcp_hybla</p>
+<p>sysctl net.ipv4.tcp_available_congestion_control </p>
+<p>cp /etc/sysctl.conf /root/</p>
+<p>vi /etc/sysctl.conf </p>
+<p>fs.file-max = 51200<br>net.core.rmem_max = 67108864<br>net.core.wmem_max = 67108864<br>net.core.netdev_max_backlog = 250000<br>net.core.somaxconn = 3240000</p>
+<p>net.ipv4.tcp_syncookies = 1<br>net.ipv4.tcp_tw_reuse = 1<br>net.ipv4.tcp_tw_recycle = 0<br>net.ipv4.tcp_fin_timeout = 30<br>net.ipv4.tcp_keepalive_time = 1200<br>net.ipv4.ip_local_port_range = 10000 65000<br>net.ipv4.tcp_max_syn_backlog = 8192<br>net.ipv4.tcp_max_tw_buckets = 5000<br>net.ipv4.tcp_fastopen = 3<br>net.ipv4.tcp_rmem = 4096 87380 67108864<br>net.ipv4.tcp_wmem = 4096 65536 67108864<br>net.ipv4.tcp_mtu_probing = 1<br>net.ipv4.tcp_congestion_control = hybla</p>
+<p>sysctl -p </p>
+<p>sysctl net.ipv4.tcp_fastopen </p>
+<p>估计这个东西只能当作给自己看的存档吧</p>
+<p>估计过一阵子自己看起来都会费点劲了</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/special/">special</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2016/01/02/just-something/#comments" class="ds-thread-count comments-count-link" data-thread-key="2016/01/02/just-something/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
       <a href="/2016/01/01/happy-new-year-2016/" title="新年快乐" itemprop="url">新年快乐</a>
   </h1>
   <p class="article-author">By
@@ -729,70 +848,6 @@
 
 
 
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2015/07/05/h2os-in-another-view/" title="换个角度看氢OS" itemprop="url">换个角度看氢OS</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Scott Yang" target="_blank" itemprop="author">Scott Yang</a>
-		
-  <p class="article-time">
-    <time datetime="2015-07-05T13:38:17.000Z" itemprop="datePublished"> 发表于 2015-07-05</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       有人说，我是专门给一加洗地的，其实不是太确切，ID上已经说了嘛，扫地而已。<br></span></span><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       因为爱，所以会关注的多一些，了解的多一些，所以也会包容的多一些。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       经常回来一加论坛闲逛，当然想找干货的时候更多的还是回去海外版一加论坛和XDA，那些地方没有灌水，也都很务实。</span></span><br><span style="font-family: 微软雅黑;"><span style="font-size: medium;">       我喜欢理性又务实的人，喜欢理性又务实的企业。我不懂艺术，也不懂生活，但这无法阻挡我喜欢艺术的生活家，喜欢那种理性美。</span></span>
-        
-        
-        <p class="article-more-link">
-          
-            <a href="/2015/07/05/h2os-in-another-view/#more">Read More</a>
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-<div class="article-categories">
-  <span></span>
-  <a class="article-category-link" href="/categories/数码/">数码</a>
-</div>
-
-
-  <div class="article-tags">
-  
-  <span></span> <a href="/tags/一加/">一加</a>
-  </div>
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-	  	<span></span>
-		<a href="/2015/07/05/h2os-in-another-view/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/07/05/h2os-in-another-view/" data-count-type="comments">&nbsp;</a>
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
 
   <nav id="page-nav" class="clearfix">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" href="/page/2/">Next<span></span></a>
@@ -923,15 +978,15 @@
 			
 		
 			
+				<li><a href="/tags/就业/" title="就业">就业<sup>2</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/资料/" title="资料">资料<sup>2</sup></a></li>
 			
 		
 			
 				<li><a href="/tags/软件/" title="软件">软件<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/SSD/" title="SSD">SSD<sup>2</sup></a></li>
 			
 		
 		</ul>
