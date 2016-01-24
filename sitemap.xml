@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2016/01/24/kindle-favourate-books/</loc>
+    <lastmod>2016-01-24T01:57:33.480Z</lastmod>
+  </url>
+  
+  <url>
     <loc>/2016/01/23/netease-music-abroad/</loc>
     <lastmod>2016-01-24T01:37:14.920Z</lastmod>
   </url>
@@ -42,12 +47,12 @@
   </url>
   
   <url>
-    <loc>/2015/07/13/small-things-about-oneplus2/</loc>
+    <loc>/2015/07/05/interpret-h2os-posters/</loc>
     <lastmod>2015-12-15T13:57:27.598Z</lastmod>
   </url>
   
   <url>
-    <loc>/2015/07/05/interpret-h2os-posters/</loc>
+    <loc>/2015/07/13/small-things-about-oneplus2/</loc>
     <lastmod>2015-12-15T13:57:27.598Z</lastmod>
   </url>
   
@@ -82,27 +87,17 @@
   </url>
   
   <url>
-    <loc>/2015/04/29/my-history-of-mobiles/</loc>
-    <lastmod>2015-12-15T13:57:27.591Z</lastmod>
-  </url>
-  
-  <url>
     <loc>/2015/03/10/apple-revolution/</loc>
     <lastmod>2015-12-15T13:57:27.591Z</lastmod>
   </url>
   
   <url>
-    <loc>/2015/01/29/android-software-recommend/</loc>
-    <lastmod>2015-12-15T13:57:27.590Z</lastmod>
+    <loc>/2015/04/29/my-history-of-mobiles/</loc>
+    <lastmod>2015-12-15T13:57:27.591Z</lastmod>
   </url>
   
   <url>
     <loc>/2014/12/31/goodbye-2014-and-hello-2015/</loc>
-    <lastmod>2015-12-15T13:57:27.590Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/12/29/win-to-go-vhd-cz80/</loc>
     <lastmod>2015-12-15T13:57:27.590Z</lastmod>
   </url>
   
@@ -112,13 +107,18 @@
   </url>
   
   <url>
-    <loc>/2014/12/02/routers-ever-played/</loc>
-    <lastmod>2015-12-15T13:57:27.586Z</lastmod>
+    <loc>/2015/01/29/android-software-recommend/</loc>
+    <lastmod>2015-12-15T13:57:27.590Z</lastmod>
   </url>
   
   <url>
-    <loc>/2014/10/08/synology-nas-dts/</loc>
-    <lastmod>2015-12-15T13:57:27.585Z</lastmod>
+    <loc>/2014/12/29/win-to-go-vhd-cz80/</loc>
+    <lastmod>2015-12-15T13:57:27.590Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/12/02/routers-ever-played/</loc>
+    <lastmod>2015-12-15T13:57:27.586Z</lastmod>
   </url>
   
   <url>
@@ -132,8 +132,8 @@
   </url>
   
   <url>
-    <loc>/2014/10/07/ems-search/</loc>
-    <lastmod>2015-12-15T13:57:27.584Z</lastmod>
+    <loc>/2014/10/08/synology-nas-dts/</loc>
+    <lastmod>2015-12-15T13:57:27.585Z</lastmod>
   </url>
   
   <url>
@@ -143,6 +143,11 @@
   
   <url>
     <loc>/2014/10/11/Strategy-Guide-Camel/</loc>
+    <lastmod>2015-12-15T13:57:27.584Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/10/07/ems-search/</loc>
     <lastmod>2015-12-15T13:57:27.584Z</lastmod>
   </url>
   
@@ -172,11 +177,6 @@
   </url>
   
   <url>
-    <loc>/2014/01/08/worth-to-buy/</loc>
-    <lastmod>2015-12-15T13:57:27.579Z</lastmod>
-  </url>
-  
-  <url>
     <loc>/2014/05/22/picture-test/</loc>
     <lastmod>2015-12-15T13:57:27.579Z</lastmod>
   </url>
@@ -187,7 +187,12 @@
   </url>
   
   <url>
-    <loc>/2013/12/10/warning-touch-function-touch/</loc>
+    <loc>/2014/01/08/worth-to-buy/</loc>
+    <lastmod>2015-12-15T13:57:27.579Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/06/27/fight-in-society-sdu/</loc>
     <lastmod>2015-12-15T13:57:27.578Z</lastmod>
   </url>
   
@@ -197,7 +202,7 @@
   </url>
   
   <url>
-    <loc>/2013/06/27/fight-in-society-sdu/</loc>
+    <loc>/2013/12/10/warning-touch-function-touch/</loc>
     <lastmod>2015-12-15T13:57:27.578Z</lastmod>
   </url>
   
@@ -207,12 +212,7 @@
   </url>
   
   <url>
-    <loc>/2013/07/01/memories-201307/</loc>
-    <lastmod>2015-12-15T13:57:27.576Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2013/03/27/play-google-drive/</loc>
+    <loc>/2013/06/11/wwdc-2013/</loc>
     <lastmod>2015-12-15T13:57:27.576Z</lastmod>
   </url>
   
@@ -222,7 +222,12 @@
   </url>
   
   <url>
-    <loc>/2013/06/11/wwdc-2013/</loc>
+    <loc>/2013/03/27/play-google-drive/</loc>
+    <lastmod>2015-12-15T13:57:27.576Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/07/01/memories-201307/</loc>
     <lastmod>2015-12-15T13:57:27.576Z</lastmod>
   </url>
   
@@ -257,11 +262,6 @@
   </url>
   
   <url>
-    <loc>/2013/05/02/why-make-phone/</loc>
-    <lastmod>2015-12-15T13:57:27.571Z</lastmod>
-  </url>
-  
-  <url>
     <loc>/2013/04/11/research-on-tablets/</loc>
     <lastmod>2015-12-15T13:57:27.571Z</lastmod>
   </url>
@@ -272,17 +272,22 @@
   </url>
   
   <url>
+    <loc>/2013/05/02/why-make-phone/</loc>
+    <lastmod>2015-12-15T13:57:27.571Z</lastmod>
+  </url>
+  
+  <url>
     <loc>/2013/03/18/working-points/</loc>
     <lastmod>2015-12-15T13:57:27.570Z</lastmod>
   </url>
   
   <url>
-    <loc>/2013/03/26/opengl-in-vs2010/</loc>
+    <loc>/2013/03/13/softwares-for-ssd/</loc>
     <lastmod>2015-12-15T13:57:27.569Z</lastmod>
   </url>
   
   <url>
-    <loc>/2013/03/13/softwares-for-ssd/</loc>
+    <loc>/2013/03/26/opengl-in-vs2010/</loc>
     <lastmod>2015-12-15T13:57:27.569Z</lastmod>
   </url>
   
@@ -327,12 +332,12 @@
   </url>
   
   <url>
-    <loc>/2013/02/19/limit-free-recommended/</loc>
+    <loc>/2013/02/12/shopping-all-over-the-world/</loc>
     <lastmod>2015-12-15T13:57:27.562Z</lastmod>
   </url>
   
   <url>
-    <loc>/2013/02/12/shopping-all-over-the-world/</loc>
+    <loc>/2013/02/19/limit-free-recommended/</loc>
     <lastmod>2015-12-15T13:57:27.562Z</lastmod>
   </url>
   
@@ -347,12 +352,12 @@
   </url>
   
   <url>
-    <loc>/2013/02/26/back-to-school/</loc>
+    <loc>/2013/02/28/update-wordpress/</loc>
     <lastmod>2015-12-15T13:57:27.559Z</lastmod>
   </url>
   
   <url>
-    <loc>/2013/02/28/update-wordpress/</loc>
+    <loc>/2013/02/26/back-to-school/</loc>
     <lastmod>2015-12-15T13:57:27.559Z</lastmod>
   </url>
   
@@ -397,22 +402,22 @@
   </url>
   
   <url>
-    <loc>/2013/02/07/rumors-about-motox/</loc>
-    <lastmod>2015-12-15T13:57:27.556Z</lastmod>
-  </url>
-  
-  <url>
     <loc>/e7-88-b1-e6-b7-98-e5-ae-9d/index-3.html</loc>
     <lastmod>2015-12-15T13:57:27.556Z</lastmod>
   </url>
   
   <url>
-    <loc>/2013/02/02/resources-for-postgraduate/</loc>
-    <lastmod>2015-12-15T13:57:27.553Z</lastmod>
+    <loc>/2013/02/07/rumors-about-motox/</loc>
+    <lastmod>2015-12-15T13:57:27.556Z</lastmod>
   </url>
   
   <url>
     <loc>/2013/02/03/recommond-of-websites-and-rss/</loc>
+    <lastmod>2015-12-15T13:57:27.553Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/02/02/resources-for-postgraduate/</loc>
     <lastmod>2015-12-15T13:57:27.553Z</lastmod>
   </url>
   
@@ -437,12 +442,12 @@
   </url>
   
   <url>
-    <loc>/about/index-3.html</loc>
+    <loc>/2013/01/19/hello-world-1/</loc>
     <lastmod>2015-12-15T13:57:27.548Z</lastmod>
   </url>
   
   <url>
-    <loc>/2013/01/19/hello-world-1/</loc>
+    <loc>/about/index-3.html</loc>
     <lastmod>2015-12-15T13:57:27.548Z</lastmod>
   </url>
   

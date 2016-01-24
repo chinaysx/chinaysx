@@ -4,7 +4,7 @@
   <subtitle><![CDATA[总会有一个开始，总要去面对一个未来]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/"/>
-  <updated>2016-01-24T01:37:14.920Z</updated>
+  <updated>2016-01-24T01:57:33.480Z</updated>
   <id>/</id>
   
   <author>
@@ -13,6 +13,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[2015年亚马逊kindle最受欢迎图书榜单]]></title>
+    <link href="/2016/01/24/kindle-favourate-books/"/>
+    <id>/2016/01/24/kindle-favourate-books/</id>
+    <published>2016-01-24T01:41:51.000Z</published>
+    <updated>2016-01-24T01:57:33.480Z</updated>
+    <content type="html"><![CDATA[<p>人丑就要多读书<br>微博刷来耍去，科技新闻看来看去就是那么多东西，新鲜度真的只有那么两三天，论坛里也大都是没有营养的东西，说到底，还是书这东西有价值啊。</p>
+<p>看到了亚马逊发布的2015年最受欢迎图书榜单，这里马一下，有空的时候希望能看全。</p>
+<p><a href="http://www.amazon.cn/s/ref=s9_hps_bw_clnk?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&amp;node=1771531071&amp;page=1&amp;pf_rd_m=A1AJ19PSB66TGU&amp;pf_rd_s=merchandised-search-4&amp;pf_rd_r=13NGYZ032MK45T4R4GWP&amp;pf_rd_t=101&amp;pf_rd_p=265540892&amp;pf_rd_i=1771530071" target="_blank" rel="external"><strong>Kindle 电子书 2015 年度盘点·畅销榜</strong></a></p>
+<ul>
+<li>《解忧杂货店》</li>
+<li>《三体全集》</li>
+<li>《无声告白》</li>
+<li>《你一定爱读的极简欧洲史》</li>
+<li>《岛上书店》</li>
+<li>《白夜行》</li>
+<li>《明朝那些事儿》</li>
+<li>《乖，摸摸头》</li>
+<li>《火星救援》</li>
+<li>《追风筝的人》<br><a href="http://www.amazon.cn/s/ref=s9_hps_bw_clnk?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&amp;node=1771532071&amp;page=1&amp;pf_rd_m=A1AJ19PSB66TGU&amp;pf_rd_s=merchandised-search-5&amp;pf_rd_r=13NGYZ032MK45T4R4GWP&amp;pf_rd_t=101&amp;pf_rd_p=265540952&amp;pf_rd_i=1771530071" target="_blank" rel="external"><strong>Kindle 电子书 2015 年度盘点·价值榜</strong></a></li>
+<li>《解忧杂货店》</li>
+<li>《三体全集》</li>
+<li>《无声告白》</li>
+<li>《你一定爱读的极简欧洲史》</li>
+<li>《岛上书店》</li>
+<li>《白夜行》</li>
+<li>《诺贝尔经济学奖经典收藏版》</li>
+<li>《明朝那些事儿》</li>
+<li>《乖，摸摸头》</li>
+<li>《火星救援》<br><a href="http://www.amazon.cn/s/ref=s9_hps_bw_clnk?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&amp;node=1771533071&amp;page=1&amp;pf_rd_m=A1AJ19PSB66TGU&amp;pf_rd_s=merchandised-search-6&amp;pf_rd_r=13NGYZ032MK45T4R4GWP&amp;pf_rd_t=101&amp;pf_rd_p=265543692&amp;pf_rd_i=1771530071" target="_blank" rel="external"><strong>Kindle 电子书 2015 年度盘点·好评榜*</strong></a></li>
+<li>《解忧杂货店》</li>
+<li>《无声告白》</li>
+<li>《白夜行》</li>
+<li>《乖，摸摸头》</li>
+<li>《追风筝的人》</li>
+<li>《一个人的朝圣》</li>
+<li>《嫌疑人X的献身》</li>
+<li>《富爸爸穷爸爸》</li>
+<li>《看见》</li>
+<li>《阿弥陀佛么么哒》</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>人丑就要多读书<br>微博刷来耍去，科技新闻看来看去就是那么多东西，新鲜度真的只有那么两三天，论坛里也大都是没有营养的东西，说到底，还是书这东西有价值啊。</p>
+<p>看到了亚马逊发布的2015年最受欢迎图书榜单，这里马一下，有空的时候希望能看全。</p>
+<p><a h]]>
+    </summary>
+    
+      <category term="books" scheme="/tags/books/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[在海外无限制使用网易云音乐]]></title>
@@ -812,59 +864,6 @@
     </summary>
     
       <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Windows To Go最佳拍档：Sandisk CZ80 64G——安装VHD+WTG傻瓜教程]]></title>
-    <link href="/2014/12/29/win-to-go-vhd-cz80/"/>
-    <id>/2014/12/29/win-to-go-vhd-cz80/</id>
-    <published>2014-12-29T09:57:11.000Z</published>
-    <updated>2015-12-15T13:57:27.590Z</updated>
-    <content type="html"><![CDATA[<p>本文节选编辑自《<a href="http://show.smzdm.com/detail/147541" target="_blank" rel="external">13秒启动！Windows To Go最佳拍档：Sandisk CZ80 64G开箱+速度测试+安装VHD+WTG傻瓜教程（带附件）</a>》，这里只挑干货整理，为过两天可能会买的cz80做准备。</p>
-<p><a href="http://i7298.qiniudn.com/wp-content/uploads/2014/12/未命名_meitu_1.jpg" target="_blank" rel="external"><img src="http://i7298.qiniudn.com/wp-content/uploads/2014/12/未命名_meitu_1.jpg" alt="未命名_meitu_1"></a></p>
-<p>Windows to go（下文简称WTG）作为windows8时代的全新功能，可以使完整版本的win8从USB驱动器启动及运行，自问世之初就受到了巨大的关注。由于WTG时系统运行于USB驱动器（U盘&amp;移动硬盘）上，磁盘性能完全依附于所使用的设备，容量过小及速度过慢的U盘/移硬都会严重影响该系统的体验，因此微软还特地授予了部分U盘WTG认证（其实就是容量＞32G+速度较快的USB3.0 U盘而已）。</p>
-<p>WTG系统有什么作用？</p>
-<ol>
-<li>作为安装系统时使用的启动盘（在系统里放一个NT6.1安装器+diskgenuis即可）；</li>
-<li>使用Acronis True Image在不同硬盘间迁移系统时可以使用WTG系统过度，不需制作专用的USB启动U盘，且更快速；</li>
-<li>在系统里安装较为冷门的办公软件（OCR软件、PDF转格式软件etc）后可以在不同的电脑上使用，不需要再次安装该软件（其实硬件跑分狂也可以用来装一堆3DMARK进行测试……）</li>
-<li>需要演示文稿时可以载入自带的系统，不用担心演示用的机子所使用的软件版本不同所引起的的排版错误<br>相比WTG刚推出的时候，现在VHD下安装WTG过程已经十分简单，安装完纯净系统之后也还有近30+G可用于存放其他文件，现将所需文件及傻瓜教程附上。</li>
-</ol>
-<p>既然是傻瓜教程，那就先复制一段关于VHD的百科。</p>
-<p>VHD是Microsoft Virtual Hard Disk format（微软虚拟磁盘文件）的简称，具体地说，即是创见出虚拟成硬盘分区的文件，系统可从该虚拟磁盘中启动。而VHD不使用时也可以被压缩成一个文件存放在宿主机器的文件系统上。</p>
-<p>使用VHD安装WTG的好处是不需在U盘划分系统专用分区，且易于管理，不需要时可随时删除，同时可以在原有系统下挂载VHD查看其中的文件。</p>
-<p>WTG刚推出的时候的VHD安装需要自己手动创建VHD，在非WIN8企业版的系统下还需手动安装系统后bootice引导启动，安装系统之后还要kms破解……但现在已经有了傻瓜程序，WIN7/WIN8下均可运行。</p>
-<p>下载地址 链接: <a href="http://pan.baidu.com/s/1ntKDOY9" target="_blank" rel="external">http://pan.baidu.com/s/1ntKDOY9</a> 密码: eika</p>
-<p>其中包含</p>
-<p>Windows8的iso镜像（LZ上传的是cn_windows_8_1_x64_dvd_2707237.iso，也即8.1的X64企业版）；</p>
-<p>WTG辅助工具；</p>
-<p>OEM8福利工具。</p>
-<p>首先解压iso（winrar即可）镜像成为文件夹，打开WTG辅助工具，界面如下：</p>
-<p>&nbsp;</p>
-<p>首先点击红框处，在弹出的窗口中打开刚刚iso镜像解压的文件夹，在sources子文件夹下，选中install.wim</p>
-<p>&nbsp;</p>
-<p>然后点击绿框处选中Sandisk Extreme USB Device（这个千万别选错了）</p>
-<p>最后在蓝框处选中VHD模式。</p>
-<p>全都选好之后应该大致是这个样子（目录和磁盘名可能不同）：</p>
-<p>&nbsp;</p>
-<p>就绪点击“写入”即可自动安装在U盘上，然后进入BIOS选择sandisk 启动（这个每个电脑不同，有些机子有便捷的快捷启动选项，度娘一下即可，相当简单）。</p>
-<p>LZ主板是技嘉的，BIOS界面设定如下：</p>
-<p>先将U盘设定成硬盘第一顺位：</p>
-<p>&nbsp;</p>
-<p>再设定优先硬盘启动：</p>
-<p>&nbsp;</p>
-<p>通过USB启动后进行系统初次启动设置，然后使用OEM8福利工具即可一键福利。</p>
-<p>实际使用感受极其顺滑，毫无阻碍，相当于随身带着一个SSD下的微型操作系统了。</p>
-<p>感谢原作者 <a href="http://www.smzdm.com/member/2065688716" target="_blank" rel="external">waterloke</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>本文节选编辑自《<a href="http://show.smzdm.com/detail/147541" target="_blank" rel="external">13秒启动！Windows To Go最佳拍档：Sandisk CZ80 64G开箱+速度测试+安装VH]]>
-    </summary>
-    
-      <category term="WTG" scheme="/tags/WTG/"/>
-    
-      <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
   </entry>
   
