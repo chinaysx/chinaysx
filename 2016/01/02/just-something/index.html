@@ -25,7 +25,7 @@ cat /dev/ppp
 vi /etc/yum.repos.d/epel.repo
 [epel]name=Extra Packages for Enterprise Linux 7 - $basearch
 #baseurl=http://download.fedoraproject.org/pub/ep">
-<meta property="og:updated_time" content="2016-01-02T12:55:22.499Z">
+<meta property="og:updated_time" content="2016-01-03T01:49:43.499Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="随便写写，仅仅做个记录">
 <meta name="twitter:description" content="随便写点东西，来自于四面八方，也没准是因为键盘坏了，下面的东西都是随便敲的，练习一下敲代码。
@@ -134,7 +134,7 @@ vi /etc/yum.repos.d/epel.repo
 <p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE</p>
 <p>chmod +x /etc/rc.d/rc.local </p>
 <p>vi /etc/rc.d/rc.local </p>
-<p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE</p>
+<p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE<br>iptables -A FORWARD -p tcp –syn -s 192.168.0.0/24 -j TCPMSS –set-mss 1356</p>
 <p>/etc/init.d/pptpd start</p>
 <p>systemctl restart pptpd</p>
 <p>Shadowsocks</p>
@@ -204,6 +204,14 @@ vi /etc/yum.repos.d/epel.repo
 	
 <nav class="article-nav clearfix">
  
+ <div class="prev" >
+ <a href="/2016/01/23/netease-music-abroad/" title="在海外无限制使用网易云音乐">
+  <strong>上一篇：</strong><br/>
+  <span>
+  在海外无限制使用网易云音乐</span>
+</a>
+</div>
+
 
 <div class="next">
 <a href="/2016/01/01/happy-new-year-2016/"  title="新年快乐">
@@ -293,10 +301,6 @@ vi /etc/yum.repos.d/epel.repo
 			
 		
 			
-				<li><a href="/tags/分享/" title="分享">分享<sup>5</sup></a></li>
-			
-		
-			
 				<li><a href="/tags/大学生/" title="大学生">大学生<sup>5</sup></a></li>
 			
 		
@@ -306,6 +310,10 @@ vi /etc/yum.repos.d/epel.repo
 		
 			
 				<li><a href="/tags/iPad/" title="iPad">iPad<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/分享/" title="分享">分享<sup>5</sup></a></li>
 			
 		
 			
@@ -329,15 +337,7 @@ vi /etc/yum.repos.d/epel.repo
 			
 		
 			
-				<li><a href="/tags/推荐/" title="推荐">推荐<sup>3</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/考研/" title="考研">考研<sup>3</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/杂谈/" title="杂谈">杂谈<sup>3</sup></a></li>
+				<li><a href="/tags/技巧/" title="技巧">技巧<sup>3</sup></a></li>
 			
 		
 			
@@ -345,7 +345,15 @@ vi /etc/yum.repos.d/epel.repo
 			
 		
 			
-				<li><a href="/tags/技巧/" title="技巧">技巧<sup>3</sup></a></li>
+				<li><a href="/tags/推荐/" title="推荐">推荐<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/杂谈/" title="杂谈">杂谈<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/考研/" title="考研">考研<sup>3</sup></a></li>
 			
 		
 			
@@ -353,15 +361,15 @@ vi /etc/yum.repos.d/epel.repo
 			
 		
 			
-				<li><a href="/tags/就业/" title="就业">就业<sup>2</sup></a></li>
+				<li><a href="/tags/SSD/" title="SSD">SSD<sup>2</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/资料/" title="资料">资料<sup>2</sup></a></li>
+				<li><a href="/tags/海淘/" title="海淘">海淘<sup>2</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/软件/" title="软件">软件<sup>2</sup></a></li>
+				<li><a href="/tags/展望/" title="展望">展望<sup>2</sup></a></li>
 			
 		
 		</ul>

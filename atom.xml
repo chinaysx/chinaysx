@@ -4,7 +4,7 @@
   <subtitle><![CDATA[总会有一个开始，总要去面对一个未来]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/"/>
-  <updated>2016-01-02T12:55:22.499Z</updated>
+  <updated>2016-01-24T01:37:14.920Z</updated>
   <id>/</id>
   
   <author>
@@ -15,11 +15,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[在海外无限制使用网易云音乐]]></title>
+    <link href="/2016/01/23/netease-music-abroad/"/>
+    <id>/2016/01/23/netease-music-abroad/</id>
+    <published>2016-01-23T11:40:08.000Z</published>
+    <updated>2016-01-24T01:37:14.920Z</updated>
+    <content type="html"><![CDATA[<p>好像已经有一些日子没写东西了，那些基本的markdown语法又有些遗忘了……sigh……</p>
+<p>在这里整理下可以在海外使用网易云音乐的一些方法吧，做个备忘。</p>
+<p>据说网易有一个专门检测是否是大陆IP地址的服务页面<br><a href="http://ipservice.163.com/isFromMainland" target="_blank" rel="external">http://ipservice.163.com/isFromMainland</a></p>
+<ul>
+<li>通用方法</li>
+<li><ol>
+<li>购买付费会员（8元/月）</li>
+<li>一个通用方法，设置代理，找一个国内代理服务器和端口设置一下。<br> <a href="http://cn-proxy.com/" target="_blank" rel="external">中国ip地址</a></li>
+<li>Unblock Youku的PAC文件<br><a href="http://pac.uku.im/pac.pac" target="_blank" rel="external">http://pac.uku.im/pac.pac</a></li>
+<li>DNS<br> 192.241.222.103<br>4.<a href="https://chrome.google.com/webstore/detail/unlimited-free-vpn-hola/gkojfkhlekighikafcpjkiklfbnlmeio" target="_blank" rel="external">Unlimited Free VPN - Hola</a><br>不过速度非常不能令人满意</li>
+<li>Chrome的应用商店里面还有一个<a href="https://chrome.google.com/webstore/detail/unblock-netease-music/okjlonpifkjbibipgioibfecnikmhfil" target="_blank" rel="external">Unblock NetEase Music</a> 也是可以试一下的</li>
+</ol>
+</li>
+<li><p>路由器端<br>  <a href="https://github.com/felixonmars/dnsmasq-china-list" target="_blank" rel="external">dnsmasq-china-list</a></p>
+</li>
+</ul>
+<p>Reference List<br><a href="https://www.seavia.com/share/oversea-163-cloud-music-qq-music.html" target="_blank" rel="external">海外破解网易云音乐和QQ音乐的版权限制</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>好像已经有一些日子没写东西了，那些基本的markdown语法又有些遗忘了……sigh……</p>
+<p>在这里整理下可以在海外使用网易云音乐的一些方法吧，做个备忘。</p>
+<p>据说网易有一个专门检测是否是大陆IP地址的服务页面<br><a href="http://ip]]>
+    </summary>
+    
+      <category term="网易云音乐" scheme="/tags/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[随便写写，仅仅做个记录]]></title>
     <link href="/2016/01/02/just-something/"/>
     <id>/2016/01/02/just-something/</id>
     <published>2016-01-02T10:34:04.000Z</published>
-    <updated>2016-01-02T12:55:22.499Z</updated>
+    <updated>2016-01-03T01:49:43.499Z</updated>
     <content type="html"><![CDATA[<p>随便写点东西，来自于四面八方，也没准是因为键盘坏了，下面的东西都是随便敲的，练习一下敲代码。</p>
 <p>cat /dev/ppp</p>
 <p>vi /etc/yum.repos.d/epel.repo</p>
@@ -42,7 +76,7 @@
 <p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE</p>
 <p>chmod +x /etc/rc.d/rc.local </p>
 <p>vi /etc/rc.d/rc.local </p>
-<p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE</p>
+<p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE<br>iptables -A FORWARD -p tcp –syn -s 192.168.0.0/24 -j TCPMSS –set-mss 1356</p>
 <p>/etc/init.d/pptpd start</p>
 <p>systemctl restart pptpd</p>
 <p>Shadowsocks</p>
@@ -831,31 +865,6 @@
       <category term="WTG" scheme="/tags/WTG/"/>
     
       <category term="互联网" scheme="/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[盘点那些被我折腾过的路由器]]></title>
-    <link href="/2014/12/02/routers-ever-played/"/>
-    <id>/2014/12/02/routers-ever-played/</id>
-    <published>2014-12-02T12:16:45.000Z</published>
-    <updated>2015-12-15T13:57:27.586Z</updated>
-    <content type="html"><![CDATA[<p>本文是个坑，什么时候填完全看心情。说说玩过的那些路由器吧，跪在折腾。</p>
-<a id="more"></a>
-<p>一、水星MW151RM（TP-Link WR703N）150M迷你型无线路由器</p>
-<p>二、水星MW4530R 750M双频千兆无线路由器</p>
-<p>三、NETGEAR R7000 1900M 双频千兆无线路由器</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>本文是个坑，什么时候填完全看心情。说说玩过的那些路由器吧，跪在折腾。</p>]]>
-    
-    </summary>
-    
-      <category term="OpenWrt" scheme="/tags/OpenWrt/"/>
-    
-      <category term="路由器" scheme="/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
-    
-      <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
     
   </entry>
   

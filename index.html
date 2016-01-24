@@ -81,6 +81,80 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
+      <a href="/2016/01/23/netease-music-abroad/" title="在海外无限制使用网易云音乐" itemprop="url">在海外无限制使用网易云音乐</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Scott Yang" target="_blank" itemprop="author">Scott Yang</a>
+		
+  <p class="article-time">
+    <time datetime="2016-01-23T11:40:08.000Z" itemprop="datePublished"> 发表于 2016-01-23</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>好像已经有一些日子没写东西了，那些基本的markdown语法又有些遗忘了……sigh……</p>
+<p>在这里整理下可以在海外使用网易云音乐的一些方法吧，做个备忘。</p>
+<p>据说网易有一个专门检测是否是大陆IP地址的服务页面<br><a href="http://ipservice.163.com/isFromMainland" target="_blank" rel="external">http://ipservice.163.com/isFromMainland</a></p>
+<ul>
+<li>通用方法</li>
+<li><ol>
+<li>购买付费会员（8元/月）</li>
+<li>一个通用方法，设置代理，找一个国内代理服务器和端口设置一下。<br> <a href="http://cn-proxy.com/" target="_blank" rel="external">中国ip地址</a></li>
+<li>Unblock Youku的PAC文件<br><a href="http://pac.uku.im/pac.pac" target="_blank" rel="external">http://pac.uku.im/pac.pac</a></li>
+<li>DNS<br> 192.241.222.103<br>4.<a href="https://chrome.google.com/webstore/detail/unlimited-free-vpn-hola/gkojfkhlekighikafcpjkiklfbnlmeio" target="_blank" rel="external">Unlimited Free VPN - Hola</a><br>不过速度非常不能令人满意</li>
+<li>Chrome的应用商店里面还有一个<a href="https://chrome.google.com/webstore/detail/unblock-netease-music/okjlonpifkjbibipgioibfecnikmhfil" target="_blank" rel="external">Unblock NetEase Music</a> 也是可以试一下的</li>
+</ol>
+</li>
+<li><p>路由器端<br>  <a href="https://github.com/felixonmars/dnsmasq-china-list" target="_blank" rel="external">dnsmasq-china-list</a></p>
+</li>
+</ul>
+<p>Reference List<br><a href="https://www.seavia.com/share/oversea-163-cloud-music-qq-music.html" target="_blank" rel="external">海外破解网易云音乐和QQ音乐的版权限制</a></p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/网易云音乐/">网易云音乐</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2016/01/23/netease-music-abroad/#comments" class="ds-thread-count comments-count-link" data-thread-key="2016/01/23/netease-music-abroad/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
       <a href="/2016/01/02/just-something/" title="随便写写，仅仅做个记录" itemprop="url">随便写写，仅仅做个记录</a>
   </h1>
   <p class="article-author">By
@@ -116,7 +190,7 @@
 <p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE</p>
 <p>chmod +x /etc/rc.d/rc.local </p>
 <p>vi /etc/rc.d/rc.local </p>
-<p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE</p>
+<p>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE<br>iptables -A FORWARD -p tcp –syn -s 192.168.0.0/24 -j TCPMSS –set-mss 1356</p>
 <p>/etc/init.d/pptpd start</p>
 <p>systemctl restart pptpd</p>
 <p>Shadowsocks</p>
@@ -783,71 +857,6 @@
 
 
 
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2015/07/05/criticize-and-praise-about-h2os/" title="若批评无意义，则赞美无自由————不止谈谈氢OS" itemprop="url">若批评无意义，则赞美无自由————不止谈谈氢OS</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Scott Yang" target="_blank" itemprop="author">Scott Yang</a>
-		
-  <p class="article-time">
-    <time datetime="2015-07-05T13:50:27.000Z" itemprop="datePublished"> 发表于 2015-07-05</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p><div align="left"><span style="font-family: 微软雅黑;"><span style="font-family: 微软雅黑;"><span style="font-size: large;">       好长时间没有写点东西用来扫地了，因为这个世界实在是太危险了，而且环境也很恶劣，扫了等于白扫。但扫地这件事就像一场旅行，重要的不是目的地，而是沿途的风景和看风景的心情。做一个现实的人，似乎与这个欲望过剩的时代不太合拍。默默的用了几周的氢OS，从第一版至今，看着这个ROM一点点的成长，总是有很多话想说说。2015年下半年的第一天，我想和这个世界谈谈。</span></span></span>&nbsp;</p>
-<p></div><br>
-        
-        
-        <p class="article-more-link">
-          
-            <a href="/2015/07/05/criticize-and-praise-about-h2os/#more">Read More</a>
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-<div class="article-categories">
-  <span></span>
-  <a class="article-category-link" href="/categories/数码/">数码</a>
-</div>
-
-
-  <div class="article-tags">
-  
-  <span></span> <a href="/tags/一加/">一加</a>
-  </div>
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-	  	<span></span>
-		<a href="/2015/07/05/criticize-and-praise-about-h2os/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/07/05/criticize-and-praise-about-h2os/" data-count-type="comments">&nbsp;</a>
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
 
   <nav id="page-nav" class="clearfix">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" href="/page/2/">Next<span></span></a>
@@ -918,10 +927,6 @@
 			
 		
 			
-				<li><a href="/tags/分享/" title="分享">分享<sup>5</sup></a></li>
-			
-		
-			
 				<li><a href="/tags/大学生/" title="大学生">大学生<sup>5</sup></a></li>
 			
 		
@@ -931,6 +936,10 @@
 		
 			
 				<li><a href="/tags/iPad/" title="iPad">iPad<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/分享/" title="分享">分享<sup>5</sup></a></li>
 			
 		
 			
@@ -954,15 +963,7 @@
 			
 		
 			
-				<li><a href="/tags/推荐/" title="推荐">推荐<sup>3</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/考研/" title="考研">考研<sup>3</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/杂谈/" title="杂谈">杂谈<sup>3</sup></a></li>
+				<li><a href="/tags/技巧/" title="技巧">技巧<sup>3</sup></a></li>
 			
 		
 			
@@ -970,7 +971,15 @@
 			
 		
 			
-				<li><a href="/tags/技巧/" title="技巧">技巧<sup>3</sup></a></li>
+				<li><a href="/tags/推荐/" title="推荐">推荐<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/杂谈/" title="杂谈">杂谈<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/考研/" title="考研">考研<sup>3</sup></a></li>
 			
 		
 			
@@ -978,15 +987,15 @@
 			
 		
 			
-				<li><a href="/tags/就业/" title="就业">就业<sup>2</sup></a></li>
+				<li><a href="/tags/SSD/" title="SSD">SSD<sup>2</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/资料/" title="资料">资料<sup>2</sup></a></li>
+				<li><a href="/tags/海淘/" title="海淘">海淘<sup>2</sup></a></li>
 			
 		
 			
-				<li><a href="/tags/软件/" title="软件">软件<sup>2</sup></a></li>
+				<li><a href="/tags/展望/" title="展望">展望<sup>2</sup></a></li>
 			
 		
 		</ul>
