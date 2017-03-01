@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2017/03/01/restart/</loc>
+    <lastmod>2017-03-01T01:34:13.767Z</lastmod>
+  </url>
+  
+  <url>
     <loc>/2016/01/24/kindle-favourate-books/</loc>
     <lastmod>2016-01-24T01:57:33.480Z</lastmod>
   </url>
@@ -47,22 +52,22 @@
   </url>
   
   <url>
-    <loc>/2015/07/05/interpret-h2os-posters/</loc>
-    <lastmod>2015-12-15T13:57:27.598Z</lastmod>
-  </url>
-  
-  <url>
     <loc>/2015/07/13/small-things-about-oneplus2/</loc>
     <lastmod>2015-12-15T13:57:27.598Z</lastmod>
   </url>
   
   <url>
-    <loc>/2015/07/05/h2os-in-another-view/</loc>
-    <lastmod>2015-12-15T13:57:27.596Z</lastmod>
+    <loc>/2015/07/05/interpret-h2os-posters/</loc>
+    <lastmod>2015-12-15T13:57:27.598Z</lastmod>
   </url>
   
   <url>
     <loc>/2015/07/05/criticize-and-praise-about-h2os/</loc>
+    <lastmod>2015-12-15T13:57:27.596Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/07/05/h2os-in-another-view/</loc>
     <lastmod>2015-12-15T13:57:27.596Z</lastmod>
   </url>
   
@@ -122,7 +127,7 @@
   </url>
   
   <url>
-    <loc>/2014/10/22/my-oneplus-show/</loc>
+    <loc>/2014/10/08/synology-nas-dts/</loc>
     <lastmod>2015-12-15T13:57:27.585Z</lastmod>
   </url>
   
@@ -132,13 +137,8 @@
   </url>
   
   <url>
-    <loc>/2014/10/08/synology-nas-dts/</loc>
+    <loc>/2014/10/22/my-oneplus-show/</loc>
     <lastmod>2015-12-15T13:57:27.585Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/07/14/xbmc-video-sources/</loc>
-    <lastmod>2015-12-15T13:57:27.584Z</lastmod>
   </url>
   
   <url>
@@ -148,6 +148,11 @@
   
   <url>
     <loc>/2014/10/07/ems-search/</loc>
+    <lastmod>2015-12-15T13:57:27.584Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/07/14/xbmc-video-sources/</loc>
     <lastmod>2015-12-15T13:57:27.584Z</lastmod>
   </url>
   

@@ -4,7 +4,7 @@
   <subtitle><![CDATA[总会有一个开始，总要去面对一个未来]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/"/>
-  <updated>2015-12-14T13:07:37.394Z</updated>
+  <updated>2017-03-01T01:34:13.767Z</updated>
   <id>/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="/2017/03/01/restart/"/>
+    <id>/2017/03/01/restart/</id>
+    <published>2017-03-01T01:34:13.767Z</published>
+    <updated>2017-03-01T01:34:13.767Z</updated>
+    <content type="html"><![CDATA[<p>重新启动</p>
+<p>我都已经忘记这个东西怎么玩耍了。</p>
+<p>——三天打鱼，两年晒网的我。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>重新启动</p>
+<p>我都已经忘记这个东西怎么玩耍了。</p>
+<p>——三天打鱼，两年晒网的我。</p>
+]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
@@ -841,29 +860,6 @@
     </summary>
     
       <category term="数码" scheme="/categories/%E6%95%B0%E7%A0%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[再见，2014&你好，2015]]></title>
-    <link href="/2014/12/31/goodbye-2014-and-hello-2015/"/>
-    <id>/2014/12/31/goodbye-2014-and-hello-2015/</id>
-    <published>2014-12-31T11:51:29.000Z</published>
-    <updated>2015-12-15T13:57:27.590Z</updated>
-    <content type="html"><![CDATA[<p>尽管现在对时间有着无限的恐惧感，但还是不得不去面对现实。</p>
-<p>总会有一个开始，总要去面对一个未来。</p>
-<p>再见，2014</p>
-<p>你好，2015</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>尽管现在对时间有着无限的恐惧感，但还是不得不去面对现实。</p>
-<p>总会有一个开始，总要去面对一个未来。</p>
-<p>再见，2014</p>
-<p>你好，2015</p>
-]]>
-    </summary>
-    
-      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
